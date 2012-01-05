@@ -60,11 +60,14 @@ def uncompressGZIP(File file){
     out.close();
 }
 
-def run = {
+def run(args) {
+    if(!args){
+        println "no password for $authUrl given..."
+    }
     // make sure working dir exists
     workingDir.deleteDir()
     workingDir.mkdirs()
     getFiles()
 }
 
-run()
+run(this.args)

@@ -200,8 +200,8 @@ def createPieSVG(def svgFile, def data,def cx,def cy,def r,def colors,def labels
 def run = {
     svgDir.deleteDir()
     svgDir.mkdirs()
-    //    workingDir.eachFileMatch( ~".*json" ) { file -> generateStats(file, svgDir) }
-    workingDir.eachFileMatch( ~"201109.json" ) { file -> generateStats(file, svgDir) }
+    workingDir.eachFileMatch( ~".*json" ) { file -> generateStats(file, svgDir) }
+    //    workingDir.eachFileMatch( ~"201109.json" ) { file -> generateStats(file, svgDir) }
 }
 
 run()
