@@ -8,10 +8,10 @@ HOWTO
 
 1. download the scripts from jenkins-ci.org
 
-* groovy download.groovy
+   groovy download.groovy
 
 2. generate the graphs
 
-* groovy generateStats.groovy
+   groovy generateStats.groovy
 
 The final SVGs will be in target/svg
