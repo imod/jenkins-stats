@@ -1,0 +1,13 @@
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 105 202.9'>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='15' y='2.8' />
+  <text x='15' y='7.9' font-family='Tahoma' font-size='12' transform='rotate(90 15,7.9)' text-rendering='optimizeSpeed' fill='#000000;'>"SunOS (sparc)" (1)</text>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='30' y='2.8' />
+  <text x='30' y='7.9' font-family='Tahoma' font-size='12' transform='rotate(90 30,7.9)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows 2003 (x86)" (1)</text>
+  <rect fill='blue' height='0.2' stroke='black' width='12' x='45' y='2.7' />
+  <text x='45' y='7.9' font-family='Tahoma' font-size='12' transform='rotate(90 45,7.9)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows XP (x86)" (2)</text>
+  <rect fill='blue' height='0.5' stroke='black' width='12' x='60' y='2.4' />
+  <text x='60' y='7.9' font-family='Tahoma' font-size='12' transform='rotate(90 60,7.9)' text-rendering='optimizeSpeed' fill='#000000;'>"Linux (i386)" (5)</text>
+  <rect fill='blue' height='2.9' stroke='black' width='12' x='75' y='0.0' />
+  <text x='75' y='7.9' font-family='Tahoma' font-size='12' transform='rotate(90 75,7.9)' text-rendering='optimizeSpeed' fill='#000000;'>N/A (29)</text>
+  <text x='10' y='100' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Total: 38</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 90 200.844'>
+  <rect fill='blue' height='0.001' stroke='black' width='12' x='15' y='0.843' />
+  <text x='15' y='5.844' font-family='Tahoma' font-size='12' transform='rotate(90 15,5.844)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-model-ExternalJob (1)</text>
+  <rect fill='blue' height='0.007' stroke='black' width='12' x='30' y='0.837' />
+  <text x='30' y='5.844' font-family='Tahoma' font-size='12' transform='rotate(90 30,5.844)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-matrix-MatrixProject (7)</text>
+  <rect fill='blue' height='0.263' stroke='black' width='12' x='45' y='0.581' />
+  <text x='45' y='5.844' font-family='Tahoma' font-size='12' transform='rotate(90 45,5.844)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-maven-MavenModuleSet (263)</text>
+  <rect fill='blue' height='0.844' stroke='black' width='12' x='60' y='0.000' />
+  <text x='60' y='5.844' font-family='Tahoma' font-size='12' transform='rotate(90 60,5.844)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-model-FreeStyleProject (844)</text>
+  <text x='10' y='100' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Total: 1115</text>
+</svg>

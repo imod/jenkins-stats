@@ -1,0 +1,20 @@
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none'>
+  <path d='M 200,200 L 200.0,50.0 A 150,150 0 0 1 205.67622152126697,50.1074367780659 Z' fill='BurlyWood' stroke='black' stroke-width='1' />
+  <rect x='370' y='20' width='20' height='20' fill='BurlyWood' stroke='black' stroke-width='1' />
+  <text x='400' y='38' font-family='sans-serif' font-size='16'>"Mac OS X (i386)" (1)</text>
+  <path d='M 200,200 L 205.67622152126697,50.1074367780659 A 150,150 0 0 1 250.11562575136506,58.619576830633605 Z' fill='CadetBlue' stroke='black' stroke-width='1' />
+  <rect x='370' y='50' width='20' height='20' fill='CadetBlue' stroke='black' stroke-width='1' />
+  <text x='400' y='68' font-family='sans-serif' font-size='16'>"Windows XP (x86)" (8)</text>
+  <path d='M 200,200 L 250.11562575136506,58.619576830633605 A 150,150 0 0 1 280.66143595825486,73.53366950388596 Z' fill='red' stroke='black' stroke-width='1' />
+  <rect x='370' y='80' width='20' height='20' fill='red' stroke='black' stroke-width='1' />
+  <text x='400' y='98' font-family='sans-serif' font-size='16'>"Linux (i386)" (6)</text>
+  <path d='M 200,200 L 280.66143595825486,73.53366950388596 A 150,150 0 1 1 166.22660893376582,53.85158893820565 Z' fill='blue' stroke='black' stroke-width='1' />
+  <rect x='370' y='110' width='20' height='20' fill='blue' stroke='black' stroke-width='1' />
+  <text x='400' y='128' font-family='sans-serif' font-size='16'>N/A (145)</text>
+  <path d='M 200,200 L 166.22660893376582,53.85158893820565 A 150,150 0 0 1 194.32377847873295,50.1074367780659 Z' fill='yellow' stroke='black' stroke-width='1' />
+  <rect x='370' y='140' width='20' height='20' fill='yellow' stroke='black' stroke-width='1' />
+  <text x='400' y='158' font-family='sans-serif' font-size='16'>"Linux (amd64)" (5)</text>
+  <path d='M 200,200 L 194.32377847873295,50.1074367780659 A 150,150 0 0 1 199.99999999999997,50.0 Z' fill='green' stroke='black' stroke-width='1' />
+  <rect x='370' y='170' width='20' height='20' fill='green' stroke='black' stroke-width='1' />
+  <text x='400' y='188' font-family='sans-serif' font-size='16'>"Windows 2003 (x86)" (1)</text>
+</svg>

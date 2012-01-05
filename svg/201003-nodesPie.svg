@@ -1,0 +1,47 @@
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none'>
+  <path d='M 200,200 L 200.0,50.0 A 150,150 0 0 1 208.54392473205831,50.24352651663796 Z' fill='BurlyWood' stroke='black' stroke-width='1' />
+  <rect x='370' y='20' width='20' height='20' fill='BurlyWood' stroke='black' stroke-width='1' />
+  <text x='400' y='38' font-family='sans-serif' font-size='16'>"Windows Vista (x86)" (4)</text>
+  <path d='M 200,200 L 208.54392473205831,50.24352651663796 A 150,150 0 1 1 50.274909013077746,190.92271356859047 Z' fill='CadetBlue' stroke='black' stroke-width='1' />
+  <rect x='370' y='50' width='20' height='20' fill='CadetBlue' stroke='black' stroke-width='1' />
+  <text x='400' y='68' font-family='sans-serif' font-size='16'>N/A (331)</text>
+  <path d='M 200,200 L 50.274909013077746,190.92271356859047 A 150,150 0 0 1 66.5192286796447,131.56840139436306 Z' fill='red' stroke='black' stroke-width='1' />
+  <rect x='370' y='80' width='20' height='20' fill='red' stroke='black' stroke-width='1' />
+  <text x='400' y='98' font-family='sans-serif' font-size='16'>"Linux (i386)" (29)</text>
+  <path d='M 200,200 L 66.5192286796447,131.56840139436306 A 150,150 0 0 1 69.56520568624248,125.92730305755184 Z' fill='blue' stroke='black' stroke-width='1' />
+  <rect x='370' y='110' width='20' height='20' fill='blue' stroke='black' stroke-width='1' />
+  <text x='400' y='128' font-family='sans-serif' font-size='16'>"Mac OS X (x86_64)" (3)</text>
+  <path d='M 200,200 L 69.56520568624248,125.92730305755184 A 150,150 0 0 1 84.06961905989006,104.81519672195046 Z' fill='yellow' stroke='black' stroke-width='1' />
+  <rect x='370' y='140' width='20' height='20' fill='yellow' stroke='black' stroke-width='1' />
+  <text x='400' y='158' font-family='sans-serif' font-size='16'>"Windows 2003 (x86)" (12)</text>
+  <path d='M 200,200 L 84.06961905989006,104.81519672195046 A 150,150 0 0 1 91.13869335930559,96.80496176423645 Z' fill='green' stroke='black' stroke-width='1' />
+  <rect x='370' y='170' width='20' height='20' fill='green' stroke='black' stroke-width='1' />
+  <text x='400' y='188' font-family='sans-serif' font-size='16'>"Windows Server 2008 (x86)" (5)</text>
+  <path d='M 200,200 L 91.13869335930559,96.80496176423645 A 150,150 0 0 1 124.53777287165596,70.36415512355305 Z' fill='gold' stroke='black' stroke-width='1' />
+  <rect x='370' y='200' width='20' height='20' fill='gold' stroke='black' stroke-width='1' />
+  <text x='400' y='218' font-family='sans-serif' font-size='16'>"Linux (amd64)" (20)</text>
+  <path d='M 200,200 L 124.53777287165596,70.36415512355305 A 150,150 0 0 1 126.39236724968683,69.30219435317582 Z' fill='brown' stroke='black' stroke-width='1' />
+  <rect x='370' y='230' width='20' height='20' fill='brown' stroke='black' stroke-width='1' />
+  <text x='400' y='248' font-family='sans-serif' font-size='16'>"Windows 7 (amd64)" (1)</text>
+  <path d='M 200,200 L 126.39236724968683,69.30219435317582 A 150,150 0 0 1 130.14600140698974,67.25807414171013 Z' fill='Azure' stroke='black' stroke-width='1' />
+  <rect x='370' y='260' width='20' height='20' fill='Azure' stroke='black' stroke-width='1' />
+  <text x='400' y='278' font-family='sans-serif' font-size='16'>"SunOS (x86)" (2)</text>
+  <path d='M 200,200 L 130.14600140698974,67.25807414171013 A 150,150 0 0 1 132.04427923506574,66.27632963712713 Z' fill='pink' stroke='black' stroke-width='1' />
+  <rect x='370' y='290' width='20' height='20' fill='pink' stroke='black' stroke-width='1' />
+  <text x='400' y='308' font-family='sans-serif' font-size='16'>"Windows Server 2008 R2 (x86)" (1)</text>
+  <path d='M 200,200 L 132.04427923506574,66.27632963712713 A 150,150 0 0 1 135.88182980867927,64.39446821269854 Z' fill='khaki' stroke='black' stroke-width='1' />
+  <rect x='370' y='320' width='20' height='20' fill='khaki' stroke='black' stroke-width='1' />
+  <text x='400' y='338' font-family='sans-serif' font-size='16'>"HP-UX (IA64N)" (2)</text>
+  <path d='M 200,200 L 135.88182980867927,64.39446821269854 A 150,150 0 0 1 159.88850170017594,55.46257334467583 Z' fill='gray' stroke='black' stroke-width='1' />
+  <rect x='370' y='350' width='20' height='20' fill='gray' stroke='black' stroke-width='1' />
+  <text x='400' y='368' font-family='sans-serif' font-size='16'>"Windows XP (x86)" (12)</text>
+  <path d='M 200,200 L 159.88850170017594,55.46257334467583 A 150,150 0 0 1 193.59053854103493,50.13699988387381 Z' fill='Aqua' stroke='black' stroke-width='1' />
+  <rect x='370' y='380' width='20' height='20' fill='Aqua' stroke='black' stroke-width='1' />
+  <text x='400' y='398' font-family='sans-serif' font-size='16'>"SunOS (sparc)" (16)</text>
+  <path d='M 200,200 L 193.59053854103493,50.13699988387381 A 150,150 0 0 1 195.72630277831968,50.06089398673407 Z' fill='Aquamarine' stroke='black' stroke-width='1' />
+  <rect x='370' y='410' width='20' height='20' fill='Aquamarine' stroke='black' stroke-width='1' />
+  <text x='400' y='428' font-family='sans-serif' font-size='16'>"Windows 7 (x86)" (1)</text>
+  <path d='M 200,200 L 195.72630277831968,50.06089398673407 A 150,150 0 0 1 200.00000009424804,50.0 Z' fill='beige' stroke='black' stroke-width='1' />
+  <rect x='370' y='440' width='20' height='20' fill='beige' stroke='black' stroke-width='1' />
+  <text x='400' y='458' font-family='sans-serif' font-size='16'>"Windows 2003 (amd64)" (2)</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 270 226'>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='15' y='25.9' />
+  <text x='15' y='31.0' font-family='Tahoma' font-size='12' transform='rotate(90 15,31.0)' text-rendering='optimizeSpeed' fill='#000000;'>"SunOS (sparcv9)" (1)</text>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='30' y='25.9' />
+  <text x='30' y='31.0' font-family='Tahoma' font-size='12' transform='rotate(90 30,31.0)' text-rendering='optimizeSpeed' fill='#000000;'>"SunOS (x86)" (1)</text>
+  <rect fill='blue' height='0.2' stroke='black' width='12' x='45' y='25.8' />
+  <text x='45' y='31.0' font-family='Tahoma' font-size='12' transform='rotate(90 45,31.0)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows Vista (x86)" (2)</text>
+  <rect fill='blue' height='0.2' stroke='black' width='12' x='60' y='25.8' />
+  <text x='60' y='31.0' font-family='Tahoma' font-size='12' transform='rotate(90 60,31.0)' text-rendering='optimizeSpeed' fill='#000000;'>"Mac OS X (x86_64)" (2)</text>
+  <rect fill='blue' height='0.2' stroke='black' width='12' x='75' y='25.8' />
+  <text x='75' y='31.0' font-family='Tahoma' font-size='12' transform='rotate(90 75,31.0)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows Server 2008 (amd64)" (2)</text>
+  <rect fill='blue' height='0.2' stroke='black' width='12' x='90' y='25.8' />
+  <text x='90' y='31.0' font-family='Tahoma' font-size='12' transform='rotate(90 90,31.0)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows Server 2008 R2 (x86)" (2)</text>
+  <rect fill='blue' height='0.2' stroke='black' width='12' x='105' y='25.8' />
+  <text x='105' y='31.0' font-family='Tahoma' font-size='12' transform='rotate(90 105,31.0)' text-rendering='optimizeSpeed' fill='#000000;'>"SunOS (sparc)" (2)</text>
+  <rect fill='blue' height='0.3' stroke='black' width='12' x='120' y='25.7' />
+  <text x='120' y='31.0' font-family='Tahoma' font-size='12' transform='rotate(90 120,31.0)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows 7 (amd64)" (3)</text>
+  <rect fill='blue' height='0.5' stroke='black' width='12' x='135' y='25.5' />
+  <text x='135' y='31.0' font-family='Tahoma' font-size='12' transform='rotate(90 135,31.0)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows Server 2008 R2 (amd64)" (5)</text>
+  <rect fill='blue' height='0.5' stroke='black' width='12' x='150' y='25.5' />
+  <text x='150' y='31.0' font-family='Tahoma' font-size='12' transform='rotate(90 150,31.0)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows Server 2008 (x86)" (5)</text>
+  <rect fill='blue' height='0.7' stroke='black' width='12' x='165' y='25.3' />
+  <text x='165' y='31.0' font-family='Tahoma' font-size='12' transform='rotate(90 165,31.0)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows 7 (x86)" (7)</text>
+  <rect fill='blue' height='1.9' stroke='black' width='12' x='180' y='24.1' />
+  <text x='180' y='31.0' font-family='Tahoma' font-size='12' transform='rotate(90 180,31.0)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows XP (x86)" (19)</text>
+  <rect fill='blue' height='1.9' stroke='black' width='12' x='195' y='24.1' />
+  <text x='195' y='31.0' font-family='Tahoma' font-size='12' transform='rotate(90 195,31.0)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows 2003 (x86)" (19)</text>
+  <rect fill='blue' height='3.2' stroke='black' width='12' x='210' y='22.8' />
+  <text x='210' y='31.0' font-family='Tahoma' font-size='12' transform='rotate(90 210,31.0)' text-rendering='optimizeSpeed' fill='#000000;'>"Linux (i386)" (32)</text>
+  <rect fill='blue' height='7.1' stroke='black' width='12' x='225' y='18.9' />
+  <text x='225' y='31.0' font-family='Tahoma' font-size='12' transform='rotate(90 225,31.0)' text-rendering='optimizeSpeed' fill='#000000;'>"Linux (amd64)" (71)</text>
+  <rect fill='blue' height='26' stroke='black' width='12' x='240' y='0' />
+  <text x='240' y='31' font-family='Tahoma' font-size='12' transform='rotate(90 240,31)' text-rendering='optimizeSpeed' fill='#000000;'>N/A (260)</text>
+  <text x='10' y='100' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Total: 433</text>
+</svg>
