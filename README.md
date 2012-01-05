@@ -14,4 +14,4 @@ HOWTO
 
 * groovy generateStats.groovy
 
-The final SVGs will be in target/svg  
+The final SVGs will be in target/svg
