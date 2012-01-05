@@ -3,7 +3,7 @@ import java.util.zip.GZIPInputStream;
 import groovy.xml.MarkupBuilder
 
 
-def workingDir = new File("../target")
+def workingDir = new File("target")
 def svgDir = new File(workingDir, "svg")
 
 
@@ -195,13 +195,28 @@ def createPieSVG(def svgFile, def data,def cx,def cy,def r,def colors,def labels
     }
 }
 
-
+def createHtml(dir) {
+    def pwriter = new FileWriter(new File(dir, "svgs.html"))
+    def phtml = new MarkupBuilder(pwriter)
+    phtml.html() {
+        body(){
+            ul(){
+                dir.eachFileMatch( ~".*svg" ) { file ->
+                    li(){
+                        a(href: file.name, file.name)
+                    }
+                }
+            }
+        }
+    }
+}
 
 def run = {
     svgDir.deleteDir()
     svgDir.mkdirs()
     workingDir.eachFileMatch( ~".*json" ) { file -> generateStats(file, svgDir) }
     //    workingDir.eachFileMatch( ~"201109.json" ) { file -> generateStats(file, svgDir) }
+    createHtml(svgDir)
 }
 
 run()
