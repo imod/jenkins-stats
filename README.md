@@ -13,6 +13,7 @@ HOWTO
    $> groovy download.groovy pwd
 
 2. generate the graphs
+   ... you might have to increase the memory: JAVA_OPTS="-Xmx4000M"
 
    $> groovy generateStats.groovy
 
