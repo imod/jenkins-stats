@@ -216,15 +216,11 @@ def createHtml(dir) {
     files.sort()
     
     def fileGroups = files.groupBy { file ->
-        println "*> $file"
-        file.substring(0, 6)
+        file.substring(0, 6) // the first 6 chars are the date, group by it
     }
     
-    fileGroups.each {
-        println ">"+it.key
-    }
-
-    def pwriter = new FileWriter(new File(dir, "svgs.html"))
+    def html = new File(dir, "svgs.html")
+    def pwriter = new FileWriter(html)
     def phtml = new MarkupBuilder(pwriter)
     phtml.html() {
         head(){
@@ -238,7 +234,7 @@ def createHtml(dir) {
                 fileGroups.reverseEach { dateStr, fileList ->
                     tr(){
                         Date parsedDate = Date.parse('yyyyMM', dateStr)
-                        td(parsedDate.format('yyyy-MM')){}
+                        td(parsedDate.format('yyyy-MM (MMMMM)')){}
                         fileList.each{ fileName -> 
                             td(){
                                 a(href: fileName, fileName)
@@ -249,6 +245,7 @@ def createHtml(dir) {
             }
         }
     }
+    println "generated: $html"
 }
 
 def run = {
