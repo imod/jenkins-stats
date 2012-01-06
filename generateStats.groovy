@@ -55,17 +55,17 @@ def generateStats(file, targetDir) {
 
 
 
-    createBarSVG(new File(targetDir, "$simplename-jenkins.svg"), version2number, 10, false, {true}) // {it.value >= 5})
-    createBarSVG(new File(targetDir, "$simplename-plugins.svg"), plugin2number, 10, true, {!it.key.startsWith("privateplugin")})
-    createBarSVG(new File(targetDir, "$simplename-jobs.svg"), jobtype2number, 1000, true, {!it.key.startsWith("private")})
-    createBarSVG(new File(targetDir, "$simplename-nodes.svg"), nodesOnOs2number, 10, true, {true})
-    createPieSVG(new File(targetDir, "$simplename-nodesPie.svg"), nodesOsNrs, 200, 300, 150, Helper.COLORS, nodesOs, 370, 20)
+    createBarSVG("Jenkins installations", new File(targetDir, "$simplename-jenkins.svg"), version2number, 10, false, {true}) // {it.value >= 5})
+    createBarSVG("Plugin installations", new File(targetDir, "$simplename-plugins.svg"), plugin2number, 10, true, {!it.key.startsWith("privateplugin")})
+    createBarSVG("Jobs", new File(targetDir, "$simplename-jobs.svg"), jobtype2number, 1000, true, {!it.key.startsWith("private")})
+    createBarSVG("Nodes", new File(targetDir, "$simplename-nodes.svg"), nodesOnOs2number, 10, true, {true})
+    createPieSVG("Nodes", new File(targetDir, "$simplename-nodesPie.svg"), nodesOsNrs, 200, 300, 150, Helper.COLORS, nodesOs, 370, 20)
 
 }
 
 
 
-def createBarSVG(def svgFile, def item2number, def scaleReduction, boolean sortByValue, Closure filter){
+def createBarSVG(def title, def svgFile, def item2number, def scaleReduction, boolean sortByValue, Closure filter){
 
     svgFile.delete()
 
@@ -81,12 +81,12 @@ def createBarSVG(def svgFile, def item2number, def scaleReduction, boolean sortB
     }
 
 
-    def viewWidth = (item2number.size() * 15) + 30
+    def viewWidth = (item2number.size() * 15) + 50
 
     def pwriter = new FileWriter(svgFile)
     def pxml = new MarkupBuilder(pwriter)
-    pxml.svg('xmlns': 'http://www.w3.org/2000/svg', "version": "1.1", "preserveAspectRatio":'none', "viewBox": "0 0 "+ viewWidth +" "+((higestNr / scaleReduction)+200)) {
-        // 200 for the text/legend
+    pxml.svg('xmlns': 'http://www.w3.org/2000/svg', "version": "1.1", "preserveAspectRatio":'none', "viewBox": "0 0 "+ viewWidth +" "+((higestNr / scaleReduction)+350)) {
+       // 350 for the text/legend
 
         def total = 0
 
@@ -105,7 +105,7 @@ def createBarSVG(def svgFile, def item2number, def scaleReduction, boolean sortB
             text(x:tx, y:ty, "font-family":'Tahoma', "font-size":'12', transform:"rotate(90 $tx,$ty)", "text-rendering":'optimizeSpeed', fill:'#000000;', "$item ($number)"){}
         }
 
-        text(x:'10', y:'40', "font-family":'Tahoma', "font-size":'20', "text-rendering":'optimizeSpeed', fill:'#000000;', "Total: ${total}"){}
+        text(x:'10', y:'40', "font-family":'Tahoma', "font-size":'20', "text-rendering":'optimizeSpeed', fill:'#000000;', "$title, total: ${total}"){}
     }
 }
 
@@ -122,7 +122,7 @@ def createBarSVG(def svgFile, def item2number, def scaleReduction, boolean sortB
  *   labels: an array of labels to appear in the legend, one for each wedge
  *   lx, ly: the upper-left corner of the chart legend
  */
-def createPieSVG(def svgFile, def data,def cx,def cy,def r,def colors,def labels,def lx,def ly) {
+def createPieSVG(def title, def svgFile, def data,def cx,def cy,def r,def colors,def labels,def lx,def ly) {
 
     // Add up the data values so we know how big the pie is
     def total = 0;
@@ -145,10 +145,10 @@ def createPieSVG(def svgFile, def data,def cx,def cy,def r,def colors,def labels
 
 
         text("x": 30, // Position the text
-                "y": 40,
-                "font-family": "sans-serif",
-                "font-size": "16",
-                "Total: $total"){}
+        "y": 40,
+        "font-family": "sans-serif",
+        "font-size": "16",
+        "$title, total: $total"){}
 
 
         data.eachWithIndex { item, i ->
@@ -173,36 +173,36 @@ def createPieSVG(def svgFile, def data,def cx,def cy,def r,def colors,def labels
 
             // This string holds the path details
             def d = "M " + cx + "," + cy +      // Start at circle center
-                    " L " + x1 + "," + y1 +     // Draw line to (x1,y1)
-                    " A " + r + "," + r +       // Draw an arc of radius r
-                    " 0 " + big + " 1 " +       // Arc details...
-                    x2 + "," + y2 +             // Arc goes to to (x2,y2)
-                    " Z";                       // Close path back to (cx,cy)
+            " L " + x1 + "," + y1 +     // Draw line to (x1,y1)
+            " A " + r + "," + r +       // Draw an arc of radius r
+            " 0 " + big + " 1 " +       // Arc details...
+            x2 + "," + y2 +             // Arc goes to to (x2,y2)
+            " Z";                       // Close path back to (cx,cy)
 
             path(   d: d, // Set this path
-                    fill: colors[i], // Set wedge color
-                    stroke: "black", // Outline wedge in black
-                    "stroke-width": "1" // 1 unit thick
-                    ){}
+            fill: colors[i], // Set wedge color
+            stroke: "black", // Outline wedge in black
+            "stroke-width": "1" // 1 unit thick
+            ){}
 
             // The next wedge begins where this one ends
             startangle = endangle;
 
             // Now draw a little matching square for the key
             rect(   x: lx,  // Position the square
-                    y: ly + squareHeight*i,
-                    "width": 20, // Size the square
-                    "height": squareHeight,
-                    "fill": colors[i], // Same fill color as wedge
-                    "stroke": "black", // Same outline, too.
-                    "stroke-width": "1"){}
+            y: ly + squareHeight*i,
+            "width": 20, // Size the square
+            "height": squareHeight,
+            "fill": colors[i], // Same fill color as wedge
+            "stroke": "black", // Same outline, too.
+            "stroke-width": "1"){}
 
             // And add a label to the right of the rectangle
             text(   "x": lx + 30, // Position the text
-                    "y": ly + squareHeight*i + 18,
-                    "font-family": "sans-serif",
-                    "font-size": "16",
-                    "${labels[i]} ($item)"){}
+            "y": ly + squareHeight*i + 18,
+            "font-family": "sans-serif",
+            "font-size": "16",
+            "${labels[i]} ($item)"){}
         }
     }
 }
@@ -214,11 +214,11 @@ def createHtml(dir) {
     }
 
     files.sort()
-    
+
     def fileGroups = files.groupBy { file ->
         file.substring(0, 6) // the first 6 chars are the date, group by it
     }
-    
+
     def html = new File(dir, "svgs.html")
     def pwriter = new FileWriter(html)
     def phtml = new MarkupBuilder(pwriter)
@@ -235,7 +235,7 @@ def createHtml(dir) {
                     tr(){
                         Date parsedDate = Date.parse('yyyyMM', dateStr)
                         td(parsedDate.format('yyyy-MM (MMMMM)')){}
-                        fileList.each{ fileName -> 
+                        fileList.each{ fileName ->
                             td(){
                                 a(href: fileName, fileName)
                             }
@@ -249,11 +249,11 @@ def createHtml(dir) {
 }
 
 def run = {
-    svgDir.deleteDir()
-    svgDir.mkdirs()
-    workingDir.eachFileMatch( ~".*json" ) { file -> generateStats(file, svgDir) }
-    //        workingDir.eachFileMatch( ~"201109.json" ) { file -> generateStats(file, svgDir) }
-    //        workingDir.eachFileMatch( ~"200812.json" ) { file -> generateStats(file, svgDir) }
+//    svgDir.deleteDir()
+//    svgDir.mkdirs()
+//    workingDir.eachFileMatch( ~".*json" ) { file -> generateStats(file, svgDir) }
+            workingDir.eachFileMatch( ~"201109.json" ) { file -> generateStats(file, svgDir) }
+            workingDir.eachFileMatch( ~"200812.json" ) { file -> generateStats(file, svgDir) }
 
     createHtml(svgDir)
 }
