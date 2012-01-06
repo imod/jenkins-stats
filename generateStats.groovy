@@ -55,11 +55,11 @@ def generateStats(file, targetDir) {
 
 
 
-    createBarSVG(new File(targetDir, "$simplename-jenkins.svg"), version2number, 10, false, {it.value >= 5})
-    createBarSVG(new File(targetDir, "$simplename-plugins.svg"), plugin2number, 15, true, {!it.key.startsWith("privateplugin")})
+    createBarSVG(new File(targetDir, "$simplename-jenkins.svg"), version2number, 10, false, {true}) // {it.value >= 5})
+    createBarSVG(new File(targetDir, "$simplename-plugins.svg"), plugin2number, 10, true, {!it.key.startsWith("privateplugin")})
     createBarSVG(new File(targetDir, "$simplename-jobs.svg"), jobtype2number, 1000, true, {!it.key.startsWith("private")})
     createBarSVG(new File(targetDir, "$simplename-nodes.svg"), nodesOnOs2number, 10, true, {true})
-    createPieSVG(new File(targetDir, "$simplename-nodesPie.svg"), nodesOsNrs, 200, 200, 150, Helper.COLORS, nodesOs, 370, 20)
+    createPieSVG(new File(targetDir, "$simplename-nodesPie.svg"), nodesOsNrs, 200, 300, 150, Helper.COLORS, nodesOs, 370, 20)
 
 }
 
@@ -97,7 +97,7 @@ def createBarSVG(def svgFile, def item2number, def scaleReduction, boolean sortB
             def barHeight = number / scaleReduction
 
             def x = (index + 1) * 15
-            def y = (higestNr / scaleReduction ) - barHeight
+            def y = ((higestNr / scaleReduction) - barHeight) + 50 // 50 to get some space for the total text at the top
             rect(fill:"blue", height: barHeight, stroke:"black", width:"12", x:x, y:y) {
             }
             def ty = y + barHeight + 5
@@ -105,7 +105,7 @@ def createBarSVG(def svgFile, def item2number, def scaleReduction, boolean sortB
             text(x:tx, y:ty, "font-family":'Tahoma', "font-size":'12', transform:"rotate(90 $tx,$ty)", "text-rendering":'optimizeSpeed', fill:'#000000;', "$item ($number)"){}
         }
 
-        text(x:'10', y:'100', "font-family":'Tahoma', "font-size":'20', "text-rendering":'optimizeSpeed', fill:'#000000;', "Total: ${total}"){}
+        text(x:'10', y:'40', "font-family":'Tahoma', "font-size":'20', "text-rendering":'optimizeSpeed', fill:'#000000;', "Total: ${total}"){}
     }
 }
 
@@ -134,11 +134,23 @@ def createPieSVG(def svgFile, def data,def cx,def cy,def r,def colors,def labels
 
     // Loop through each slice of pie.
     def startangle = 0;
+    
+    def squareHeight = 30
 
+    def viewWidth = lx + 350 // 350 for the text of the legend
+    def viewHeight = ly + (data.size() * squareHeight) + 30 // 30 to get some space at the bottom
     def pwriter = new FileWriter(svgFile)
     def pxml = new MarkupBuilder(pwriter)
-    pxml.svg('xmlns': 'http://www.w3.org/2000/svg', "version": "1.1", "preserveAspectRatio":'none') {
+    pxml.svg('xmlns': 'http://www.w3.org/2000/svg', "version": "1.1", "preserveAspectRatio":'none', "viewBox": "0 0 $viewWidth $viewHeight") {
 
+        
+        text("x": 30, // Position the text
+             "y": 40,
+             "font-family": "sans-serif",
+             "font-size": "16",
+             "Total: $total"){}
+            
+        
         data.eachWithIndex { item, i ->
             // This is where the wedge ends
             def endangle = startangle + angles[i];
@@ -178,16 +190,16 @@ def createPieSVG(def svgFile, def data,def cx,def cy,def r,def colors,def labels
 
             // Now draw a little matching square for the key
             rect(   x: lx,  // Position the square
-                    y: ly + 30*i,
+                    y: ly + squareHeight*i,
                     "width": 20, // Size the square
-                    "height": 20,
+                    "height": squareHeight,
                     "fill": colors[i], // Same fill color as wedge
                     "stroke": "black", // Same outline, too.
                     "stroke-width": "1"){}
 
             // And add a label to the right of the rectangle
             text(   "x": lx + 30, // Position the text
-                    "y": ly + 30*i + 18,
+                    "y": ly + squareHeight*i + 18,
                     "font-family": "sans-serif",
                     "font-size": "16",
                     "${labels[i]} ($item)"){}
@@ -219,10 +231,12 @@ def createHtml(dir) {
 }
 
 def run = {
-//    svgDir.deleteDir()
-//    svgDir.mkdirs()
+    svgDir.deleteDir()
+    svgDir.mkdirs()
 //    workingDir.eachFileMatch( ~".*json" ) { file -> generateStats(file, svgDir) }
-    //    workingDir.eachFileMatch( ~"201109.json" ) { file -> generateStats(file, svgDir) }
+//        workingDir.eachFileMatch( ~"201109.json" ) { file -> generateStats(file, svgDir) }
+        workingDir.eachFileMatch( ~"200812.json" ) { file -> generateStats(file, svgDir) }
+        
     createHtml(svgDir)
 }
 

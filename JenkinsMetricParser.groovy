@@ -67,7 +67,7 @@ class JenkinsMetricParser {
 
                             def versionStr = jsonNode.get("version").getTextValue()
                             // ignore SNAPSHOT versions
-                            if(!versionStr.contains("SNAPSHOT")){
+                            if(!versionStr.contains("SNAPSHOT") &&  !versionStr.contains("***")){
                                 jVersion = versionStr ? versionStr : "N/A"
 
                                 availableStatsForInstance++
@@ -96,7 +96,7 @@ class JenkinsMetricParser {
                 }
 
                 //                println ("available stats: $availableStatsForInstance")
-                if(jVersion && availableStatsForInstance >= 10){ // take stats only if we have at least 10 stats snapshots
+                if(jVersion){ // && availableStatsForInstance >= 10 // take stats only if we have at least 10 stats snapshots
                     def metric = new InstanceMetric(jenkinsVersion: jVersion, plugins: plugins, jobTypes: jobs, nodesOnOs: nodesOnOs)
                     installations.put(instanceId, metric)
                 }
