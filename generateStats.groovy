@@ -217,7 +217,7 @@ def createHtml(dir) {
     
     def fileGroups = files.groupBy { file ->
         println "*> $file"
-        file.name.substring(0, 6)
+        file.substring(0, 6)
     }
     
     fileGroups.each {
@@ -231,10 +231,19 @@ def createHtml(dir) {
             link(rel: "stylesheet", href: "http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css"){}
         }
         body(){
-            ul(){
-                files.reverseEach { file ->
-                    li(){
-                        a(href: file, file)
+            div(){
+                h1('some statistics on the usage of Jenkins'){}
+            }
+            table(){
+                fileGroups.reverseEach { dateStr, fileList ->
+                    tr(){
+                        Date parsedDate = Date.parse('yyyyMM', dateStr)
+                        td(parsedDate.format('yyyy-MM')){}
+                        fileList.each{ fileName -> 
+                            td(){
+                                a(href: fileName, fileName)
+                            }
+                        }
                     }
                 }
             }
@@ -243,9 +252,9 @@ def createHtml(dir) {
 }
 
 def run = {
-//    svgDir.deleteDir()
-//    svgDir.mkdirs()
-//    workingDir.eachFileMatch( ~".*json" ) { file -> generateStats(file, svgDir) }
+    svgDir.deleteDir()
+    svgDir.mkdirs()
+    workingDir.eachFileMatch( ~".*json" ) { file -> generateStats(file, svgDir) }
     //        workingDir.eachFileMatch( ~"201109.json" ) { file -> generateStats(file, svgDir) }
     //        workingDir.eachFileMatch( ~"200812.json" ) { file -> generateStats(file, svgDir) }
 
