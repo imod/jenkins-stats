@@ -1,687 +1,701 @@
-<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 5160 324.4'>
-  <rect fill='blue' height='0.0666666667' stroke='black' width='12' x='15' y='124.3333333333' />
-  <text x='15' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 15,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>origo-issue-notifier (1)</text>
-  <rect fill='blue' height='0.0666666667' stroke='black' width='12' x='30' y='124.3333333333' />
-  <text x='30' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 30,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>sfee (1)</text>
-  <rect fill='blue' height='0.0666666667' stroke='black' width='12' x='45' y='124.3333333333' />
-  <text x='45' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 45,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>SCTMExecutor (1)</text>
-  <rect fill='blue' height='0.0666666667' stroke='black' width='12' x='60' y='124.3333333333' />
-  <text x='60' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 60,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>pvcs_scm (1)</text>
-  <rect fill='blue' height='0.0666666667' stroke='black' width='12' x='75' y='124.3333333333' />
-  <text x='75' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 75,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>bitkeeper (1)</text>
-  <rect fill='blue' height='0.0666666667' stroke='black' width='12' x='90' y='124.3333333333' />
-  <text x='90' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 90,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>flashlog-plugin (1)</text>
-  <rect fill='blue' height='0.0666666667' stroke='black' width='12' x='105' y='124.3333333333' />
-  <text x='105' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 105,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>signal-killer (1)</text>
-  <rect fill='blue' height='0.0666666667' stroke='black' width='12' x='120' y='124.3333333333' />
-  <text x='120' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 120,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>sauce-ondemand (1)</text>
-  <rect fill='blue' height='0.0666666667' stroke='black' width='12' x='135' y='124.3333333333' />
-  <text x='135' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 135,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>javanet (1)</text>
-  <rect fill='blue' height='0.1333333333' stroke='black' width='12' x='150' y='124.2666666667' />
-  <text x='150' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 150,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>excludeMatrixParent (2)</text>
-  <rect fill='blue' height='0.1333333333' stroke='black' width='12' x='165' y='124.2666666667' />
-  <text x='165' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 165,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>unity-asset-server (2)</text>
-  <rect fill='blue' height='0.1333333333' stroke='black' width='12' x='180' y='124.2666666667' />
-  <text x='180' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 180,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>reviewboard (2)</text>
-  <rect fill='blue' height='0.1333333333' stroke='black' width='12' x='195' y='124.2666666667' />
-  <text x='195' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 195,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>Schmant (2)</text>
-  <rect fill='blue' height='0.1333333333' stroke='black' width='12' x='210' y='124.2666666667' />
-  <text x='210' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 210,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>mozmill (2)</text>
-  <rect fill='blue' height='0.1333333333' stroke='black' width='12' x='225' y='124.2666666667' />
-  <text x='225' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 225,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>klaros-testmanagement (2)</text>
-  <rect fill='blue' height='0.1333333333' stroke='black' width='12' x='240' y='124.2666666667' />
-  <text x='240' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 240,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>gnat (2)</text>
-  <rect fill='blue' height='0.2' stroke='black' width='12' x='255' y='124.2' />
-  <text x='255' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 255,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>utplsql (3)</text>
-  <rect fill='blue' height='0.2' stroke='black' width='12' x='270' y='124.2' />
-  <text x='270' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 270,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>harvest (3)</text>
-  <rect fill='blue' height='0.2' stroke='black' width='12' x='285' y='124.2' />
-  <text x='285' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 285,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>tusarnotifier (3)</text>
-  <rect fill='blue' height='0.2' stroke='black' width='12' x='300' y='124.2' />
-  <text x='300' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 300,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>concordionpresenter (3)</text>
-  <rect fill='blue' height='0.2' stroke='black' width='12' x='315' y='124.2' />
-  <text x='315' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 315,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>piwikanalytics (3)</text>
-  <rect fill='blue' height='0.2666666667' stroke='black' width='12' x='330' y='124.1333333333' />
-  <text x='330' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 330,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>platformlabeler (4)</text>
-  <rect fill='blue' height='0.2666666667' stroke='black' width='12' x='345' y='124.1333333333' />
-  <text x='345' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 345,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>nodejs (4)</text>
-  <rect fill='blue' height='0.2666666667' stroke='black' width='12' x='360' y='124.1333333333' />
-  <text x='360' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 360,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>label-verifier (4)</text>
-  <rect fill='blue' height='0.2666666667' stroke='black' width='12' x='375' y='124.1333333333' />
-  <text x='375' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 375,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>jigomerge (4)</text>
-  <rect fill='blue' height='0.2666666667' stroke='black' width='12' x='390' y='124.1333333333' />
-  <text x='390' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 390,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>rundeck (4)</text>
-  <rect fill='blue' height='0.2666666667' stroke='black' width='12' x='405' y='124.1333333333' />
-  <text x='405' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 405,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>integrity-plugin (4)</text>
-  <rect fill='blue' height='0.3333333333' stroke='black' width='12' x='420' y='124.0666666667' />
-  <text x='420' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 420,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>bamboo-notifier (5)</text>
-  <rect fill='blue' height='0.3333333333' stroke='black' width='12' x='435' y='124.0666666667' />
-  <text x='435' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 435,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>dimensionsscm (5)</text>
-  <rect fill='blue' height='0.3333333333' stroke='black' width='12' x='450' y='124.0666666667' />
-  <text x='450' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 450,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>nabaztag (5)</text>
-  <rect fill='blue' height='0.3333333333' stroke='black' width='12' x='465' y='124.0666666667' />
-  <text x='465' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 465,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>rad-builder (5)</text>
-  <rect fill='blue' height='0.3333333333' stroke='black' width='12' x='480' y='124.0666666667' />
-  <text x='480' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 480,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>cppncss (5)</text>
-  <rect fill='blue' height='0.3333333333' stroke='black' width='12' x='495' y='124.0666666667' />
-  <text x='495' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 495,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>labmanager (5)</text>
-  <rect fill='blue' height='0.3333333333' stroke='black' width='12' x='510' y='124.0666666667' />
-  <text x='510' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 510,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>svncompat13 (5)</text>
-  <rect fill='blue' height='0.3333333333' stroke='black' width='12' x='525' y='124.0666666667' />
-  <text x='525' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 525,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>pxe (5)</text>
-  <rect fill='blue' height='0.3333333333' stroke='black' width='12' x='540' y='124.0666666667' />
-  <text x='540' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 540,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>fortify360 (5)</text>
-  <rect fill='blue' height='0.3333333333' stroke='black' width='12' x='555' y='124.0666666667' />
-  <text x='555' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 555,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>unicorn (5)</text>
-  <rect fill='blue' height='0.3333333333' stroke='black' width='12' x='570' y='124.0666666667' />
-  <text x='570' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 570,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>bazaar (5)</text>
-  <rect fill='blue' height='0.3333333333' stroke='black' width='12' x='585' y='124.0666666667' />
-  <text x='585' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 585,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>play-autotest-plugin (5)</text>
-  <rect fill='blue' height='0.4' stroke='black' width='12' x='600' y='124.0' />
-  <text x='600' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 600,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>javanet-uploader (6)</text>
-  <rect fill='blue' height='0.4' stroke='black' width='12' x='615' y='124.0' />
-  <text x='615' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 615,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>slave-squatter (6)</text>
-  <rect fill='blue' height='0.4' stroke='black' width='12' x='630' y='124.0' />
-  <text x='630' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 630,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>nsiqcollector (6)</text>
-  <rect fill='blue' height='0.4' stroke='black' width='12' x='645' y='124.0' />
-  <text x='645' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 645,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>javatest-report (6)</text>
-  <rect fill='blue' height='0.4' stroke='black' width='12' x='660' y='124.0' />
-  <text x='660' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 660,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>AdaptivePlugin (6)</text>
-  <rect fill='blue' height='0.4' stroke='black' width='12' x='675' y='124.0' />
-  <text x='675' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 675,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>scons (6)</text>
-  <rect fill='blue' height='0.4' stroke='black' width='12' x='690' y='124.0' />
-  <text x='690' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 690,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>serenity (6)</text>
-  <rect fill='blue' height='0.4' stroke='black' width='12' x='705' y='124.0' />
-  <text x='705' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 705,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>keepSlaveOffline (6)</text>
-  <rect fill='blue' height='0.4666666667' stroke='black' width='12' x='720' y='123.9333333333' />
-  <text x='720' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 720,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>jsgames (7)</text>
-  <rect fill='blue' height='0.4666666667' stroke='black' width='12' x='735' y='123.9333333333' />
-  <text x='735' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 735,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>notifo (7)</text>
-  <rect fill='blue' height='0.4666666667' stroke='black' width='12' x='750' y='123.9333333333' />
-  <text x='750' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 750,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>dumpinfo-buildwrapper-plugin (7)</text>
-  <rect fill='blue' height='0.4666666667' stroke='black' width='12' x='765' y='123.9333333333' />
-  <text x='765' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 765,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>webtestpresenter (7)</text>
-  <rect fill='blue' height='0.4666666667' stroke='black' width='12' x='780' y='123.9333333333' />
-  <text x='780' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 780,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>gallio (7)</text>
-  <rect fill='blue' height='0.4666666667' stroke='black' width='12' x='795' y='123.9333333333' />
-  <text x='795' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 795,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>security-no-captcha (7)</text>
-  <rect fill='blue' height='0.4666666667' stroke='black' width='12' x='810' y='123.9333333333' />
-  <text x='810' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 810,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>locked-files-report (7)</text>
-  <rect fill='blue' height='0.5333333333' stroke='black' width='12' x='825' y='123.8666666667' />
-  <text x='825' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 825,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>multiline-tabbar-plugin (8)</text>
-  <rect fill='blue' height='0.5333333333' stroke='black' width='12' x='840' y='123.8666666667' />
-  <text x='840' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 840,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>campfire (8)</text>
-  <rect fill='blue' height='0.5333333333' stroke='black' width='12' x='855' y='123.8666666667' />
-  <text x='855' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 855,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>mysql-auth (8)</text>
-  <rect fill='blue' height='0.5333333333' stroke='black' width='12' x='870' y='123.8666666667' />
-  <text x='870' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 870,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>openid (8)</text>
-  <rect fill='blue' height='0.5333333333' stroke='black' width='12' x='885' y='123.8666666667' />
-  <text x='885' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 885,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>distTest (8)</text>
-  <rect fill='blue' height='0.5333333333' stroke='black' width='12' x='900' y='123.8666666667' />
-  <text x='900' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 900,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>labeled-test-groups-publisher (8)</text>
-  <rect fill='blue' height='0.5333333333' stroke='black' width='12' x='915' y='123.8666666667' />
-  <text x='915' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 915,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>starteam (8)</text>
-  <rect fill='blue' height='0.5333333333' stroke='black' width='12' x='930' y='123.8666666667' />
-  <text x='930' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 930,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>cygpath (8)</text>
-  <rect fill='blue' height='0.5333333333' stroke='black' width='12' x='945' y='123.8666666667' />
-  <text x='945' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 945,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>hgca (8)</text>
-  <rect fill='blue' height='0.6' stroke='black' width='12' x='960' y='123.8' />
-  <text x='960' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 960,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>codescanner (9)</text>
-  <rect fill='blue' height='0.6' stroke='black' width='12' x='975' y='123.8' />
-  <text x='975' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 975,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>LavaLampNotifier (9)</text>
-  <rect fill='blue' height='0.6' stroke='black' width='12' x='990' y='123.8' />
-  <text x='990' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 990,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>japex (9)</text>
-  <rect fill='blue' height='0.6' stroke='black' width='12' x='1005' y='123.8' />
-  <text x='1005' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 1005,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>multiple-scms (9)</text>
-  <rect fill='blue' height='0.6666666667' stroke='black' width='12' x='1020' y='123.7333333333' />
-  <text x='1020' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1020,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>pwauth (10)</text>
-  <rect fill='blue' height='0.6666666667' stroke='black' width='12' x='1035' y='123.7333333333' />
-  <text x='1035' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1035,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>synergy (10)</text>
-  <rect fill='blue' height='0.6666666667' stroke='black' width='12' x='1050' y='123.7333333333' />
-  <text x='1050' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1050,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>sbt (10)</text>
-  <rect fill='blue' height='0.6666666667' stroke='black' width='12' x='1065' y='123.7333333333' />
-  <text x='1065' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1065,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>svncompat14 (10)</text>
-  <rect fill='blue' height='0.6666666667' stroke='black' width='12' x='1080' y='123.7333333333' />
-  <text x='1080' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1080,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>staf (10)</text>
-  <rect fill='blue' height='0.6666666667' stroke='black' width='12' x='1095' y='123.7333333333' />
-  <text x='1095' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1095,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>collabnet (10)</text>
-  <rect fill='blue' height='0.6666666667' stroke='black' width='12' x='1110' y='123.7333333333' />
-  <text x='1110' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1110,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>translation (10)</text>
-  <rect fill='blue' height='0.7333333333' stroke='black' width='12' x='1125' y='123.6666666667' />
-  <text x='1125' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1125,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>buckminster (11)</text>
-  <rect fill='blue' height='0.7333333333' stroke='black' width='12' x='1140' y='123.6666666667' />
-  <text x='1140' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1140,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>dbCharts (11)</text>
-  <rect fill='blue' height='0.8' stroke='black' width='12' x='1155' y='123.6' />
-  <text x='1155' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 1155,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>backlog (12)</text>
-  <rect fill='blue' height='0.8' stroke='black' width='12' x='1170' y='123.6' />
-  <text x='1170' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 1170,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>script-realm (12)</text>
-  <rect fill='blue' height='0.8' stroke='black' width='12' x='1185' y='123.6' />
-  <text x='1185' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 1185,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>grinder (12)</text>
-  <rect fill='blue' height='0.8' stroke='black' width='12' x='1200' y='123.6' />
-  <text x='1200' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 1200,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>selection-tasks-plugin (12)</text>
-  <rect fill='blue' height='0.8666666667' stroke='black' width='12' x='1215' y='123.5333333333' />
-  <text x='1215' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1215,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>confluence-publisher (13)</text>
-  <rect fill='blue' height='0.8666666667' stroke='black' width='12' x='1230' y='123.5333333333' />
-  <text x='1230' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1230,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>sicci_for_xcode (13)</text>
-  <rect fill='blue' height='0.8666666667' stroke='black' width='12' x='1245' y='123.5333333333' />
-  <text x='1245' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1245,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>gerrit (13)</text>
-  <rect fill='blue' height='0.8666666667' stroke='black' width='12' x='1260' y='123.5333333333' />
-  <text x='1260' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1260,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>bruceschneier (13)</text>
-  <rect fill='blue' height='0.9333333333' stroke='black' width='12' x='1275' y='123.4666666667' />
-  <text x='1275' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1275,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>cas1 (14)</text>
-  <rect fill='blue' height='0.9333333333' stroke='black' width='12' x='1290' y='123.4666666667' />
-  <text x='1290' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1290,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>clearcase-ucm-baseline (14)</text>
-  <rect fill='blue' height='0.9333333333' stroke='black' width='12' x='1305' y='123.4666666667' />
-  <text x='1305' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1305,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>covcomplplot (14)</text>
-  <rect fill='blue' height='0.9333333333' stroke='black' width='12' x='1320' y='123.4666666667' />
-  <text x='1320' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1320,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>googlecode (14)</text>
-  <rect fill='blue' height='0.9333333333' stroke='black' width='12' x='1335' y='123.4666666667' />
-  <text x='1335' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1335,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>was-builder (14)</text>
-  <rect fill='blue' height='0.9333333333' stroke='black' width='12' x='1350' y='123.4666666667' />
-  <text x='1350' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1350,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>clearcase-release (14)</text>
-  <rect fill='blue' height='0.9333333333' stroke='black' width='12' x='1365' y='123.4666666667' />
-  <text x='1365' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1365,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>scriptler (14)</text>
-  <rect fill='blue' height='1' stroke='black' width='12' x='1380' y='123.4' />
-  <text x='1380' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 1380,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>heavy-job (15)</text>
-  <rect fill='blue' height='1' stroke='black' width='12' x='1395' y='123.4' />
-  <text x='1395' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 1395,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>easyant (15)</text>
-  <rect fill='blue' height='1' stroke='black' width='12' x='1410' y='123.4' />
-  <text x='1410' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 1410,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>swarm (15)</text>
-  <rect fill='blue' height='1' stroke='black' width='12' x='1425' y='123.4' />
-  <text x='1425' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 1425,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>jython (15)</text>
-  <rect fill='blue' height='1' stroke='black' width='12' x='1440' y='123.4' />
-  <text x='1440' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 1440,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>gant (15)</text>
-  <rect fill='blue' height='1' stroke='black' width='12' x='1455' y='123.4' />
-  <text x='1455' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 1455,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>lastsuccessdescriptioncolumn (15)</text>
-  <rect fill='blue' height='1' stroke='black' width='12' x='1470' y='123.4' />
-  <text x='1470' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 1470,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>copy-project-link (15)</text>
-  <rect fill='blue' height='1.0666666667' stroke='black' width='12' x='1485' y='123.3333333333' />
-  <text x='1485' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1485,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>BlameSubversion (16)</text>
-  <rect fill='blue' height='1.0666666667' stroke='black' width='12' x='1500' y='123.3333333333' />
-  <text x='1500' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1500,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>distfork (16)</text>
-  <rect fill='blue' height='1.0666666667' stroke='black' width='12' x='1515' y='123.3333333333' />
-  <text x='1515' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1515,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>startup-trigger-plugin (16)</text>
-  <rect fill='blue' height='1.0666666667' stroke='black' width='12' x='1530' y='123.3333333333' />
-  <text x='1530' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1530,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>cpptest (16)</text>
-  <rect fill='blue' height='1.0666666667' stroke='black' width='12' x='1545' y='123.3333333333' />
-  <text x='1545' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1545,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>jsunit (16)</text>
-  <rect fill='blue' height='1.0666666667' stroke='black' width='12' x='1560' y='123.3333333333' />
-  <text x='1560' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1560,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>xshell (16)</text>
-  <rect fill='blue' height='1.0666666667' stroke='black' width='12' x='1575' y='123.3333333333' />
-  <text x='1575' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1575,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>robot (16)</text>
-  <rect fill='blue' height='1.0666666667' stroke='black' width='12' x='1590' y='123.3333333333' />
-  <text x='1590' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1590,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>speaks (16)</text>
-  <rect fill='blue' height='1.0666666667' stroke='black' width='12' x='1605' y='123.3333333333' />
-  <text x='1605' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1605,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>repository (16)</text>
-  <rect fill='blue' height='1.0666666667' stroke='black' width='12' x='1620' y='123.3333333333' />
-  <text x='1620' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1620,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>copy-data-to-workspace-plugin (16)</text>
-  <rect fill='blue' height='1.1333333333' stroke='black' width='12' x='1635' y='123.2666666667' />
-  <text x='1635' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1635,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>accurev (17)</text>
-  <rect fill='blue' height='1.1333333333' stroke='black' width='12' x='1650' y='123.2666666667' />
-  <text x='1650' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1650,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>cifs (17)</text>
-  <rect fill='blue' height='1.1333333333' stroke='black' width='12' x='1665' y='123.2666666667' />
-  <text x='1665' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1665,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>exclusive-execution (17)</text>
-  <rect fill='blue' height='1.1333333333' stroke='black' width='12' x='1680' y='123.2666666667' />
-  <text x='1680' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1680,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>jswidgets (17)</text>
-  <rect fill='blue' height='1.1333333333' stroke='black' width='12' x='1695' y='123.2666666667' />
-  <text x='1695' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1695,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>vss (17)</text>
-  <rect fill='blue' height='1.1333333333' stroke='black' width='12' x='1710' y='123.2666666667' />
-  <text x='1710' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1710,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>phing (17)</text>
-  <rect fill='blue' height='1.2' stroke='black' width='12' x='1725' y='123.2' />
-  <text x='1725' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 1725,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>throttle-concurrents (18)</text>
-  <rect fill='blue' height='1.2' stroke='black' width='12' x='1740' y='123.2' />
-  <text x='1740' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 1740,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>deploy-websphere (18)</text>
-  <rect fill='blue' height='1.2' stroke='black' width='12' x='1755' y='123.2' />
-  <text x='1755' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 1755,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>dropdown-viewstabbar-plugin (18)</text>
-  <rect fill='blue' height='1.2' stroke='black' width='12' x='1770' y='123.2' />
-  <text x='1770' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 1770,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>tmpcleaner (18)</text>
-  <rect fill='blue' height='1.2' stroke='black' width='12' x='1785' y='123.2' />
-  <text x='1785' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 1785,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>testabilityexplorer (18)</text>
-  <rect fill='blue' height='1.2' stroke='black' width='12' x='1800' y='123.2' />
-  <text x='1800' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 1800,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>secret (18)</text>
-  <rect fill='blue' height='1.2' stroke='black' width='12' x='1815' y='123.2' />
-  <text x='1815' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 1815,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>repository-connector (18)</text>
-  <rect fill='blue' height='1.2666666667' stroke='black' width='12' x='1830' y='123.1333333333' />
-  <text x='1830' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1830,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>virtualbox (19)</text>
-  <rect fill='blue' height='1.2666666667' stroke='black' width='12' x='1845' y='123.1333333333' />
-  <text x='1845' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1845,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>growl (19)</text>
-  <rect fill='blue' height='1.3333333333' stroke='black' width='12' x='1860' y='123.0666666667' />
-  <text x='1860' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1860,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>crowd (20)</text>
-  <rect fill='blue' height='1.3333333333' stroke='black' width='12' x='1875' y='123.0666666667' />
-  <text x='1875' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1875,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>zentimestamp (20)</text>
-  <rect fill='blue' height='1.3333333333' stroke='black' width='12' x='1890' y='123.0666666667' />
-  <text x='1890' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1890,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>twitter (20)</text>
-  <rect fill='blue' height='1.3333333333' stroke='black' width='12' x='1905' y='123.0666666667' />
-  <text x='1905' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1905,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>storable-configs-plugin (20)</text>
-  <rect fill='blue' height='1.3333333333' stroke='black' width='12' x='1920' y='123.0666666667' />
-  <text x='1920' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 1920,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>polarion (20)</text>
-  <rect fill='blue' height='1.4' stroke='black' width='12' x='1935' y='123.0' />
-  <text x='1935' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 1935,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>dos-trigger (21)</text>
-  <rect fill='blue' height='1.4' stroke='black' width='12' x='1950' y='123.0' />
-  <text x='1950' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 1950,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>terminal (21)</text>
-  <rect fill='blue' height='1.4' stroke='black' width='12' x='1965' y='123.0' />
-  <text x='1965' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 1965,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>googleanalytics (21)</text>
-  <rect fill='blue' height='1.4' stroke='black' width='12' x='1980' y='123.0' />
-  <text x='1980' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 1980,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>gerrit-trigger (21)</text>
-  <rect fill='blue' height='1.4' stroke='black' width='12' x='1995' y='123.0' />
-  <text x='1995' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 1995,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>perfpublisher (21)</text>
-  <rect fill='blue' height='1.4666666667' stroke='black' width='12' x='2010' y='122.9333333333' />
-  <text x='2010' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2010,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>ec2 (22)</text>
-  <rect fill='blue' height='1.4666666667' stroke='black' width='12' x='2025' y='122.9333333333' />
-  <text x='2025' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2025,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>seleniumrc-plugin (22)</text>
-  <rect fill='blue' height='1.4666666667' stroke='black' width='12' x='2040' y='122.9333333333' />
-  <text x='2040' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2040,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>toolenv (22)</text>
-  <rect fill='blue' height='1.5333333333' stroke='black' width='12' x='2055' y='122.8666666667' />
-  <text x='2055' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2055,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>systemloadaverage-monitor (23)</text>
-  <rect fill='blue' height='1.5333333333' stroke='black' width='12' x='2070' y='122.8666666667' />
-  <text x='2070' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2070,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>ccm (23)</text>
-  <rect fill='blue' height='1.5333333333' stroke='black' width='12' x='2085' y='122.8666666667' />
-  <text x='2085' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2085,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>jobtype-column (23)</text>
-  <rect fill='blue' height='1.6' stroke='black' width='12' x='2100' y='122.8' />
-  <text x='2100' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 2100,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-logaction-plugin (24)</text>
-  <rect fill='blue' height='1.6' stroke='black' width='12' x='2115' y='122.8' />
-  <text x='2115' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 2115,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-wsclean-plugin (24)</text>
-  <rect fill='blue' height='1.6' stroke='black' width='12' x='2130' y='122.8' />
-  <text x='2130' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 2130,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>lastfailureversioncolumn (24)</text>
-  <rect fill='blue' height='1.6' stroke='black' width='12' x='2145' y='122.8' />
-  <text x='2145' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 2145,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>validating-string-parameter (24)</text>
-  <rect fill='blue' height='1.6666666667' stroke='black' width='12' x='2160' y='122.7333333333' />
-  <text x='2160' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2160,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>qc (25)</text>
-  <rect fill='blue' height='1.6666666667' stroke='black' width='12' x='2175' y='122.7333333333' />
-  <text x='2175' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2175,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>vmware (25)</text>
-  <rect fill='blue' height='1.6666666667' stroke='black' width='12' x='2190' y='122.7333333333' />
-  <text x='2190' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2190,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>measurement-plots (25)</text>
-  <rect fill='blue' height='1.6666666667' stroke='black' width='12' x='2205' y='122.7333333333' />
-  <text x='2205' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2205,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>collapsing-console-sections (25)</text>
-  <rect fill='blue' height='1.7333333333' stroke='black' width='12' x='2220' y='122.6666666667' />
-  <text x='2220' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2220,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>nodenamecolumn (26)</text>
-  <rect fill='blue' height='1.7333333333' stroke='black' width='12' x='2235' y='122.6666666667' />
-  <text x='2235' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2235,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>job-exporter (26)</text>
-  <rect fill='blue' height='1.7333333333' stroke='black' width='12' x='2250' y='122.6666666667' />
-  <text x='2250' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2250,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>URLSCM (26)</text>
-  <rect fill='blue' height='1.8' stroke='black' width='12' x='2265' y='122.6' />
-  <text x='2265' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 2265,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>tracking-svn (27)</text>
-  <rect fill='blue' height='1.8' stroke='black' width='12' x='2280' y='122.6' />
-  <text x='2280' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 2280,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>naginator (27)</text>
-  <rect fill='blue' height='1.8' stroke='black' width='12' x='2295' y='122.6' />
-  <text x='2295' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 2295,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>persona (27)</text>
-  <rect fill='blue' height='1.8' stroke='black' width='12' x='2310' y='122.6' />
-  <text x='2310' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 2310,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>sounds (27)</text>
-  <rect fill='blue' height='1.8666666667' stroke='black' width='12' x='2325' y='122.5333333333' />
-  <text x='2325' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2325,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>maven-dependency-update-trigger (28)</text>
-  <rect fill='blue' height='1.8666666667' stroke='black' width='12' x='2340' y='122.5333333333' />
-  <text x='2340' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2340,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>regexemail (28)</text>
-  <rect fill='blue' height='1.8666666667' stroke='black' width='12' x='2355' y='122.5333333333' />
-  <text x='2355' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2355,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>matrixtieparent (28)</text>
-  <rect fill='blue' height='1.8666666667' stroke='black' width='12' x='2370' y='122.5333333333' />
-  <text x='2370' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2370,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>m2-repo-reaper (28)</text>
-  <rect fill='blue' height='1.9333333333' stroke='black' width='12' x='2385' y='122.4666666667' />
-  <text x='2385' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2385,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>powershell (29)</text>
-  <rect fill='blue' height='1.9333333333' stroke='black' width='12' x='2400' y='122.4666666667' />
-  <text x='2400' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2400,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>lastsuccessversioncolumn (29)</text>
-  <rect fill='blue' height='1.9333333333' stroke='black' width='12' x='2415' y='122.4666666667' />
-  <text x='2415' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2415,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>sitemonitor (29)</text>
-  <rect fill='blue' height='2' stroke='black' width='12' x='2430' y='122.4' />
-  <text x='2430' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 2430,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>status-view (30)</text>
-  <rect fill='blue' height='2' stroke='black' width='12' x='2445' y='122.4' />
-  <text x='2445' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 2445,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>jobrevision (30)</text>
-  <rect fill='blue' height='2.0666666667' stroke='black' width='12' x='2460' y='122.3333333333' />
-  <text x='2460' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2460,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>gcal (31)</text>
-  <rect fill='blue' height='2.0666666667' stroke='black' width='12' x='2475' y='122.3333333333' />
-  <text x='2475' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2475,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>publish-over-ftp (31)</text>
-  <rect fill='blue' height='2.0666666667' stroke='black' width='12' x='2490' y='122.3333333333' />
-  <text x='2490' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2490,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>promoted-builds-simple (31)</text>
-  <rect fill='blue' height='2.0666666667' stroke='black' width='12' x='2505' y='122.3333333333' />
-  <text x='2505' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2505,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>schedule-failed-builds (31)</text>
-  <rect fill='blue' height='2.1333333333' stroke='black' width='12' x='2520' y='122.2666666667' />
-  <text x='2520' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2520,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>jquery-ui (32)</text>
-  <rect fill='blue' height='2.1333333333' stroke='black' width='12' x='2535' y='122.2666666667' />
-  <text x='2535' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2535,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>jboss (32)</text>
-  <rect fill='blue' height='2.1333333333' stroke='black' width='12' x='2550' y='122.2666666667' />
-  <text x='2550' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2550,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>extended-read-permission (32)</text>
-  <rect fill='blue' height='2.1333333333' stroke='black' width='12' x='2565' y='122.2666666667' />
-  <text x='2565' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2565,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>ivy (32)</text>
-  <rect fill='blue' height='2.2' stroke='black' width='12' x='2580' y='122.2' />
-  <text x='2580' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 2580,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>mantis (33)</text>
-  <rect fill='blue' height='2.2' stroke='black' width='12' x='2595' y='122.2' />
-  <text x='2595' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 2595,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>extended-choice-parameter (33)</text>
-  <rect fill='blue' height='2.2' stroke='black' width='12' x='2610' y='122.2' />
-  <text x='2610' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 2610,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>notification (33)</text>
-  <rect fill='blue' height='2.2' stroke='black' width='12' x='2625' y='122.2' />
-  <text x='2625' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 2625,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>tfs (33)</text>
-  <rect fill='blue' height='2.2' stroke='black' width='12' x='2640' y='122.2' />
-  <text x='2640' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 2640,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>ncover (33)</text>
-  <rect fill='blue' height='2.2' stroke='black' width='12' x='2655' y='122.2' />
-  <text x='2655' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 2655,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>selenium (33)</text>
-  <rect fill='blue' height='2.2' stroke='black' width='12' x='2670' y='122.2' />
-  <text x='2670' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 2670,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>girls (33)</text>
-  <rect fill='blue' height='2.2' stroke='black' width='12' x='2685' y='122.2' />
-  <text x='2685' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 2685,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>testlink (33)</text>
-  <rect fill='blue' height='2.2' stroke='black' width='12' x='2700' y='122.2' />
-  <text x='2700' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 2700,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>cmakebuilder (33)</text>
-  <rect fill='blue' height='2.2666666667' stroke='black' width='12' x='2715' y='122.1333333333' />
-  <text x='2715' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2715,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>jquery (34)</text>
-  <rect fill='blue' height='2.2666666667' stroke='black' width='12' x='2730' y='122.1333333333' />
-  <text x='2730' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2730,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>jenkinswalldisplay (34)</text>
-  <rect fill='blue' height='2.2666666667' stroke='black' width='12' x='2745' y='122.1333333333' />
-  <text x='2745' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2745,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>crap4j (34)</text>
-  <rect fill='blue' height='2.2666666667' stroke='black' width='12' x='2760' y='122.1333333333' />
-  <text x='2760' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2760,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>files-found-trigger (34)</text>
-  <rect fill='blue' height='2.3333333333' stroke='black' width='12' x='2775' y='122.0666666667' />
-  <text x='2775' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2775,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>bulk-builder (35)</text>
-  <rect fill='blue' height='2.3333333333' stroke='black' width='12' x='2790' y='122.0666666667' />
-  <text x='2790' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2790,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>screenshot (35)</text>
-  <rect fill='blue' height='2.3333333333' stroke='black' width='12' x='2805' y='122.0666666667' />
-  <text x='2805' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2805,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>fitnesse (35)</text>
-  <rect fill='blue' height='2.3333333333' stroke='black' width='12' x='2820' y='122.0666666667' />
-  <text x='2820' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2820,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>clone-workspace-scm (35)</text>
-  <rect fill='blue' height='2.4' stroke='black' width='12' x='2835' y='122.0' />
-  <text x='2835' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 2835,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>rubyMetrics (36)</text>
-  <rect fill='blue' height='2.4666666667' stroke='black' width='12' x='2850' y='121.9333333333' />
-  <text x='2850' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2850,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>filesystem_scm (37)</text>
-  <rect fill='blue' height='2.5333333333' stroke='black' width='12' x='2865' y='121.8666666667' />
-  <text x='2865' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2865,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>show-build-parameters (38)</text>
-  <rect fill='blue' height='2.5333333333' stroke='black' width='12' x='2880' y='121.8666666667' />
-  <text x='2880' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2880,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>createjobadvanced (38)</text>
-  <rect fill='blue' height='2.5333333333' stroke='black' width='12' x='2895' y='121.8666666667' />
-  <text x='2895' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2895,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>cvs-tag (38)</text>
-  <rect fill='blue' height='2.5333333333' stroke='black' width='12' x='2910' y='121.8666666667' />
-  <text x='2910' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2910,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>cppunit (38)</text>
-  <rect fill='blue' height='2.5333333333' stroke='black' width='12' x='2925' y='121.8666666667' />
-  <text x='2925' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2925,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>ws-cleanup (38)</text>
-  <rect fill='blue' height='2.6' stroke='black' width='12' x='2940' y='121.8' />
-  <text x='2940' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 2940,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>WebSVN2 (39)</text>
-  <rect fill='blue' height='2.6' stroke='black' width='12' x='2955' y='121.8' />
-  <text x='2955' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 2955,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>maven-deployment-linker (39)</text>
-  <rect fill='blue' height='2.6' stroke='black' width='12' x='2970' y='121.8' />
-  <text x='2970' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 2970,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>selenium-aes (39)</text>
-  <rect fill='blue' height='2.6666666667' stroke='black' width='12' x='2985' y='121.7333333333' />
-  <text x='2985' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 2985,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>mask-passwords (40)</text>
-  <rect fill='blue' height='2.7333333333' stroke='black' width='12' x='3000' y='121.6666666667' />
-  <text x='3000' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3000,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>PrioritySorter (41)</text>
-  <rect fill='blue' height='2.7333333333' stroke='black' width='12' x='3015' y='121.6666666667' />
-  <text x='3015' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3015,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>shelve-project-plugin (41)</text>
-  <rect fill='blue' height='2.8' stroke='black' width='12' x='3030' y='121.6' />
-  <text x='3030' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3030,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>build-name-setter (42)</text>
-  <rect fill='blue' height='2.8666666667' stroke='black' width='12' x='3045' y='121.5333333333' />
-  <text x='3045' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3045,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>svnpublisher (43)</text>
-  <rect fill='blue' height='2.8666666667' stroke='black' width='12' x='3060' y='121.5333333333' />
-  <text x='3060' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3060,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>android-emulator (43)</text>
-  <rect fill='blue' height='2.9333333333' stroke='black' width='12' x='3075' y='121.4666666667' />
-  <text x='3075' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3075,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>junit-attachments (44)</text>
-  <rect fill='blue' height='2.9333333333' stroke='black' width='12' x='3090' y='121.4666666667' />
-  <text x='3090' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3090,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>seleniumhtmlreport (44)</text>
-  <rect fill='blue' height='2.9333333333' stroke='black' width='12' x='3105' y='121.4666666667' />
-  <text x='3105' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3105,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>console-column-plugin (44)</text>
-  <rect fill='blue' height='3' stroke='black' width='12' x='3120' y='121.4' />
-  <text x='3120' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3120,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>blame-upstream-commiters (45)</text>
-  <rect fill='blue' height='3' stroke='black' width='12' x='3135' y='121.4' />
-  <text x='3135' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3135,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>url-change-trigger (45)</text>
-  <rect fill='blue' height='3.2' stroke='black' width='12' x='3150' y='121.2' />
-  <text x='3150' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3150,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>favorite (48)</text>
-  <rect fill='blue' height='3.2' stroke='black' width='12' x='3165' y='121.2' />
-  <text x='3165' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3165,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>groovy-postbuild (48)</text>
-  <rect fill='blue' height='3.2' stroke='black' width='12' x='3180' y='121.2' />
-  <text x='3180' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3180,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>scm-sync-configuration (48)</text>
-  <rect fill='blue' height='3.2666666667' stroke='black' width='12' x='3195' y='121.1333333333' />
-  <text x='3195' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3195,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>build-publisher (49)</text>
-  <rect fill='blue' height='3.3333333333' stroke='black' width='12' x='3210' y='121.0666666667' />
-  <text x='3210' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3210,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>rebuild (50)</text>
-  <rect fill='blue' height='3.4' stroke='black' width='12' x='3225' y='121.0' />
-  <text x='3225' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3225,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>slave-status (51)</text>
-  <rect fill='blue' height='3.4' stroke='black' width='12' x='3240' y='121.0' />
-  <text x='3240' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3240,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>ruby (51)</text>
-  <rect fill='blue' height='3.4' stroke='black' width='12' x='3255' y='121.0' />
-  <text x='3255' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3255,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>ircbot (51)</text>
-  <rect fill='blue' height='3.4' stroke='black' width='12' x='3270' y='121.0' />
-  <text x='3270' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3270,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>cccc (51)</text>
-  <rect fill='blue' height='3.4666666667' stroke='black' width='12' x='3285' y='120.9333333333' />
-  <text x='3285' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3285,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>grails (52)</text>
-  <rect fill='blue' height='3.4666666667' stroke='black' width='12' x='3300' y='120.9333333333' />
-  <text x='3300' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3300,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>javancss (52)</text>
-  <rect fill='blue' height='3.5333333333' stroke='black' width='12' x='3315' y='120.8666666667' />
-  <text x='3315' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3315,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>iphoneview (53)</text>
-  <rect fill='blue' height='3.6' stroke='black' width='12' x='3330' y='120.8' />
-  <text x='3330' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3330,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>gradle (54)</text>
-  <rect fill='blue' height='3.6666666667' stroke='black' width='12' x='3345' y='120.7333333333' />
-  <text x='3345' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3345,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>trac (55)</text>
-  <rect fill='blue' height='3.7333333333' stroke='black' width='12' x='3360' y='120.6666666667' />
-  <text x='3360' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3360,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>mstest (56)</text>
-  <rect fill='blue' height='3.8' stroke='black' width='12' x='3375' y='120.6' />
-  <text x='3375' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3375,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>hudsontrayapp (57)</text>
-  <rect fill='blue' height='3.8' stroke='black' width='12' x='3390' y='120.6' />
-  <text x='3390' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3390,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>bugzilla (57)</text>
-  <rect fill='blue' height='3.8666666667' stroke='black' width='12' x='3405' y='120.5333333333' />
-  <text x='3405' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3405,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>envfile (58)</text>
-  <rect fill='blue' height='3.8666666667' stroke='black' width='12' x='3420' y='120.5333333333' />
-  <text x='3420' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3420,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>nant (58)</text>
-  <rect fill='blue' height='4' stroke='black' width='12' x='3435' y='120.4' />
-  <text x='3435' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3435,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>ldapemail (60)</text>
-  <rect fill='blue' height='4' stroke='black' width='12' x='3450' y='120.4' />
-  <text x='3450' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3450,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>rake (60)</text>
-  <rect fill='blue' height='4.1333333333' stroke='black' width='12' x='3465' y='120.2666666667' />
-  <text x='3465' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3465,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>downstream-ext (62)</text>
-  <rect fill='blue' height='4.2' stroke='black' width='12' x='3480' y='120.2' />
-  <text x='3480' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3480,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>configurationslicing (63)</text>
-  <rect fill='blue' height='4.2666666667' stroke='black' width='12' x='3495' y='120.1333333333' />
-  <text x='3495' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3495,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>locale (64)</text>
-  <rect fill='blue' height='4.2666666667' stroke='black' width='12' x='3510' y='120.1333333333' />
-  <text x='3510' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3510,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>global-build-stats (64)</text>
-  <rect fill='blue' height='4.3333333333' stroke='black' width='12' x='3525' y='120.0666666667' />
-  <text x='3525' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3525,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>role-strategy (65)</text>
-  <rect fill='blue' height='4.4' stroke='black' width='12' x='3540' y='120.0' />
-  <text x='3540' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3540,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>maven-info (66)</text>
-  <rect fill='blue' height='4.4' stroke='black' width='12' x='3555' y='120.0' />
-  <text x='3555' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3555,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>cppcheck (66)</text>
-  <rect fill='blue' height='4.4666666667' stroke='black' width='12' x='3570' y='119.9333333333' />
-  <text x='3570' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3570,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>changelog-history (67)</text>
-  <rect fill='blue' height='4.4666666667' stroke='black' width='12' x='3585' y='119.9333333333' />
-  <text x='3585' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3585,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>redmine (67)</text>
-  <rect fill='blue' height='4.4666666667' stroke='black' width='12' x='3600' y='119.9333333333' />
-  <text x='3600' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3600,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>ftppublisher (67)</text>
-  <rect fill='blue' height='4.5333333333' stroke='black' width='12' x='3615' y='119.8666666667' />
-  <text x='3615' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3615,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>clearcase (68)</text>
-  <rect fill='blue' height='4.5333333333' stroke='black' width='12' x='3630' y='119.8666666667' />
-  <text x='3630' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3630,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>port-allocator (68)</text>
-  <rect fill='blue' height='4.6666666667' stroke='black' width='12' x='3645' y='119.7333333333' />
-  <text x='3645' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3645,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>viewVC (70)</text>
-  <rect fill='blue' height='4.6666666667' stroke='black' width='12' x='3660' y='119.7333333333' />
-  <text x='3660' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3660,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>testng-plugin (70)</text>
-  <rect fill='blue' height='4.6666666667' stroke='black' width='12' x='3675' y='119.7333333333' />
-  <text x='3675' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3675,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>token-macro (70)</text>
-  <rect fill='blue' height='4.7333333333' stroke='black' width='12' x='3690' y='119.6666666667' />
-  <text x='3690' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3690,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>saferestart (71)</text>
-  <rect fill='blue' height='4.8' stroke='black' width='12' x='3705' y='119.6' />
-  <text x='3705' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3705,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>copyarchiver (72)</text>
-  <rect fill='blue' height='4.8666666667' stroke='black' width='12' x='3720' y='119.5333333333' />
-  <text x='3720' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3720,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>clover (73)</text>
-  <rect fill='blue' height='5' stroke='black' width='12' x='3735' y='119.4' />
-  <text x='3735' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3735,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>xfpanel (75)</text>
-  <rect fill='blue' height='5.0666666667' stroke='black' width='12' x='3750' y='119.3333333333' />
-  <text x='3750' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3750,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>sloccount (76)</text>
-  <rect fill='blue' height='5.1333333333' stroke='black' width='12' x='3765' y='119.2666666667' />
-  <text x='3765' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3765,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>template-project (77)</text>
-  <rect fill='blue' height='5.2666666667' stroke='black' width='12' x='3780' y='119.1333333333' />
-  <text x='3780' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3780,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>xvnc (79)</text>
-  <rect fill='blue' height='5.2666666667' stroke='black' width='12' x='3795' y='119.1333333333' />
-  <text x='3795' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3795,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>github (79)</text>
-  <rect fill='blue' height='5.4666666667' stroke='black' width='12' x='3810' y='118.9333333333' />
-  <text x='3810' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3810,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>claim (82)</text>
-  <rect fill='blue' height='5.4666666667' stroke='black' width='12' x='3825' y='118.9333333333' />
-  <text x='3825' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3825,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>artifactory (82)</text>
-  <rect fill='blue' height='5.4666666667' stroke='black' width='12' x='3840' y='118.9333333333' />
-  <text x='3840' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3840,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>versionnumber (82)</text>
-  <rect fill='blue' height='5.6' stroke='black' width='12' x='3855' y='118.8' />
-  <text x='3855' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3855,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>text-finder (84)</text>
-  <rect fill='blue' height='5.6' stroke='black' width='12' x='3870' y='118.8' />
-  <text x='3870' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3870,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>jdepend (84)</text>
-  <rect fill='blue' height='5.6666666667' stroke='black' width='12' x='3885' y='118.7333333333' />
-  <text x='3885' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3885,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>cron_column (85)</text>
-  <rect fill='blue' height='5.7333333333' stroke='black' width='12' x='3900' y='118.6666666667' />
-  <text x='3900' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3900,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>thinBackup (86)</text>
-  <rect fill='blue' height='5.8' stroke='black' width='12' x='3915' y='118.6' />
-  <text x='3915' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3915,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>monitoring (87)</text>
-  <rect fill='blue' height='5.8' stroke='black' width='12' x='3930' y='118.6' />
-  <text x='3930' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3930,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>statusmonitor (87)</text>
-  <rect fill='blue' height='5.8' stroke='black' width='12' x='3945' y='118.6' />
-  <text x='3945' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 3945,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>next-build-number (87)</text>
-  <rect fill='blue' height='5.8666666667' stroke='black' width='12' x='3960' y='118.5333333333' />
-  <text x='3960' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3960,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>build-pipeline-plugin (88)</text>
-  <rect fill='blue' height='5.8666666667' stroke='black' width='12' x='3975' y='118.5333333333' />
-  <text x='3975' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3975,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>seleniumhq (88)</text>
-  <rect fill='blue' height='6.0666666667' stroke='black' width='12' x='3990' y='118.3333333333' />
-  <text x='3990' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 3990,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>depgraph-view (91)</text>
-  <rect fill='blue' height='6.1333333333' stroke='black' width='12' x='4005' y='118.2666666667' />
-  <text x='4005' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4005,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>doclinks (92)</text>
-  <rect fill='blue' height='6.1333333333' stroke='black' width='12' x='4020' y='118.2666666667' />
-  <text x='4020' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4020,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>jabber (92)</text>
-  <rect fill='blue' height='6.1333333333' stroke='black' width='12' x='4035' y='118.2666666667' />
-  <text x='4035' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4035,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>sectioned-view (92)</text>
-  <rect fill='blue' height='6.1333333333' stroke='black' width='12' x='4050' y='118.2666666667' />
-  <text x='4050' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4050,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>python (92)</text>
-  <rect fill='blue' height='6.1333333333' stroke='black' width='12' x='4065' y='118.2666666667' />
-  <text x='4065' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4065,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>doxygen (92)</text>
-  <rect fill='blue' height='6.2666666667' stroke='black' width='12' x='4080' y='118.1333333333' />
-  <text x='4080' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4080,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>dependencyanalyzer (94)</text>
-  <rect fill='blue' height='6.2666666667' stroke='black' width='12' x='4095' y='118.1333333333' />
-  <text x='4095' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4095,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>view-job-filters (94)</text>
-  <rect fill='blue' height='6.3333333333' stroke='black' width='12' x='4110' y='118.0666666667' />
-  <text x='4110' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4110,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>compact-columns (95)</text>
-  <rect fill='blue' height='6.4666666667' stroke='black' width='12' x='4125' y='117.9333333333' />
-  <text x='4125' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4125,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>nested-view (97)</text>
-  <rect fill='blue' height='6.8' stroke='black' width='12' x='4140' y='117.6' />
-  <text x='4140' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 4140,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>groovy (102)</text>
-  <rect fill='blue' height='6.9333333333' stroke='black' width='12' x='4155' y='117.4666666667' />
-  <text x='4155' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4155,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>description-setter (104)</text>
-  <rect fill='blue' height='7.0666666667' stroke='black' width='12' x='4170' y='117.3333333333' />
-  <text x='4170' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4170,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>publish-over-ssh (106)</text>
-  <rect fill='blue' height='7.1333333333' stroke='black' width='12' x='4185' y='117.2666666667' />
-  <text x='4185' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4185,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>copy-to-slave (107)</text>
-  <rect fill='blue' height='7.3333333333' stroke='black' width='12' x='4200' y='117.0666666667' />
-  <text x='4200' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4200,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>svn-release-mgr (110)</text>
-  <rect fill='blue' height='7.3333333333' stroke='black' width='12' x='4215' y='117.0666666667' />
-  <text x='4215' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4215,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>release (110)</text>
-  <rect fill='blue' height='7.3333333333' stroke='black' width='12' x='4230' y='117.0666666667' />
-  <text x='4230' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4230,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-pview-plugin (110)</text>
-  <rect fill='blue' height='7.3333333333' stroke='black' width='12' x='4245' y='117.0666666667' />
-  <text x='4245' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4245,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>timestamper (110)</text>
-  <rect fill='blue' height='7.4' stroke='black' width='12' x='4260' y='117.0' />
-  <text x='4260' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 4260,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>nunit (111)</text>
-  <rect fill='blue' height='7.8666666667' stroke='black' width='12' x='4275' y='116.5333333333' />
-  <text x='4275' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4275,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>jobConfigHistory (118)</text>
-  <rect fill='blue' height='8.3333333333' stroke='black' width='12' x='4290' y='116.0666666667' />
-  <text x='4290' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4290,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>perforce (125)</text>
-  <rect fill='blue' height='8.6666666667' stroke='black' width='12' x='4305' y='115.7333333333' />
-  <text x='4305' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4305,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>join (130)</text>
-  <rect fill='blue' height='8.7333333333' stroke='black' width='12' x='4320' y='115.6666666667' />
-  <text x='4320' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4320,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>ui-samples-plugin (131)</text>
-  <rect fill='blue' height='8.7333333333' stroke='black' width='12' x='4335' y='115.6666666667' />
-  <text x='4335' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4335,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>ssh (131)</text>
-  <rect fill='blue' height='9.0666666667' stroke='black' width='12' x='4350' y='115.3333333333' />
-  <text x='4350' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4350,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>performance (136)</text>
-  <rect fill='blue' height='9.0666666667' stroke='black' width='12' x='4365' y='115.3333333333' />
-  <text x='4365' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4365,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>plot (136)</text>
-  <rect fill='blue' height='9.2' stroke='black' width='12' x='4380' y='115.2' />
-  <text x='4380' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 4380,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>sidebar-link (138)</text>
-  <rect fill='blue' height='9.3333333333' stroke='black' width='12' x='4395' y='115.0666666667' />
-  <text x='4395' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4395,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>downstream-buildview (140)</text>
-  <rect fill='blue' height='9.7333333333' stroke='black' width='12' x='4410' y='114.6666666667' />
-  <text x='4410' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4410,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>audit-trail (146)</text>
-  <rect fill='blue' height='10.1333333333' stroke='black' width='12' x='4425' y='114.2666666667' />
-  <text x='4425' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4425,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>ci-game (152)</text>
-  <rect fill='blue' height='10.2' stroke='black' width='12' x='4440' y='114.2' />
-  <text x='4440' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 4440,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>log-parser (153)</text>
-  <rect fill='blue' height='10.2666666667' stroke='black' width='12' x='4455' y='114.1333333333' />
-  <text x='4455' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4455,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>promoted-builds (154)</text>
-  <rect fill='blue' height='10.3333333333' stroke='black' width='12' x='4470' y='114.0666666667' />
-  <text x='4470' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4470,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>emma (155)</text>
-  <rect fill='blue' height='10.4' stroke='black' width='12' x='4485' y='114.0' />
-  <text x='4485' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 4485,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>batch-task (156)</text>
-  <rect fill='blue' height='10.4' stroke='black' width='12' x='4500' y='114.0' />
-  <text x='4500' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 4500,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>radiatorviewplugin (156)</text>
-  <rect fill='blue' height='10.5333333333' stroke='black' width='12' x='4515' y='113.8666666667' />
-  <text x='4515' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4515,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>mercurial (158)</text>
-  <rect fill='blue' height='10.7333333333' stroke='black' width='12' x='4530' y='113.6666666667' />
-  <text x='4530' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4530,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>svn-tag (161)</text>
-  <rect fill='blue' height='10.8666666667' stroke='black' width='12' x='4545' y='113.5333333333' />
-  <text x='4545' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4545,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>emotional-hudson (163)</text>
-  <rect fill='blue' height='11.0666666667' stroke='black' width='12' x='4560' y='113.3333333333' />
-  <text x='4560' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4560,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>m2-extra-steps (166)</text>
-  <rect fill='blue' height='11.1333333333' stroke='black' width='12' x='4575' y='113.2666666667' />
-  <text x='4575' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4575,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>msbuild (167)</text>
-  <rect fill='blue' height='11.2' stroke='black' width='12' x='4590' y='113.2' />
-  <text x='4590' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 4590,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>instant-messaging (168)</text>
-  <rect fill='blue' height='11.3333333333' stroke='black' width='12' x='4605' y='113.0666666667' />
-  <text x='4605' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4605,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>locks-and-latches (170)</text>
-  <rect fill='blue' height='11.6666666667' stroke='black' width='12' x='4620' y='112.7333333333' />
-  <text x='4620' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4620,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>copyartifact (175)</text>
-  <rect fill='blue' height='11.8' stroke='black' width='12' x='4635' y='112.6' />
-  <text x='4635' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 4635,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>dry (177)</text>
-  <rect fill='blue' height='12' stroke='black' width='12' x='4650' y='112.4' />
-  <text x='4650' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 4650,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>postbuild-task (180)</text>
-  <rect fill='blue' height='12' stroke='black' width='12' x='4665' y='112.4' />
-  <text x='4665' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 4665,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>scp (180)</text>
-  <rect fill='blue' height='12.1333333333' stroke='black' width='12' x='4680' y='112.2666666667' />
-  <text x='4680' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4680,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>m2release (182)</text>
-  <rect fill='blue' height='12.5333333333' stroke='black' width='12' x='4695' y='111.8666666667' />
-  <text x='4695' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4695,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>xunit (188)</text>
-  <rect fill='blue' height='12.6' stroke='black' width='12' x='4710' y='111.8' />
-  <text x='4710' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 4710,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>setenv (189)</text>
-  <rect fill='blue' height='13.6' stroke='black' width='12' x='4725' y='110.8' />
-  <text x='4725' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 4725,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>tasks (204)</text>
-  <rect fill='blue' height='13.8666666667' stroke='black' width='12' x='4740' y='110.5333333333' />
-  <text x='4740' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4740,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>deploy (208)</text>
-  <rect fill='blue' height='15.2' stroke='black' width='12' x='4755' y='109.2' />
-  <text x='4755' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 4755,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>backup (228)</text>
-  <rect fill='blue' height='15.4' stroke='black' width='12' x='4770' y='109.0' />
-  <text x='4770' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 4770,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>jira (231)</text>
-  <rect fill='blue' height='15.8666666667' stroke='black' width='12' x='4785' y='108.5333333333' />
-  <text x='4785' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4785,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>build-timeout (238)</text>
-  <rect fill='blue' height='17.0666666667' stroke='black' width='12' x='4800' y='107.3333333333' />
-  <text x='4800' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4800,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>active-directory (256)</text>
-  <rect fill='blue' height='17.4666666667' stroke='black' width='12' x='4815' y='106.9333333333' />
-  <text x='4815' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4815,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>violations (262)</text>
-  <rect fill='blue' height='17.5333333333' stroke='black' width='12' x='4830' y='106.8666666667' />
-  <text x='4830' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4830,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>htmlpublisher (263)</text>
-  <rect fill='blue' height='17.8' stroke='black' width='12' x='4845' y='106.6' />
-  <text x='4845' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 4845,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>parameterized-trigger (267)</text>
-  <rect fill='blue' height='18.0666666667' stroke='black' width='12' x='4860' y='106.3333333333' />
-  <text x='4860' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4860,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>chucknorris (271)</text>
-  <rect fill='blue' height='19.7333333333' stroke='black' width='12' x='4875' y='104.6666666667' />
-  <text x='4875' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4875,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>pmd (296)</text>
-  <rect fill='blue' height='20.5333333333' stroke='black' width='12' x='4890' y='103.8666666667' />
-  <text x='4890' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4890,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>analysis-collector (308)</text>
-  <rect fill='blue' height='20.6' stroke='black' width='12' x='4905' y='103.8' />
-  <text x='4905' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 4905,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>warnings (309)</text>
-  <rect fill='blue' height='20.6666666667' stroke='black' width='12' x='4920' y='103.7333333333' />
-  <text x='4920' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4920,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>scis-ad (310)</text>
-  <rect fill='blue' height='21.5333333333' stroke='black' width='12' x='4935' y='102.8666666667' />
-  <text x='4935' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4935,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>disk-usage (323)</text>
-  <rect fill='blue' height='23' stroke='black' width='12' x='4950' y='101.4' />
-  <text x='4950' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 4950,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>dashboard-view (345)</text>
-  <rect fill='blue' height='23.4' stroke='black' width='12' x='4965' y='101.0' />
-  <text x='4965' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 4965,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>checkstyle (351)</text>
-  <rect fill='blue' height='23.4666666667' stroke='black' width='12' x='4980' y='100.9333333333' />
-  <text x='4980' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 4980,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>findbugs (352)</text>
-  <rect fill='blue' height='24.4' stroke='black' width='12' x='4995' y='100.0' />
-  <text x='4995' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 4995,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>sonar (366)</text>
-  <rect fill='blue' height='24.8666666667' stroke='black' width='12' x='5010' y='99.5333333333' />
-  <text x='5010' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 5010,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>cobertura (373)</text>
-  <rect fill='blue' height='25.1333333333' stroke='black' width='12' x='5025' y='99.2666666667' />
-  <text x='5025' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 5025,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>git (377)</text>
-  <rect fill='blue' height='31.7333333333' stroke='black' width='12' x='5040' y='92.6666666667' />
-  <text x='5040' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 5040,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>greenballs (476)</text>
-  <rect fill='blue' height='37.8666666667' stroke='black' width='12' x='5055' y='86.5333333333' />
-  <text x='5055' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 5055,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>email-ext (568)</text>
-  <rect fill='blue' height='46.4' stroke='black' width='12' x='5070' y='78.0' />
-  <text x='5070' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 5070,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>analysis-core (696)</text>
-  <rect fill='blue' height='115.8666666667' stroke='black' width='12' x='5085' y='8.5333333333' />
-  <text x='5085' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 5085,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>cvs (1738)</text>
-  <rect fill='blue' height='121.5333333333' stroke='black' width='12' x='5100' y='2.8666666667' />
-  <text x='5100' y='129.4000000000' font-family='Tahoma' font-size='12' transform='rotate(90 5100,129.4000000000)' text-rendering='optimizeSpeed' fill='#000000;'>maven-plugin (1823)</text>
-  <rect fill='blue' height='123.6' stroke='black' width='12' x='5115' y='0.8' />
-  <text x='5115' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 5115,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>subversion (1854)</text>
-  <rect fill='blue' height='124.4' stroke='black' width='12' x='5130' y='0.0' />
-  <text x='5130' y='129.4' font-family='Tahoma' font-size='12' transform='rotate(90 5130,129.4)' text-rendering='optimizeSpeed' fill='#000000;'>ssh-slaves (1866)</text>
-  <text x='10' y='100' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Total: 29287</text>
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 5265 2809.9'>
+  <rect fill='blue' height='0.4' stroke='black' width='12' x='15' y='2659.5' />
+  <text x='15' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 15,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>kagemai (4)</text>
+  <rect fill='blue' height='0.5' stroke='black' width='12' x='30' y='2659.4' />
+  <text x='30' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 30,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>Schmant (5)</text>
+  <rect fill='blue' height='0.6' stroke='black' width='12' x='45' y='2659.3' />
+  <text x='45' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 45,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>sfee (6)</text>
+  <rect fill='blue' height='0.6' stroke='black' width='12' x='60' y='2659.3' />
+  <text x='60' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 60,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>origo-issue-notifier (6)</text>
+  <rect fill='blue' height='0.7' stroke='black' width='12' x='75' y='2659.2' />
+  <text x='75' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 75,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>kundo (7)</text>
+  <rect fill='blue' height='0.8' stroke='black' width='12' x='90' y='2659.1' />
+  <text x='90' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 90,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>cmvc (8)</text>
+  <rect fill='blue' height='1.3' stroke='black' width='12' x='105' y='2658.6' />
+  <text x='105' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 105,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>unity-asset-server (13)</text>
+  <rect fill='blue' height='1.3' stroke='black' width='12' x='120' y='2658.6' />
+  <text x='120' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 120,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>mozmill (13)</text>
+  <rect fill='blue' height='1.4' stroke='black' width='12' x='135' y='2658.5' />
+  <text x='135' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 135,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>SCTMExecutor (14)</text>
+  <rect fill='blue' height='1.5' stroke='black' width='12' x='150' y='2658.4' />
+  <text x='150' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 150,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>bitkeeper (15)</text>
+  <rect fill='blue' height='1.6' stroke='black' width='12' x='165' y='2658.3' />
+  <text x='165' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 165,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>tuxdroid (16)</text>
+  <rect fill='blue' height='1.7' stroke='black' width='12' x='180' y='2658.2' />
+  <text x='180' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 180,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>klaros-testmanagement (17)</text>
+  <rect fill='blue' height='2' stroke='black' width='12' x='195' y='2657.9' />
+  <text x='195' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 195,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>excludeMatrixParent (20)</text>
+  <rect fill='blue' height='2' stroke='black' width='12' x='210' y='2657.9' />
+  <text x='210' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 210,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>gnat (20)</text>
+  <rect fill='blue' height='2.1' stroke='black' width='12' x='225' y='2657.8' />
+  <text x='225' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 225,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>tusarnotifier (21)</text>
+  <rect fill='blue' height='2.2' stroke='black' width='12' x='240' y='2657.7' />
+  <text x='240' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 240,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>hadoop (22)</text>
+  <rect fill='blue' height='2.7' stroke='black' width='12' x='255' y='2657.2' />
+  <text x='255' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 255,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>javanet (27)</text>
+  <rect fill='blue' height='2.7' stroke='black' width='12' x='270' y='2657.2' />
+  <text x='270' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 270,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>pvcs_scm (27)</text>
+  <rect fill='blue' height='2.7' stroke='black' width='12' x='285' y='2657.2' />
+  <text x='285' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 285,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>jigomerge (27)</text>
+  <rect fill='blue' height='3.2' stroke='black' width='12' x='300' y='2656.7' />
+  <text x='300' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 300,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>harvest (32)</text>
+  <rect fill='blue' height='3.4' stroke='black' width='12' x='315' y='2656.5' />
+  <text x='315' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 315,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>signal-killer (34)</text>
+  <rect fill='blue' height='3.5' stroke='black' width='12' x='330' y='2656.4' />
+  <text x='330' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 330,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>bamboo-notifier (35)</text>
+  <rect fill='blue' height='3.9' stroke='black' width='12' x='345' y='2656.0' />
+  <text x='345' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 345,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>utplsql (39)</text>
+  <rect fill='blue' height='3.9' stroke='black' width='12' x='360' y='2656.0' />
+  <text x='360' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 360,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>reviewboard (39)</text>
+  <rect fill='blue' height='4' stroke='black' width='12' x='375' y='2655.9' />
+  <text x='375' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 375,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>libvirt-slave (40)</text>
+  <rect fill='blue' height='4' stroke='black' width='12' x='390' y='2655.9' />
+  <text x='390' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 390,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>windmill (40)</text>
+  <rect fill='blue' height='4.1' stroke='black' width='12' x='405' y='2655.8' />
+  <text x='405' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 405,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>rundeck (41)</text>
+  <rect fill='blue' height='4.1' stroke='black' width='12' x='420' y='2655.8' />
+  <text x='420' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 420,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>distTest (41)</text>
+  <rect fill='blue' height='4.3' stroke='black' width='12' x='435' y='2655.6' />
+  <text x='435' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 435,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>integrity-plugin (43)</text>
+  <rect fill='blue' height='4.4' stroke='black' width='12' x='450' y='2655.5' />
+  <text x='450' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 450,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>javanet-uploader (44)</text>
+  <rect fill='blue' height='4.4' stroke='black' width='12' x='465' y='2655.5' />
+  <text x='465' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 465,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>unicorn (44)</text>
+  <rect fill='blue' height='4.9' stroke='black' width='12' x='480' y='2655.0' />
+  <text x='480' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 480,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>piwikanalytics (49)</text>
+  <rect fill='blue' height='5' stroke='black' width='12' x='495' y='2654.9' />
+  <text x='495' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 495,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>multiline-tabbar-plugin (50)</text>
+  <rect fill='blue' height='5.1' stroke='black' width='12' x='510' y='2654.8' />
+  <text x='510' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 510,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>labmanager (51)</text>
+  <rect fill='blue' height='5.6' stroke='black' width='12' x='525' y='2654.3' />
+  <text x='525' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 525,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>rad-builder (56)</text>
+  <rect fill='blue' height='5.6' stroke='black' width='12' x='540' y='2654.3' />
+  <text x='540' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 540,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>staf (56)</text>
+  <rect fill='blue' height='5.7' stroke='black' width='12' x='555' y='2654.2' />
+  <text x='555' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 555,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>dimensionsscm (57)</text>
+  <rect fill='blue' height='5.7' stroke='black' width='12' x='570' y='2654.2' />
+  <text x='570' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 570,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>flashlog-plugin (57)</text>
+  <rect fill='blue' height='5.7' stroke='black' width='12' x='585' y='2654.2' />
+  <text x='585' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 585,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>pxe (57)</text>
+  <rect fill='blue' height='6' stroke='black' width='12' x='600' y='2653.9' />
+  <text x='600' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 600,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>concordionpresenter (60)</text>
+  <rect fill='blue' height='6.2' stroke='black' width='12' x='615' y='2653.7' />
+  <text x='615' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 615,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>nodejs (62)</text>
+  <rect fill='blue' height='6.2' stroke='black' width='12' x='630' y='2653.7' />
+  <text x='630' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 630,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>keepSlaveOffline (62)</text>
+  <rect fill='blue' height='6.2' stroke='black' width='12' x='645' y='2653.7' />
+  <text x='645' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 645,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>AdaptivePlugin (62)</text>
+  <rect fill='blue' height='6.3' stroke='black' width='12' x='660' y='2653.6' />
+  <text x='660' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 660,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>slave-squatter (63)</text>
+  <rect fill='blue' height='7.1' stroke='black' width='12' x='675' y='2652.8' />
+  <text x='675' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 675,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>jsgames (71)</text>
+  <rect fill='blue' height='7.2' stroke='black' width='12' x='690' y='2652.7' />
+  <text x='690' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 690,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>notifo (72)</text>
+  <rect fill='blue' height='7.4' stroke='black' width='12' x='705' y='2652.5' />
+  <text x='705' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 705,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>label-verifier (74)</text>
+  <rect fill='blue' height='7.7' stroke='black' width='12' x='720' y='2652.2' />
+  <text x='720' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 720,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>sauce-ondemand (77)</text>
+  <rect fill='blue' height='7.8' stroke='black' width='12' x='735' y='2652.1' />
+  <text x='735' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 735,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>nabaztag (78)</text>
+  <rect fill='blue' height='7.9' stroke='black' width='12' x='750' y='2652.0' />
+  <text x='750' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 750,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>svncompat13 (79)</text>
+  <rect fill='blue' height='8' stroke='black' width='12' x='765' y='2651.9' />
+  <text x='765' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 765,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>LavaLampNotifier (80)</text>
+  <rect fill='blue' height='8.2' stroke='black' width='12' x='780' y='2651.7' />
+  <text x='780' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 780,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>hgca (82)</text>
+  <rect fill='blue' height='8.3' stroke='black' width='12' x='795' y='2651.6' />
+  <text x='795' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 795,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>dumpinfo-buildwrapper-plugin (83)</text>
+  <rect fill='blue' height='8.7' stroke='black' width='12' x='810' y='2651.2' />
+  <text x='810' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 810,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>fortify360 (87)</text>
+  <rect fill='blue' height='8.9' stroke='black' width='12' x='825' y='2651.0' />
+  <text x='825' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 825,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>security-no-captcha (89)</text>
+  <rect fill='blue' height='9.1' stroke='black' width='12' x='840' y='2650.8' />
+  <text x='840' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 840,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>cas1 (91)</text>
+  <rect fill='blue' height='9.5' stroke='black' width='12' x='855' y='2650.4' />
+  <text x='855' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 855,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>translation (95)</text>
+  <rect fill='blue' height='9.6' stroke='black' width='12' x='870' y='2650.3' />
+  <text x='870' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 870,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>pwauth (96)</text>
+  <rect fill='blue' height='9.6' stroke='black' width='12' x='885' y='2650.3' />
+  <text x='885' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 885,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>play-autotest-plugin (96)</text>
+  <rect fill='blue' height='9.8' stroke='black' width='12' x='900' y='2650.1' />
+  <text x='900' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 900,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>svncompat14 (98)</text>
+  <rect fill='blue' height='9.8' stroke='black' width='12' x='915' y='2650.1' />
+  <text x='915' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 915,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>cygpath (98)</text>
+  <rect fill='blue' height='9.9' stroke='black' width='12' x='930' y='2650.0' />
+  <text x='930' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 930,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>japex (99)</text>
+  <rect fill='blue' height='9.9' stroke='black' width='12' x='945' y='2650.0' />
+  <text x='945' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 945,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>locked-files-report (99)</text>
+  <rect fill='blue' height='10.2' stroke='black' width='12' x='960' y='2649.7' />
+  <text x='960' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 960,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>labeled-test-groups-publisher (102)</text>
+  <rect fill='blue' height='10.7' stroke='black' width='12' x='975' y='2649.2' />
+  <text x='975' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 975,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>scons (107)</text>
+  <rect fill='blue' height='10.7' stroke='black' width='12' x='990' y='2649.2' />
+  <text x='990' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 990,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>cpptest (107)</text>
+  <rect fill='blue' height='10.9' stroke='black' width='12' x='1005' y='2649.0' />
+  <text x='1005' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1005,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>selection-tasks-plugin (109)</text>
+  <rect fill='blue' height='11' stroke='black' width='12' x='1020' y='2648.9' />
+  <text x='1020' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1020,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>dbCharts (110)</text>
+  <rect fill='blue' height='11.1' stroke='black' width='12' x='1035' y='2648.8' />
+  <text x='1035' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1035,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>sbt (111)</text>
+  <rect fill='blue' height='11.2' stroke='black' width='12' x='1050' y='2648.7' />
+  <text x='1050' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1050,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>backlog (112)</text>
+  <rect fill='blue' height='11.5' stroke='black' width='12' x='1065' y='2648.4' />
+  <text x='1065' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1065,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>serenity (115)</text>
+  <rect fill='blue' height='11.6' stroke='black' width='12' x='1080' y='2648.3' />
+  <text x='1080' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1080,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>cppncss (116)</text>
+  <rect fill='blue' height='11.6' stroke='black' width='12' x='1095' y='2648.3' />
+  <text x='1095' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1095,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>nsiqcollector (116)</text>
+  <rect fill='blue' height='11.7' stroke='black' width='12' x='1110' y='2648.2' />
+  <text x='1110' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1110,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>starteam (117)</text>
+  <rect fill='blue' height='11.7' stroke='black' width='12' x='1125' y='2648.2' />
+  <text x='1125' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1125,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>javatest-report (117)</text>
+  <rect fill='blue' height='11.8' stroke='black' width='12' x='1140' y='2648.1' />
+  <text x='1140' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1140,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>sicci_for_xcode (118)</text>
+  <rect fill='blue' height='12' stroke='black' width='12' x='1155' y='2647.9' />
+  <text x='1155' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1155,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>clearcase-release (120)</text>
+  <rect fill='blue' height='12.1' stroke='black' width='12' x='1170' y='2647.8' />
+  <text x='1170' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1170,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>easyant (121)</text>
+  <rect fill='blue' height='12.3' stroke='black' width='12' x='1185' y='2647.6' />
+  <text x='1185' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1185,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>mysql-auth (123)</text>
+  <rect fill='blue' height='12.4' stroke='black' width='12' x='1200' y='2647.5' />
+  <text x='1200' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1200,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>script-realm (124)</text>
+  <rect fill='blue' height='12.6' stroke='black' width='12' x='1215' y='2647.3' />
+  <text x='1215' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1215,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>codescanner (126)</text>
+  <rect fill='blue' height='12.8' stroke='black' width='12' x='1230' y='2647.1' />
+  <text x='1230' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1230,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>collabnet (128)</text>
+  <rect fill='blue' height='12.8' stroke='black' width='12' x='1245' y='2647.1' />
+  <text x='1245' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1245,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>jswidgets (128)</text>
+  <rect fill='blue' height='13.5' stroke='black' width='12' x='1260' y='2646.4' />
+  <text x='1260' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1260,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>gallio (135)</text>
+  <rect fill='blue' height='14.1' stroke='black' width='12' x='1275' y='2645.8' />
+  <text x='1275' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1275,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>heavy-job (141)</text>
+  <rect fill='blue' height='14.3' stroke='black' width='12' x='1290' y='2645.6' />
+  <text x='1290' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1290,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>webtestpresenter (143)</text>
+  <rect fill='blue' height='14.9' stroke='black' width='12' x='1305' y='2645.0' />
+  <text x='1305' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1305,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>robot (149)</text>
+  <rect fill='blue' height='15.2' stroke='black' width='12' x='1320' y='2644.7' />
+  <text x='1320' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1320,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>was-builder (152)</text>
+  <rect fill='blue' height='15.4' stroke='black' width='12' x='1335' y='2644.5' />
+  <text x='1335' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1335,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>grinder (154)</text>
+  <rect fill='blue' height='15.5' stroke='black' width='12' x='1350' y='2644.4' />
+  <text x='1350' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1350,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>swarm (155)</text>
+  <rect fill='blue' height='15.7' stroke='black' width='12' x='1365' y='2644.2' />
+  <text x='1365' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1365,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>copy-data-to-workspace-plugin (157)</text>
+  <rect fill='blue' height='15.7' stroke='black' width='12' x='1380' y='2644.2' />
+  <text x='1380' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1380,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>speaks (157)</text>
+  <rect fill='blue' height='15.7' stroke='black' width='12' x='1395' y='2644.2' />
+  <text x='1395' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1395,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>dropdown-viewstabbar-plugin (157)</text>
+  <rect fill='blue' height='15.8' stroke='black' width='12' x='1410' y='2644.1' />
+  <text x='1410' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1410,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>gant (158)</text>
+  <rect fill='blue' height='15.8' stroke='black' width='12' x='1425' y='2644.1' />
+  <text x='1425' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1425,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>distfork (158)</text>
+  <rect fill='blue' height='15.9' stroke='black' width='12' x='1440' y='2644.0' />
+  <text x='1440' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1440,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>platformlabeler (159)</text>
+  <rect fill='blue' height='16.6' stroke='black' width='12' x='1455' y='2643.3' />
+  <text x='1455' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1455,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>clearcase-ucm-baseline (166)</text>
+  <rect fill='blue' height='16.8' stroke='black' width='12' x='1470' y='2643.1' />
+  <text x='1470' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1470,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>accurev (168)</text>
+  <rect fill='blue' height='17.1' stroke='black' width='12' x='1485' y='2642.8' />
+  <text x='1485' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1485,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>storable-configs-plugin (171)</text>
+  <rect fill='blue' height='17.2' stroke='black' width='12' x='1500' y='2642.7' />
+  <text x='1500' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1500,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>scriptler (172)</text>
+  <rect fill='blue' height='17.6' stroke='black' width='12' x='1515' y='2642.3' />
+  <text x='1515' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1515,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>BlameSubversion (176)</text>
+  <rect fill='blue' height='17.6' stroke='black' width='12' x='1530' y='2642.3' />
+  <text x='1530' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1530,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>polarion (176)</text>
+  <rect fill='blue' height='17.9' stroke='black' width='12' x='1545' y='2642.0' />
+  <text x='1545' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1545,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>jython (179)</text>
+  <rect fill='blue' height='18' stroke='black' width='12' x='1560' y='2641.9' />
+  <text x='1560' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1560,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>repository (180)</text>
+  <rect fill='blue' height='18.1' stroke='black' width='12' x='1575' y='2641.8' />
+  <text x='1575' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1575,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>multiple-scms (181)</text>
+  <rect fill='blue' height='18.3' stroke='black' width='12' x='1590' y='2641.6' />
+  <text x='1590' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1590,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>copy-project-link (183)</text>
+  <rect fill='blue' height='18.5' stroke='black' width='12' x='1605' y='2641.4' />
+  <text x='1605' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1605,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>secret (185)</text>
+  <rect fill='blue' height='18.7' stroke='black' width='12' x='1620' y='2641.2' />
+  <text x='1620' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1620,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>openid (187)</text>
+  <rect fill='blue' height='18.8' stroke='black' width='12' x='1635' y='2641.1' />
+  <text x='1635' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1635,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>startup-trigger-plugin (188)</text>
+  <rect fill='blue' height='18.8' stroke='black' width='12' x='1650' y='2641.1' />
+  <text x='1650' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1650,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>tmpcleaner (188)</text>
+  <rect fill='blue' height='19' stroke='black' width='12' x='1665' y='2640.9' />
+  <text x='1665' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1665,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>bazaar (190)</text>
+  <rect fill='blue' height='19' stroke='black' width='12' x='1680' y='2640.9' />
+  <text x='1680' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1680,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>gerrit (190)</text>
+  <rect fill='blue' height='19.1' stroke='black' width='12' x='1695' y='2640.8' />
+  <text x='1695' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1695,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>campfire (191)</text>
+  <rect fill='blue' height='19.3' stroke='black' width='12' x='1710' y='2640.6' />
+  <text x='1710' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1710,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>testabilityexplorer (193)</text>
+  <rect fill='blue' height='19.4' stroke='black' width='12' x='1725' y='2640.5' />
+  <text x='1725' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1725,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>vss (194)</text>
+  <rect fill='blue' height='19.4' stroke='black' width='12' x='1740' y='2640.5' />
+  <text x='1740' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1740,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>googlecode (194)</text>
+  <rect fill='blue' height='19.4' stroke='black' width='12' x='1755' y='2640.5' />
+  <text x='1755' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1755,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>deploy-websphere (194)</text>
+  <rect fill='blue' height='20.4' stroke='black' width='12' x='1770' y='2639.5' />
+  <text x='1770' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1770,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>buckminster (204)</text>
+  <rect fill='blue' height='20.4' stroke='black' width='12' x='1785' y='2639.5' />
+  <text x='1785' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1785,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>dos-trigger (204)</text>
+  <rect fill='blue' height='20.5' stroke='black' width='12' x='1800' y='2639.4' />
+  <text x='1800' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1800,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-logaction-plugin (205)</text>
+  <rect fill='blue' height='20.5' stroke='black' width='12' x='1815' y='2639.4' />
+  <text x='1815' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1815,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>xshell (205)</text>
+  <rect fill='blue' height='20.7' stroke='black' width='12' x='1830' y='2639.2' />
+  <text x='1830' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1830,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>confluence-publisher (207)</text>
+  <rect fill='blue' height='21.1' stroke='black' width='12' x='1845' y='2638.8' />
+  <text x='1845' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1845,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>googleanalytics (211)</text>
+  <rect fill='blue' height='21.8' stroke='black' width='12' x='1860' y='2638.1' />
+  <text x='1860' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1860,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>zentimestamp (218)</text>
+  <rect fill='blue' height='22.5' stroke='black' width='12' x='1875' y='2637.4' />
+  <text x='1875' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1875,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>exclusive-execution (225)</text>
+  <rect fill='blue' height='22.6' stroke='black' width='12' x='1890' y='2637.3' />
+  <text x='1890' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1890,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>ccm (226)</text>
+  <rect fill='blue' height='23' stroke='black' width='12' x='1905' y='2636.9' />
+  <text x='1905' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1905,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>cifs (230)</text>
+  <rect fill='blue' height='23.2' stroke='black' width='12' x='1920' y='2636.7' />
+  <text x='1920' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1920,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>bruceschneier (232)</text>
+  <rect fill='blue' height='23.4' stroke='black' width='12' x='1935' y='2636.5' />
+  <text x='1935' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1935,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>throttle-concurrents (234)</text>
+  <rect fill='blue' height='23.9' stroke='black' width='12' x='1950' y='2636.0' />
+  <text x='1950' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1950,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>validating-string-parameter (239)</text>
+  <rect fill='blue' height='24' stroke='black' width='12' x='1965' y='2635.9' />
+  <text x='1965' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1965,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>terminal (240)</text>
+  <rect fill='blue' height='24.4' stroke='black' width='12' x='1980' y='2635.5' />
+  <text x='1980' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1980,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>crowd (244)</text>
+  <rect fill='blue' height='24.9' stroke='black' width='12' x='1995' y='2635.0' />
+  <text x='1995' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 1995,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>maven-dependency-update-trigger (249)</text>
+  <rect fill='blue' height='25.1' stroke='black' width='12' x='2010' y='2634.8' />
+  <text x='2010' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2010,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>covcomplplot (251)</text>
+  <rect fill='blue' height='25.1' stroke='black' width='12' x='2025' y='2634.8' />
+  <text x='2025' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2025,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>repository-connector (251)</text>
+  <rect fill='blue' height='25.4' stroke='black' width='12' x='2040' y='2634.5' />
+  <text x='2040' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2040,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>synergy (254)</text>
+  <rect fill='blue' height='25.5' stroke='black' width='12' x='2055' y='2634.4' />
+  <text x='2055' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2055,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>collapsing-console-sections (255)</text>
+  <rect fill='blue' height='25.8' stroke='black' width='12' x='2070' y='2634.1' />
+  <text x='2070' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2070,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>qc (258)</text>
+  <rect fill='blue' height='25.9' stroke='black' width='12' x='2085' y='2634.0' />
+  <text x='2085' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2085,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>gerrit-trigger (259)</text>
+  <rect fill='blue' height='26.1' stroke='black' width='12' x='2100' y='2633.8' />
+  <text x='2100' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2100,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>lastsuccessdescriptioncolumn (261)</text>
+  <rect fill='blue' height='26.3' stroke='black' width='12' x='2115' y='2633.6' />
+  <text x='2115' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2115,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>toolenv (263)</text>
+  <rect fill='blue' height='26.9' stroke='black' width='12' x='2130' y='2633.0' />
+  <text x='2130' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2130,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>seleniumrc-plugin (269)</text>
+  <rect fill='blue' height='27.4' stroke='black' width='12' x='2145' y='2632.5' />
+  <text x='2145' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2145,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>virtualbox (274)</text>
+  <rect fill='blue' height='27.5' stroke='black' width='12' x='2160' y='2632.4' />
+  <text x='2160' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2160,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>naginator (275)</text>
+  <rect fill='blue' height='27.6' stroke='black' width='12' x='2175' y='2632.3' />
+  <text x='2175' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2175,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>persona (276)</text>
+  <rect fill='blue' height='27.7' stroke='black' width='12' x='2190' y='2632.2' />
+  <text x='2190' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2190,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>sounds (277)</text>
+  <rect fill='blue' height='27.7' stroke='black' width='12' x='2205' y='2632.2' />
+  <text x='2205' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2205,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>ec2 (277)</text>
+  <rect fill='blue' height='27.8' stroke='black' width='12' x='2220' y='2632.1' />
+  <text x='2220' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2220,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>nodenamecolumn (278)</text>
+  <rect fill='blue' height='27.8' stroke='black' width='12' x='2235' y='2632.1' />
+  <text x='2235' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2235,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>jobtype-column (278)</text>
+  <rect fill='blue' height='28.2' stroke='black' width='12' x='2250' y='2631.7' />
+  <text x='2250' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2250,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>growl (282)</text>
+  <rect fill='blue' height='28.3' stroke='black' width='12' x='2265' y='2631.6' />
+  <text x='2265' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2265,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>jobrevision (283)</text>
+  <rect fill='blue' height='28.4' stroke='black' width='12' x='2280' y='2631.5' />
+  <text x='2280' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2280,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>notification (284)</text>
+  <rect fill='blue' height='28.4' stroke='black' width='12' x='2295' y='2631.5' />
+  <text x='2295' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2295,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>perfpublisher (284)</text>
+  <rect fill='blue' height='28.5' stroke='black' width='12' x='2310' y='2631.4' />
+  <text x='2310' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2310,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>tracking-svn (285)</text>
+  <rect fill='blue' height='29' stroke='black' width='12' x='2325' y='2630.9' />
+  <text x='2325' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2325,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>jsunit (290)</text>
+  <rect fill='blue' height='29' stroke='black' width='12' x='2340' y='2630.9' />
+  <text x='2340' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2340,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>measurement-plots (290)</text>
+  <rect fill='blue' height='31.1' stroke='black' width='12' x='2355' y='2628.8' />
+  <text x='2355' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2355,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>m2-repo-reaper (311)</text>
+  <rect fill='blue' height='31.2' stroke='black' width='12' x='2370' y='2628.7' />
+  <text x='2370' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2370,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>girls (312)</text>
+  <rect fill='blue' height='31.3' stroke='black' width='12' x='2385' y='2628.6' />
+  <text x='2385' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2385,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>extended-choice-parameter (313)</text>
+  <rect fill='blue' height='31.4' stroke='black' width='12' x='2400' y='2628.5' />
+  <text x='2400' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2400,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-wsclean-plugin (314)</text>
+  <rect fill='blue' height='32.1' stroke='black' width='12' x='2415' y='2627.8' />
+  <text x='2415' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2415,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>bulk-builder (321)</text>
+  <rect fill='blue' height='32.4' stroke='black' width='12' x='2430' y='2627.5' />
+  <text x='2430' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2430,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>tfs (324)</text>
+  <rect fill='blue' height='32.9' stroke='black' width='12' x='2445' y='2627.0' />
+  <text x='2445' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2445,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>regexemail (329)</text>
+  <rect fill='blue' height='33.4' stroke='black' width='12' x='2460' y='2626.5' />
+  <text x='2460' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2460,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>fitnesse (334)</text>
+  <rect fill='blue' height='33.5' stroke='black' width='12' x='2475' y='2626.4' />
+  <text x='2475' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2475,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>jboss (335)</text>
+  <rect fill='blue' height='34.4' stroke='black' width='12' x='2490' y='2625.5' />
+  <text x='2490' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2490,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>promoted-builds-simple (344)</text>
+  <rect fill='blue' height='34.5' stroke='black' width='12' x='2505' y='2625.4' />
+  <text x='2505' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2505,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>testlink (345)</text>
+  <rect fill='blue' height='35.1' stroke='black' width='12' x='2520' y='2624.8' />
+  <text x='2520' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2520,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>extended-read-permission (351)</text>
+  <rect fill='blue' height='35.3' stroke='black' width='12' x='2535' y='2624.6' />
+  <text x='2535' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2535,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>lastfailureversioncolumn (353)</text>
+  <rect fill='blue' height='35.3' stroke='black' width='12' x='2550' y='2624.6' />
+  <text x='2550' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2550,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>PrioritySorter (353)</text>
+  <rect fill='blue' height='35.3' stroke='black' width='12' x='2565' y='2624.6' />
+  <text x='2565' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2565,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>job-exporter (353)</text>
+  <rect fill='blue' height='36.2' stroke='black' width='12' x='2580' y='2623.7' />
+  <text x='2580' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2580,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>cvs-tag (362)</text>
+  <rect fill='blue' height='36.3' stroke='black' width='12' x='2595' y='2623.6' />
+  <text x='2595' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2595,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>console-column-plugin (363)</text>
+  <rect fill='blue' height='36.5' stroke='black' width='12' x='2610' y='2623.4' />
+  <text x='2610' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2610,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>vmware (365)</text>
+  <rect fill='blue' height='36.6' stroke='black' width='12' x='2625' y='2623.3' />
+  <text x='2625' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2625,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>jquery-ui (366)</text>
+  <rect fill='blue' height='37.1' stroke='black' width='12' x='2640' y='2622.8' />
+  <text x='2640' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2640,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>createjobadvanced (371)</text>
+  <rect fill='blue' height='37.1' stroke='black' width='12' x='2655' y='2622.8' />
+  <text x='2655' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2655,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>URLSCM (371)</text>
+  <rect fill='blue' height='37.3' stroke='black' width='12' x='2670' y='2622.6' />
+  <text x='2670' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2670,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>crap4j (373)</text>
+  <rect fill='blue' height='37.6' stroke='black' width='12' x='2685' y='2622.3' />
+  <text x='2685' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2685,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>scm-sync-configuration (376)</text>
+  <rect fill='blue' height='38' stroke='black' width='12' x='2700' y='2621.9' />
+  <text x='2700' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2700,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>WebSVN2 (380)</text>
+  <rect fill='blue' height='38.1' stroke='black' width='12' x='2715' y='2621.8' />
+  <text x='2715' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2715,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>systemloadaverage-monitor (381)</text>
+  <rect fill='blue' height='38.3' stroke='black' width='12' x='2730' y='2621.6' />
+  <text x='2730' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2730,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>jquery (383)</text>
+  <rect fill='blue' height='38.3' stroke='black' width='12' x='2745' y='2621.6' />
+  <text x='2745' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2745,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>selenium (383)</text>
+  <rect fill='blue' height='38.4' stroke='black' width='12' x='2760' y='2621.5' />
+  <text x='2760' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2760,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>jenkinswalldisplay (384)</text>
+  <rect fill='blue' height='39' stroke='black' width='12' x='2775' y='2620.9' />
+  <text x='2775' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2775,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>cmakebuilder (390)</text>
+  <rect fill='blue' height='39.4' stroke='black' width='12' x='2790' y='2620.5' />
+  <text x='2790' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2790,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>publish-over-ftp (394)</text>
+  <rect fill='blue' height='39.6' stroke='black' width='12' x='2805' y='2620.3' />
+  <text x='2805' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2805,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>twitter (396)</text>
+  <rect fill='blue' height='40' stroke='black' width='12' x='2820' y='2619.9' />
+  <text x='2820' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2820,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>lastsuccessversioncolumn (400)</text>
+  <rect fill='blue' height='40' stroke='black' width='12' x='2835' y='2619.9' />
+  <text x='2835' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2835,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>show-build-parameters (400)</text>
+  <rect fill='blue' height='40.6' stroke='black' width='12' x='2850' y='2619.3' />
+  <text x='2850' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2850,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>sitemonitor (406)</text>
+  <rect fill='blue' height='40.8' stroke='black' width='12' x='2865' y='2619.1' />
+  <text x='2865' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2865,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>mask-passwords (408)</text>
+  <rect fill='blue' height='41.3' stroke='black' width='12' x='2880' y='2618.6' />
+  <text x='2880' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2880,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>maven-deployment-linker (413)</text>
+  <rect fill='blue' height='41.7' stroke='black' width='12' x='2895' y='2618.2' />
+  <text x='2895' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2895,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>files-found-trigger (417)</text>
+  <rect fill='blue' height='42' stroke='black' width='12' x='2910' y='2617.9' />
+  <text x='2910' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2910,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>build-name-setter (420)</text>
+  <rect fill='blue' height='42.5' stroke='black' width='12' x='2925' y='2617.4' />
+  <text x='2925' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2925,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>status-view (425)</text>
+  <rect fill='blue' height='42.5' stroke='black' width='12' x='2940' y='2617.4' />
+  <text x='2940' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2940,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>clone-workspace-scm (425)</text>
+  <rect fill='blue' height='42.9' stroke='black' width='12' x='2955' y='2617.0' />
+  <text x='2955' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2955,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>ncover (429)</text>
+  <rect fill='blue' height='43.1' stroke='black' width='12' x='2970' y='2616.8' />
+  <text x='2970' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2970,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>ws-cleanup (431)</text>
+  <rect fill='blue' height='43.2' stroke='black' width='12' x='2985' y='2616.7' />
+  <text x='2985' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 2985,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>selenium-aes (432)</text>
+  <rect fill='blue' height='43.4' stroke='black' width='12' x='3000' y='2616.5' />
+  <text x='3000' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3000,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>cppunit (434)</text>
+  <rect fill='blue' height='43.5' stroke='black' width='12' x='3015' y='2616.4' />
+  <text x='3015' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3015,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>groovy-postbuild (435)</text>
+  <rect fill='blue' height='44.4' stroke='black' width='12' x='3030' y='2615.5' />
+  <text x='3030' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3030,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>mantis (444)</text>
+  <rect fill='blue' height='44.7' stroke='black' width='12' x='3045' y='2615.2' />
+  <text x='3045' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3045,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>cccc (447)</text>
+  <rect fill='blue' height='44.8' stroke='black' width='12' x='3060' y='2615.1' />
+  <text x='3060' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3060,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>schedule-failed-builds (448)</text>
+  <rect fill='blue' height='45.6' stroke='black' width='12' x='3075' y='2614.3' />
+  <text x='3075' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3075,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>filesystem_scm (456)</text>
+  <rect fill='blue' height='45.9' stroke='black' width='12' x='3090' y='2614.0' />
+  <text x='3090' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3090,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>seleniumhtmlreport (459)</text>
+  <rect fill='blue' height='46.1' stroke='black' width='12' x='3105' y='2613.8' />
+  <text x='3105' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3105,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>ui-samples-plugin (461)</text>
+  <rect fill='blue' height='47' stroke='black' width='12' x='3120' y='2612.9' />
+  <text x='3120' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3120,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>matrixtieparent (470)</text>
+  <rect fill='blue' height='47.1' stroke='black' width='12' x='3135' y='2612.8' />
+  <text x='3135' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3135,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>ivy (471)</text>
+  <rect fill='blue' height='47.2' stroke='black' width='12' x='3150' y='2612.7' />
+  <text x='3150' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3150,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>android-emulator (472)</text>
+  <rect fill='blue' height='48.5' stroke='black' width='12' x='3165' y='2611.4' />
+  <text x='3165' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3165,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>javancss (485)</text>
+  <rect fill='blue' height='48.6' stroke='black' width='12' x='3180' y='2611.3' />
+  <text x='3180' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3180,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>phing (486)</text>
+  <rect fill='blue' height='48.9' stroke='black' width='12' x='3195' y='2611.0' />
+  <text x='3195' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3195,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>screenshot (489)</text>
+  <rect fill='blue' height='49' stroke='black' width='12' x='3210' y='2610.9' />
+  <text x='3210' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3210,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>powershell (490)</text>
+  <rect fill='blue' height='49.5' stroke='black' width='12' x='3225' y='2610.4' />
+  <text x='3225' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3225,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>favorite (495)</text>
+  <rect fill='blue' height='49.9' stroke='black' width='12' x='3240' y='2610.0' />
+  <text x='3240' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3240,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>junit-attachments (499)</text>
+  <rect fill='blue' height='50.9' stroke='black' width='12' x='3255' y='2609.0' />
+  <text x='3255' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3255,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>gcal (509)</text>
+  <rect fill='blue' height='51' stroke='black' width='12' x='3270' y='2608.9' />
+  <text x='3270' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3270,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>blame-upstream-commiters (510)</text>
+  <rect fill='blue' height='53' stroke='black' width='12' x='3285' y='2606.9' />
+  <text x='3285' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3285,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>rebuild (530)</text>
+  <rect fill='blue' height='54.3' stroke='black' width='12' x='3300' y='2605.6' />
+  <text x='3300' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3300,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>shelve-project-plugin (543)</text>
+  <rect fill='blue' height='54.9' stroke='black' width='12' x='3315' y='2605.0' />
+  <text x='3315' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3315,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>build-publisher (549)</text>
+  <rect fill='blue' height='57.4' stroke='black' width='12' x='3330' y='2602.5' />
+  <text x='3330' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3330,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>slave-status (574)</text>
+  <rect fill='blue' height='57.6' stroke='black' width='12' x='3345' y='2602.3' />
+  <text x='3345' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3345,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>gradle (576)</text>
+  <rect fill='blue' height='60.4' stroke='black' width='12' x='3360' y='2599.5' />
+  <text x='3360' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3360,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>bugzilla (604)</text>
+  <rect fill='blue' height='63.9' stroke='black' width='12' x='3375' y='2596.0' />
+  <text x='3375' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3375,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>ldapemail (639)</text>
+  <rect fill='blue' height='64.5' stroke='black' width='12' x='3390' y='2595.4' />
+  <text x='3390' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3390,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>svnpublisher (645)</text>
+  <rect fill='blue' height='65.2' stroke='black' width='12' x='3405' y='2594.7' />
+  <text x='3405' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3405,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>configurationslicing (652)</text>
+  <rect fill='blue' height='65.4' stroke='black' width='12' x='3420' y='2594.5' />
+  <text x='3420' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3420,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>rubyMetrics (654)</text>
+  <rect fill='blue' height='66.1' stroke='black' width='12' x='3435' y='2593.8' />
+  <text x='3435' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3435,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>role-strategy (661)</text>
+  <rect fill='blue' height='66.7' stroke='black' width='12' x='3450' y='2593.2' />
+  <text x='3450' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3450,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>mstest (667)</text>
+  <rect fill='blue' height='67.1' stroke='black' width='12' x='3465' y='2592.8' />
+  <text x='3465' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3465,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>token-macro (671)</text>
+  <rect fill='blue' height='67.4' stroke='black' width='12' x='3480' y='2592.5' />
+  <text x='3480' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3480,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>testng-plugin (674)</text>
+  <rect fill='blue' height='68.3' stroke='black' width='12' x='3495' y='2591.6' />
+  <text x='3495' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3495,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>grails (683)</text>
+  <rect fill='blue' height='68.8' stroke='black' width='12' x='3510' y='2591.1' />
+  <text x='3510' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3510,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>viewVC (688)</text>
+  <rect fill='blue' height='69.8' stroke='black' width='12' x='3525' y='2590.1' />
+  <text x='3525' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3525,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>maven-info (698)</text>
+  <rect fill='blue' height='70.5' stroke='black' width='12' x='3540' y='2589.4' />
+  <text x='3540' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3540,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>cron_column (705)</text>
+  <rect fill='blue' height='71.4' stroke='black' width='12' x='3555' y='2588.5' />
+  <text x='3555' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3555,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>cppcheck (714)</text>
+  <rect fill='blue' height='71.7' stroke='black' width='12' x='3570' y='2588.2' />
+  <text x='3570' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3570,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>envfile (717)</text>
+  <rect fill='blue' height='73.4' stroke='black' width='12' x='3585' y='2586.5' />
+  <text x='3585' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3585,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>ircbot (734)</text>
+  <rect fill='blue' height='75.3' stroke='black' width='12' x='3600' y='2584.6' />
+  <text x='3600' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3600,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>url-change-trigger (753)</text>
+  <rect fill='blue' height='76' stroke='black' width='12' x='3615' y='2583.9' />
+  <text x='3615' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3615,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>saferestart (760)</text>
+  <rect fill='blue' height='76.2' stroke='black' width='12' x='3630' y='2583.7' />
+  <text x='3630' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3630,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>thinBackup (762)</text>
+  <rect fill='blue' height='76.2' stroke='black' width='12' x='3645' y='2583.7' />
+  <text x='3645' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3645,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>global-build-stats (762)</text>
+  <rect fill='blue' height='77.9' stroke='black' width='12' x='3660' y='2582.0' />
+  <text x='3660' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3660,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>changelog-history (779)</text>
+  <rect fill='blue' height='79.5' stroke='black' width='12' x='3675' y='2580.4' />
+  <text x='3675' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3675,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>xfpanel (795)</text>
+  <rect fill='blue' height='79.9' stroke='black' width='12' x='3690' y='2580.0' />
+  <text x='3690' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3690,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>claim (799)</text>
+  <rect fill='blue' height='80.1' stroke='black' width='12' x='3705' y='2579.8' />
+  <text x='3705' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3705,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>build-pipeline-plugin (801)</text>
+  <rect fill='blue' height='82.2' stroke='black' width='12' x='3720' y='2577.7' />
+  <text x='3720' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3720,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>nant (822)</text>
+  <rect fill='blue' height='82.3' stroke='black' width='12' x='3735' y='2577.6' />
+  <text x='3735' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3735,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>hudsontrayapp (823)</text>
+  <rect fill='blue' height='82.3' stroke='black' width='12' x='3750' y='2577.6' />
+  <text x='3750' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3750,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>clearcase (823)</text>
+  <rect fill='blue' height='83.4' stroke='black' width='12' x='3765' y='2576.5' />
+  <text x='3765' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3765,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>xvnc (834)</text>
+  <rect fill='blue' height='84' stroke='black' width='12' x='3780' y='2575.9' />
+  <text x='3780' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3780,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>next-build-number (840)</text>
+  <rect fill='blue' height='86.2' stroke='black' width='12' x='3795' y='2573.7' />
+  <text x='3795' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3795,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>depgraph-view (862)</text>
+  <rect fill='blue' height='86.7' stroke='black' width='12' x='3810' y='2573.2' />
+  <text x='3810' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3810,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>view-job-filters (867)</text>
+  <rect fill='blue' height='87.1' stroke='black' width='12' x='3825' y='2572.8' />
+  <text x='3825' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3825,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>sloccount (871)</text>
+  <rect fill='blue' height='87.2' stroke='black' width='12' x='3840' y='2572.7' />
+  <text x='3840' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3840,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>template-project (872)</text>
+  <rect fill='blue' height='88.3' stroke='black' width='12' x='3855' y='2571.6' />
+  <text x='3855' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3855,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>compact-columns (883)</text>
+  <rect fill='blue' height='88.5' stroke='black' width='12' x='3870' y='2571.4' />
+  <text x='3870' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3870,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>locale (885)</text>
+  <rect fill='blue' height='90.6' stroke='black' width='12' x='3885' y='2569.3' />
+  <text x='3885' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3885,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>iphoneview (906)</text>
+  <rect fill='blue' height='91.5' stroke='black' width='12' x='3900' y='2568.4' />
+  <text x='3900' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3900,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>nested-view (915)</text>
+  <rect fill='blue' height='91.5' stroke='black' width='12' x='3915' y='2568.4' />
+  <text x='3915' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3915,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>ruby (915)</text>
+  <rect fill='blue' height='91.6' stroke='black' width='12' x='3930' y='2568.3' />
+  <text x='3930' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3930,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>sectioned-view (916)</text>
+  <rect fill='blue' height='92.5' stroke='black' width='12' x='3945' y='2567.4' />
+  <text x='3945' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3945,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>monitoring (925)</text>
+  <rect fill='blue' height='93' stroke='black' width='12' x='3960' y='2566.9' />
+  <text x='3960' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3960,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>doclinks (930)</text>
+  <rect fill='blue' height='93.3' stroke='black' width='12' x='3975' y='2566.6' />
+  <text x='3975' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3975,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>port-allocator (933)</text>
+  <rect fill='blue' height='93.4' stroke='black' width='12' x='3990' y='2566.5' />
+  <text x='3990' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 3990,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>downstream-ext (934)</text>
+  <rect fill='blue' height='94.6' stroke='black' width='12' x='4005' y='2565.3' />
+  <text x='4005' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4005,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>ftppublisher (946)</text>
+  <rect fill='blue' height='95.3' stroke='black' width='12' x='4020' y='2564.6' />
+  <text x='4020' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4020,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>seleniumhq (953)</text>
+  <rect fill='blue' height='95.3' stroke='black' width='12' x='4035' y='2564.6' />
+  <text x='4035' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4035,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>redmine (953)</text>
+  <rect fill='blue' height='96.9' stroke='black' width='12' x='4050' y='2563.0' />
+  <text x='4050' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4050,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>description-setter (969)</text>
+  <rect fill='blue' height='101.1' stroke='black' width='12' x='4065' y='2558.8' />
+  <text x='4065' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4065,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>versionnumber (1011)</text>
+  <rect fill='blue' height='101.9' stroke='black' width='12' x='4080' y='2558.0' />
+  <text x='4080' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4080,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>copyarchiver (1019)</text>
+  <rect fill='blue' height='102.8' stroke='black' width='12' x='4095' y='2557.1' />
+  <text x='4095' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4095,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>groovy (1028)</text>
+  <rect fill='blue' height='102.9' stroke='black' width='12' x='4110' y='2557.0' />
+  <text x='4110' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4110,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>doxygen (1029)</text>
+  <rect fill='blue' height='105.9' stroke='black' width='12' x='4125' y='2554.0' />
+  <text x='4125' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4125,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>trac (1059)</text>
+  <rect fill='blue' height='107.3' stroke='black' width='12' x='4140' y='2552.6' />
+  <text x='4140' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4140,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>copy-to-slave (1073)</text>
+  <rect fill='blue' height='108.8' stroke='black' width='12' x='4155' y='2551.1' />
+  <text x='4155' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4155,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>jobConfigHistory (1088)</text>
+  <rect fill='blue' height='109.2' stroke='black' width='12' x='4170' y='2550.7' />
+  <text x='4170' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4170,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>text-finder (1092)</text>
+  <rect fill='blue' height='110.8' stroke='black' width='12' x='4185' y='2549.1' />
+  <text x='4185' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4185,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>artifactory (1108)</text>
+  <rect fill='blue' height='111.2' stroke='black' width='12' x='4200' y='2548.7' />
+  <text x='4200' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4200,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>dependencyanalyzer (1112)</text>
+  <rect fill='blue' height='114.2' stroke='black' width='12' x='4215' y='2545.7' />
+  <text x='4215' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4215,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>rake (1142)</text>
+  <rect fill='blue' height='114.6' stroke='black' width='12' x='4230' y='2545.3' />
+  <text x='4230' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4230,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>timestamper (1146)</text>
+  <rect fill='blue' height='115.6' stroke='black' width='12' x='4245' y='2544.3' />
+  <text x='4245' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4245,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-pview-plugin (1156)</text>
+  <rect fill='blue' height='120.2' stroke='black' width='12' x='4260' y='2539.7' />
+  <text x='4260' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4260,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>publish-over-ssh (1202)</text>
+  <rect fill='blue' height='121' stroke='black' width='12' x='4275' y='2538.9' />
+  <text x='4275' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4275,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>python (1210)</text>
+  <rect fill='blue' height='124.1' stroke='black' width='12' x='4290' y='2535.8' />
+  <text x='4290' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4290,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>join (1241)</text>
+  <rect fill='blue' height='126.5' stroke='black' width='12' x='4305' y='2533.4' />
+  <text x='4305' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4305,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>statusmonitor (1265)</text>
+  <rect fill='blue' height='127.1' stroke='black' width='12' x='4320' y='2532.8' />
+  <text x='4320' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4320,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>clover (1271)</text>
+  <rect fill='blue' height='127.3' stroke='black' width='12' x='4335' y='2532.6' />
+  <text x='4335' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4335,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>svn-release-mgr (1273)</text>
+  <rect fill='blue' height='131.3' stroke='black' width='12' x='4350' y='2528.6' />
+  <text x='4350' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4350,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>downstream-buildview (1313)</text>
+  <rect fill='blue' height='131.8' stroke='black' width='12' x='4365' y='2528.1' />
+  <text x='4365' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4365,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>sidebar-link (1318)</text>
+  <rect fill='blue' height='132.5' stroke='black' width='12' x='4380' y='2527.4' />
+  <text x='4380' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4380,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>perforce (1325)</text>
+  <rect fill='blue' height='133.5' stroke='black' width='12' x='4395' y='2526.4' />
+  <text x='4395' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4395,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>release (1335)</text>
+  <rect fill='blue' height='136.6' stroke='black' width='12' x='4410' y='2523.3' />
+  <text x='4410' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4410,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>jabber (1366)</text>
+  <rect fill='blue' height='143.1' stroke='black' width='12' x='4425' y='2516.8' />
+  <text x='4425' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4425,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>nunit (1431)</text>
+  <rect fill='blue' height='145.6' stroke='black' width='12' x='4440' y='2514.3' />
+  <text x='4440' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4440,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>radiatorviewplugin (1456)</text>
+  <rect fill='blue' height='146' stroke='black' width='12' x='4455' y='2513.9' />
+  <text x='4455' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4455,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>performance (1460)</text>
+  <rect fill='blue' height='147.4' stroke='black' width='12' x='4470' y='2512.5' />
+  <text x='4470' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4470,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>audit-trail (1474)</text>
+  <rect fill='blue' height='150.8' stroke='black' width='12' x='4485' y='2509.1' />
+  <text x='4485' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4485,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>jdepend (1508)</text>
+  <rect fill='blue' height='157.1' stroke='black' width='12' x='4500' y='2502.8' />
+  <text x='4500' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4500,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>ssh (1571)</text>
+  <rect fill='blue' height='159.9' stroke='black' width='12' x='4515' y='2500.0' />
+  <text x='4515' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4515,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>log-parser (1599)</text>
+  <rect fill='blue' height='162.7' stroke='black' width='12' x='4530' y='2497.2' />
+  <text x='4530' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4530,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>emotional-hudson (1627)</text>
+  <rect fill='blue' height='163.3' stroke='black' width='12' x='4545' y='2496.6' />
+  <text x='4545' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4545,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>locks-and-latches (1633)</text>
+  <rect fill='blue' height='164.2' stroke='black' width='12' x='4560' y='2495.7' />
+  <text x='4560' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4560,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>promoted-builds (1642)</text>
+  <rect fill='blue' height='164.8' stroke='black' width='12' x='4575' y='2495.1' />
+  <text x='4575' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4575,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>ci-game (1648)</text>
+  <rect fill='blue' height='180.7' stroke='black' width='12' x='4590' y='2479.2' />
+  <text x='4590' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4590,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>github (1807)</text>
+  <rect fill='blue' height='183.8' stroke='black' width='12' x='4605' y='2476.1' />
+  <text x='4605' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4605,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>emma (1838)</text>
+  <rect fill='blue' height='186.9' stroke='black' width='12' x='4620' y='2473.0' />
+  <text x='4620' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4620,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>m2-extra-steps (1869)</text>
+  <rect fill='blue' height='188.1' stroke='black' width='12' x='4635' y='2471.8' />
+  <text x='4635' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4635,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>batch-task (1881)</text>
+  <rect fill='blue' height='199.9' stroke='black' width='12' x='4650' y='2460.0' />
+  <text x='4650' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4650,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>plot (1999)</text>
+  <rect fill='blue' height='203.4' stroke='black' width='12' x='4665' y='2456.5' />
+  <text x='4665' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4665,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>svn-tag (2034)</text>
+  <rect fill='blue' height='206.4' stroke='black' width='12' x='4680' y='2453.5' />
+  <text x='4680' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4680,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>mercurial (2064)</text>
+  <rect fill='blue' height='209.5' stroke='black' width='12' x='4695' y='2450.4' />
+  <text x='4695' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4695,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>copyartifact (2095)</text>
+  <rect fill='blue' height='210.8' stroke='black' width='12' x='4710' y='2449.1' />
+  <text x='4710' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4710,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>m2release (2108)</text>
+  <rect fill='blue' height='212' stroke='black' width='12' x='4725' y='2447.9' />
+  <text x='4725' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4725,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>setenv (2120)</text>
+  <rect fill='blue' height='220' stroke='black' width='12' x='4740' y='2439.9' />
+  <text x='4740' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4740,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>scp (2200)</text>
+  <rect fill='blue' height='229.7' stroke='black' width='12' x='4755' y='2430.2' />
+  <text x='4755' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4755,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>instant-messaging (2297)</text>
+  <rect fill='blue' height='234.7' stroke='black' width='12' x='4770' y='2425.2' />
+  <text x='4770' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4770,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>postbuild-task (2347)</text>
+  <rect fill='blue' height='235.8' stroke='black' width='12' x='4785' y='2424.1' />
+  <text x='4785' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4785,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>msbuild (2358)</text>
+  <rect fill='blue' height='249.1' stroke='black' width='12' x='4800' y='2410.8' />
+  <text x='4800' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4800,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>backup (2491)</text>
+  <rect fill='blue' height='255.4' stroke='black' width='12' x='4815' y='2404.5' />
+  <text x='4815' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4815,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>deploy (2554)</text>
+  <rect fill='blue' height='256.1' stroke='black' width='12' x='4830' y='2403.8' />
+  <text x='4830' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4830,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>tasks (2561)</text>
+  <rect fill='blue' height='257' stroke='black' width='12' x='4845' y='2402.9' />
+  <text x='4845' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4845,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>jira (2570)</text>
+  <rect fill='blue' height='263.5' stroke='black' width='12' x='4860' y='2396.4' />
+  <text x='4860' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4860,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>build-timeout (2635)</text>
+  <rect fill='blue' height='272.1' stroke='black' width='12' x='4875' y='2387.8' />
+  <text x='4875' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4875,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>active-directory (2721)</text>
+  <rect fill='blue' height='277.3' stroke='black' width='12' x='4890' y='2382.6' />
+  <text x='4890' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4890,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>dry (2773)</text>
+  <rect fill='blue' height='280.7' stroke='black' width='12' x='4905' y='2379.2' />
+  <text x='4905' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4905,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>xunit (2807)</text>
+  <rect fill='blue' height='286.5' stroke='black' width='12' x='4920' y='2373.4' />
+  <text x='4920' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4920,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>parameterized-trigger (2865)</text>
+  <rect fill='blue' height='313.4' stroke='black' width='12' x='4935' y='2346.5' />
+  <text x='4935' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4935,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>chucknorris (3134)</text>
+  <rect fill='blue' height='331.3' stroke='black' width='12' x='4950' y='2328.6' />
+  <text x='4950' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4950,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>htmlpublisher (3313)</text>
+  <rect fill='blue' height='333' stroke='black' width='12' x='4965' y='2326.9' />
+  <text x='4965' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4965,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>analysis-collector (3330)</text>
+  <rect fill='blue' height='343.1' stroke='black' width='12' x='4980' y='2316.8' />
+  <text x='4980' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4980,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>dashboard-view (3431)</text>
+  <rect fill='blue' height='353.2' stroke='black' width='12' x='4995' y='2306.7' />
+  <text x='4995' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 4995,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>disk-usage (3532)</text>
+  <rect fill='blue' height='369.8' stroke='black' width='12' x='5010' y='2290.1' />
+  <text x='5010' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 5010,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>violations (3698)</text>
+  <rect fill='blue' height='371.5' stroke='black' width='12' x='5025' y='2288.4' />
+  <text x='5025' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 5025,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>warnings (3715)</text>
+  <rect fill='blue' height='378.6' stroke='black' width='12' x='5040' y='2281.3' />
+  <text x='5040' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 5040,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>sonar (3786)</text>
+  <rect fill='blue' height='399.7' stroke='black' width='12' x='5055' y='2260.2' />
+  <text x='5055' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 5055,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>scis-ad (3997)</text>
+  <rect fill='blue' height='423.4' stroke='black' width='12' x='5070' y='2236.5' />
+  <text x='5070' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 5070,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>pmd (4234)</text>
+  <rect fill='blue' height='429.6' stroke='black' width='12' x='5085' y='2230.3' />
+  <text x='5085' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 5085,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>findbugs (4296)</text>
+  <rect fill='blue' height='468' stroke='black' width='12' x='5100' y='2191.9' />
+  <text x='5100' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 5100,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>cobertura (4680)</text>
+  <rect fill='blue' height='476.6' stroke='black' width='12' x='5115' y='2183.3' />
+  <text x='5115' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 5115,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>checkstyle (4766)</text>
+  <rect fill='blue' height='585' stroke='black' width='12' x='5130' y='2074.9' />
+  <text x='5130' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 5130,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>greenballs (5850)</text>
+  <rect fill='blue' height='626.4' stroke='black' width='12' x='5145' y='2033.5' />
+  <text x='5145' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 5145,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>email-ext (6264)</text>
+  <rect fill='blue' height='658' stroke='black' width='12' x='5160' y='2001.9' />
+  <text x='5160' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 5160,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>git (6580)</text>
+  <rect fill='blue' height='905.3' stroke='black' width='12' x='5175' y='1754.6' />
+  <text x='5175' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 5175,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>analysis-core (9053)</text>
+  <rect fill='blue' height='2451.9' stroke='black' width='12' x='5190' y='208.0' />
+  <text x='5190' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 5190,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>cvs (24519)</text>
+  <rect fill='blue' height='2550.9' stroke='black' width='12' x='5205' y='109.0' />
+  <text x='5205' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 5205,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>maven-plugin (25509)</text>
+  <rect fill='blue' height='2587.1' stroke='black' width='12' x='5220' y='72.8' />
+  <text x='5220' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 5220,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>subversion (25871)</text>
+  <rect fill='blue' height='2609.9' stroke='black' width='12' x='5235' y='50.0' />
+  <text x='5235' y='2664.9' font-family='Tahoma' font-size='12' transform='rotate(90 5235,2664.9)' text-rendering='optimizeSpeed' fill='#000000;'>ssh-slaves (26099)</text>
+  <text x='10' y='40' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Total: 364365</text>
 </svg>

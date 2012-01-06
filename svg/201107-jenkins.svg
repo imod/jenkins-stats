@@ -1,53 +1,173 @@
-<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 405 206.6'>
-  <rect fill='blue' height='0.8' stroke='black' width='12' x='15' y='5.8' />
-  <text x='15' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 15,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.384 (8)</text>
-  <rect fill='blue' height='0.8' stroke='black' width='12' x='30' y='5.8' />
-  <text x='30' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 30,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.386 (8)</text>
-  <rect fill='blue' height='0.9' stroke='black' width='12' x='45' y='5.7' />
-  <text x='45' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 45,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.388 (9)</text>
-  <rect fill='blue' height='0.5' stroke='black' width='12' x='60' y='6.1' />
-  <text x='60' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 60,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.392 (5)</text>
-  <rect fill='blue' height='0.8' stroke='black' width='12' x='75' y='5.8' />
-  <text x='75' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 75,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.393 (8)</text>
-  <rect fill='blue' height='1.6' stroke='black' width='12' x='90' y='5.0' />
-  <text x='90' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 90,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.395 (16)</text>
-  <rect fill='blue' height='1' stroke='black' width='12' x='105' y='5.6' />
-  <text x='105' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 105,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.395.1 (10)</text>
-  <rect fill='blue' height='0.6' stroke='black' width='12' x='120' y='6.0' />
-  <text x='120' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 120,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.398 (6)</text>
-  <rect fill='blue' height='2.8' stroke='black' width='12' x='135' y='3.8' />
-  <text x='135' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 135,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.399 (28)</text>
-  <rect fill='blue' height='1' stroke='black' width='12' x='150' y='5.6' />
-  <text x='150' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 150,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.403 (10)</text>
-  <rect fill='blue' height='0.8' stroke='black' width='12' x='165' y='5.8' />
-  <text x='165' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 165,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.404 (8)</text>
-  <rect fill='blue' height='0.9' stroke='black' width='12' x='180' y='5.7' />
-  <text x='180' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 180,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.406 (9)</text>
-  <rect fill='blue' height='0.6' stroke='black' width='12' x='195' y='6.0' />
-  <text x='195' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 195,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.409 (6)</text>
-  <rect fill='blue' height='1.1' stroke='black' width='12' x='210' y='5.5' />
-  <text x='210' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 210,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.409.1 (11)</text>
-  <rect fill='blue' height='0.5' stroke='black' width='12' x='225' y='6.1' />
-  <text x='225' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 225,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.411 (5)</text>
-  <rect fill='blue' height='0.8' stroke='black' width='12' x='240' y='5.8' />
-  <text x='240' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 240,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.412 (8)</text>
-  <rect fill='blue' height='2.4' stroke='black' width='12' x='255' y='4.2' />
-  <text x='255' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 255,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.413 (24)</text>
-  <rect fill='blue' height='1.6' stroke='black' width='12' x='270' y='5.0' />
-  <text x='270' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 270,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.414 (16)</text>
-  <rect fill='blue' height='0.7' stroke='black' width='12' x='285' y='5.9' />
-  <text x='285' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 285,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.415 (7)</text>
-  <rect fill='blue' height='1.7' stroke='black' width='12' x='300' y='4.9' />
-  <text x='300' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 300,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.417 (17)</text>
-  <rect fill='blue' height='2.4' stroke='black' width='12' x='315' y='4.2' />
-  <text x='315' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 315,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.418 (24)</text>
-  <rect fill='blue' height='2.4' stroke='black' width='12' x='330' y='4.2' />
-  <text x='330' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 330,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.419 (24)</text>
-  <rect fill='blue' height='4.5' stroke='black' width='12' x='345' y='2.1' />
-  <text x='345' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 345,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.420 (45)</text>
-  <rect fill='blue' height='6.6' stroke='black' width='12' x='360' y='0.0' />
-  <text x='360' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 360,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.421 (66)</text>
-  <rect fill='blue' height='4.3' stroke='black' width='12' x='375' y='2.3' />
-  <text x='375' y='11.6' font-family='Tahoma' font-size='12' transform='rotate(90 375,11.6)' text-rendering='optimizeSpeed' fill='#000000;'>1.423 (43)</text>
-  <text x='10' y='100' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Total: 421</text>
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 1305 430.8'>
+  <rect fill='blue' height='10.1' stroke='black' width='12' x='15' y='270.7' />
+  <text x='15' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 15,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.368 (101)</text>
+  <rect fill='blue' height='13.2' stroke='black' width='12' x='30' y='267.6' />
+  <text x='30' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 30,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.369 (132)</text>
+  <rect fill='blue' height='3.1' stroke='black' width='12' x='45' y='277.7' />
+  <text x='45' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 45,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.370 (31)</text>
+  <rect fill='blue' height='9.4' stroke='black' width='12' x='60' y='271.4' />
+  <text x='60' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 60,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.371 (94)</text>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='75' y='280.7' />
+  <text x='75' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 75,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.371 (private) (1)</text>
+  <rect fill='blue' height='11.1' stroke='black' width='12' x='90' y='269.7' />
+  <text x='90' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 90,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.372 (111)</text>
+  <rect fill='blue' height='12.1' stroke='black' width='12' x='105' y='268.7' />
+  <text x='105' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 105,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.373 (121)</text>
+  <rect fill='blue' height='21.3' stroke='black' width='12' x='120' y='259.5' />
+  <text x='120' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 120,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.374 (213)</text>
+  <rect fill='blue' height='14.6' stroke='black' width='12' x='135' y='266.2' />
+  <text x='135' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 135,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.375 (146)</text>
+  <rect fill='blue' height='17' stroke='black' width='12' x='150' y='263.8' />
+  <text x='150' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 150,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.376 (170)</text>
+  <rect fill='blue' height='18.3' stroke='black' width='12' x='165' y='262.5' />
+  <text x='165' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 165,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.377 (183)</text>
+  <rect fill='blue' height='14.5' stroke='black' width='12' x='180' y='266.3' />
+  <text x='180' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 180,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.378 (145)</text>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='195' y='280.7' />
+  <text x='195' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 195,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.378 (private) (1)</text>
+  <rect fill='blue' height='31.4' stroke='black' width='12' x='210' y='249.4' />
+  <text x='210' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 210,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.379 (314)</text>
+  <rect fill='blue' height='0.2' stroke='black' width='12' x='225' y='280.6' />
+  <text x='225' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 225,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.379 (private) (2)</text>
+  <rect fill='blue' height='8.6' stroke='black' width='12' x='240' y='272.2' />
+  <text x='240' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 240,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.380 (86)</text>
+  <rect fill='blue' height='30.2' stroke='black' width='12' x='255' y='250.6' />
+  <text x='255' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 255,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.381 (302)</text>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='270' y='280.7' />
+  <text x='270' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 270,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.381 (private) (1)</text>
+  <rect fill='blue' height='10.9' stroke='black' width='12' x='285' y='269.9' />
+  <text x='285' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 285,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.382 (109)</text>
+  <rect fill='blue' height='20.7' stroke='black' width='12' x='300' y='260.1' />
+  <text x='300' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 300,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.383 (207)</text>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='315' y='280.7' />
+  <text x='315' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 315,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.383 (private) (1)</text>
+  <rect fill='blue' height='28.4' stroke='black' width='12' x='330' y='252.4' />
+  <text x='330' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 330,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.384 (284)</text>
+  <rect fill='blue' height='0.2' stroke='black' width='12' x='345' y='280.6' />
+  <text x='345' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 345,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.384 (private) (2)</text>
+  <rect fill='blue' height='15.9' stroke='black' width='12' x='360' y='264.9' />
+  <text x='360' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 360,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.385 (159)</text>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='375' y='280.7' />
+  <text x='375' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 375,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.385 (private) (1)</text>
+  <rect fill='blue' height='81.6' stroke='black' width='12' x='390' y='199.2' />
+  <text x='390' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 390,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.386 (816)</text>
+  <rect fill='blue' height='9' stroke='black' width='12' x='405' y='271.8' />
+  <text x='405' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 405,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.387 (90)</text>
+  <rect fill='blue' height='13.6' stroke='black' width='12' x='420' y='267.2' />
+  <text x='420' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 420,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.388 (136)</text>
+  <rect fill='blue' height='28.6' stroke='black' width='12' x='435' y='252.2' />
+  <text x='435' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 435,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.389 (286)</text>
+  <rect fill='blue' height='2.6' stroke='black' width='12' x='450' y='278.2' />
+  <text x='450' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 450,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.390 (26)</text>
+  <rect fill='blue' height='7.7' stroke='black' width='12' x='465' y='273.1' />
+  <text x='465' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 465,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.391 (77)</text>
+  <rect fill='blue' height='0.4' stroke='black' width='12' x='480' y='280.4' />
+  <text x='480' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 480,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.391 (private) (4)</text>
+  <rect fill='blue' height='29.5' stroke='black' width='12' x='495' y='251.3' />
+  <text x='495' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 495,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.392 (295)</text>
+  <rect fill='blue' height='0.2' stroke='black' width='12' x='510' y='280.6' />
+  <text x='510' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 510,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.392.LI8 (2)</text>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='525' y='280.7' />
+  <text x='525' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 525,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.392.LI9 (1)</text>
+  <rect fill='blue' height='57.2' stroke='black' width='12' x='540' y='223.6' />
+  <text x='540' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 540,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.393 (572)</text>
+  <rect fill='blue' height='51.1' stroke='black' width='12' x='555' y='229.7' />
+  <text x='555' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 555,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.394 (511)</text>
+  <rect fill='blue' height='147.7' stroke='black' width='12' x='570' y='133.1' />
+  <text x='570' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 570,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.395 (1477)</text>
+  <rect fill='blue' height='89.8' stroke='black' width='12' x='585' y='191.0' />
+  <text x='585' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 585,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.395.1 (898)</text>
+  <rect fill='blue' height='3.2' stroke='black' width='12' x='600' y='277.6' />
+  <text x='600' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 600,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.395.1 (private) (32)</text>
+  <rect fill='blue' height='12.9' stroke='black' width='12' x='615' y='267.9' />
+  <text x='615' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 615,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.396 (129)</text>
+  <rect fill='blue' height='9.8' stroke='black' width='12' x='630' y='271.0' />
+  <text x='630' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 630,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.397 (98)</text>
+  <rect fill='blue' height='9.5' stroke='black' width='12' x='645' y='271.3' />
+  <text x='645' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 645,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.398 (95)</text>
+  <rect fill='blue' height='24.4' stroke='black' width='12' x='660' y='256.4' />
+  <text x='660' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 660,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.399 (244)</text>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='675' y='280.7' />
+  <text x='675' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 675,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.399 (private) (1)</text>
+  <rect fill='blue' height='17.4' stroke='black' width='12' x='690' y='263.4' />
+  <text x='690' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 690,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.400 (174)</text>
+  <rect fill='blue' height='0.4' stroke='black' width='12' x='705' y='280.4' />
+  <text x='705' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 705,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.400 (private) (4)</text>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='720' y='280.7' />
+  <text x='720' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 720,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.400.0.5 (1)</text>
+  <rect fill='blue' height='0.4' stroke='black' width='12' x='735' y='280.4' />
+  <text x='735' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 735,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.400.0.6 (4)</text>
+  <rect fill='blue' height='0.7' stroke='black' width='12' x='750' y='280.1' />
+  <text x='750' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 750,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.400.0.8 (7)</text>
+  <rect fill='blue' height='0.2' stroke='black' width='12' x='765' y='280.6' />
+  <text x='765' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 765,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.400.10 (2)</text>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='780' y='280.7' />
+  <text x='780' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 780,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.400.9 (1)</text>
+  <rect fill='blue' height='20.3' stroke='black' width='12' x='795' y='260.5' />
+  <text x='795' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 795,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.401 (203)</text>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='810' y='280.7' />
+  <text x='810' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 810,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.401 (private) (1)</text>
+  <rect fill='blue' height='24.7' stroke='black' width='12' x='825' y='256.1' />
+  <text x='825' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 825,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.403 (247)</text>
+  <rect fill='blue' height='29.3' stroke='black' width='12' x='840' y='251.5' />
+  <text x='840' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 840,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.404 (293)</text>
+  <rect fill='blue' height='26.9' stroke='black' width='12' x='855' y='253.9' />
+  <text x='855' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 855,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.405 (269)</text>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='870' y='280.7' />
+  <text x='870' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 870,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.405 (private) (1)</text>
+  <rect fill='blue' height='26.4' stroke='black' width='12' x='885' y='254.4' />
+  <text x='885' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 885,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.406 (264)</text>
+  <rect fill='blue' height='8.2' stroke='black' width='12' x='900' y='272.6' />
+  <text x='900' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 900,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.407 (82)</text>
+  <rect fill='blue' height='28.8' stroke='black' width='12' x='915' y='252.0' />
+  <text x='915' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 915,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.408 (288)</text>
+  <rect fill='blue' height='34' stroke='black' width='12' x='930' y='246.8' />
+  <text x='930' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 930,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.409 (340)</text>
+  <rect fill='blue' height='48.9' stroke='black' width='12' x='945' y='231.9' />
+  <text x='945' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 945,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.409.1 (489)</text>
+  <rect fill='blue' height='54.5' stroke='black' width='12' x='960' y='226.3' />
+  <text x='960' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 960,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.410 (545)</text>
+  <rect fill='blue' height='0.3' stroke='black' width='12' x='975' y='280.5' />
+  <text x='975' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 975,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.410 (private) (3)</text>
+  <rect fill='blue' height='47.7' stroke='black' width='12' x='990' y='233.1' />
+  <text x='990' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 990,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.411 (477)</text>
+  <rect fill='blue' height='0.3' stroke='black' width='12' x='1005' y='280.5' />
+  <text x='1005' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 1005,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.411 (private) (3)</text>
+  <rect fill='blue' height='39.9' stroke='black' width='12' x='1020' y='240.9' />
+  <text x='1020' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 1020,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.412 (399)</text>
+  <rect fill='blue' height='105.1' stroke='black' width='12' x='1035' y='175.7' />
+  <text x='1035' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 1035,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.413 (1051)</text>
+  <rect fill='blue' height='84.2' stroke='black' width='12' x='1050' y='196.6' />
+  <text x='1050' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 1050,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.414 (842)</text>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='1065' y='280.7' />
+  <text x='1065' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 1065,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.414 (private) (1)</text>
+  <rect fill='blue' height='60.3' stroke='black' width='12' x='1080' y='220.5' />
+  <text x='1080' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 1080,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.415 (603)</text>
+  <rect fill='blue' height='0.2' stroke='black' width='12' x='1095' y='280.6' />
+  <text x='1095' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 1095,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.415-alpha-cb-1 (2)</text>
+  <rect fill='blue' height='16.3' stroke='black' width='12' x='1110' y='264.5' />
+  <text x='1110' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 1110,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.416 (163)</text>
+  <rect fill='blue' height='88.8' stroke='black' width='12' x='1125' y='192.0' />
+  <text x='1125' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 1125,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.417 (888)</text>
+  <rect fill='blue' height='158.5' stroke='black' width='12' x='1140' y='122.3' />
+  <text x='1140' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 1140,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.418 (1585)</text>
+  <rect fill='blue' height='0.4' stroke='black' width='12' x='1155' y='280.4' />
+  <text x='1155' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 1155,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.418 (private) (4)</text>
+  <rect fill='blue' height='136.4' stroke='black' width='12' x='1170' y='144.4' />
+  <text x='1170' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 1170,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.419 (1364)</text>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='1185' y='280.7' />
+  <text x='1185' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 1185,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.419-DOTCLOUD (private) (1)</text>
+  <rect fill='blue' height='171.4' stroke='black' width='12' x='1200' y='109.4' />
+  <text x='1200' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 1200,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.420 (1714)</text>
+  <rect fill='blue' height='230.8' stroke='black' width='12' x='1215' y='50.0' />
+  <text x='1215' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 1215,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.421 (2308)</text>
+  <rect fill='blue' height='0.2' stroke='black' width='12' x='1230' y='280.6' />
+  <text x='1230' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 1230,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.421 (private) (2)</text>
+  <rect fill='blue' height='2.6' stroke='black' width='12' x='1245' y='278.2' />
+  <text x='1245' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 1245,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.422 (26)</text>
+  <rect fill='blue' height='183.3' stroke='black' width='12' x='1260' y='97.5' />
+  <text x='1260' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 1260,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.423 (1833)</text>
+  <rect fill='blue' height='1.2' stroke='black' width='12' x='1275' y='279.6' />
+  <text x='1275' y='285.8' font-family='Tahoma' font-size='12' transform='rotate(90 1275,285.8)' text-rendering='optimizeSpeed' fill='#000000;'>code2cloud-1.384 (private) (12)</text>
+  <text x='10' y='40' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Total: 25203</text>
 </svg>

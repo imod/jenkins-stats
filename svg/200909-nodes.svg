@@ -1,47 +1,97 @@
-<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 360 233.2'>
-  <rect fill='blue' height='0.1' stroke='black' width='12' x='15' y='33.1' />
-  <text x='15' y='38.2' font-family='Tahoma' font-size='12' transform='rotate(90 15,38.2)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows Vista (amd64)" (1)</text>
-  <rect fill='blue' height='0.1' stroke='black' width='12' x='30' y='33.1' />
-  <text x='30' y='38.2' font-family='Tahoma' font-size='12' transform='rotate(90 30,38.2)' text-rendering='optimizeSpeed' fill='#000000;'>"Mac OS X (x86_64)" (1)</text>
-  <rect fill='blue' height='0.1' stroke='black' width='12' x='45' y='33.1' />
-  <text x='45' y='38.2' font-family='Tahoma' font-size='12' transform='rotate(90 45,38.2)' text-rendering='optimizeSpeed' fill='#000000;'>"HP-UX (PA_RISC2.0)" (1)</text>
-  <rect fill='blue' height='0.1' stroke='black' width='12' x='60' y='33.1' />
-  <text x='60' y='38.2' font-family='Tahoma' font-size='12' transform='rotate(90 60,38.2)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows 7 (x86)" (1)</text>
-  <rect fill='blue' height='0.1' stroke='black' width='12' x='75' y='33.1' />
-  <text x='75' y='38.2' font-family='Tahoma' font-size='12' transform='rotate(90 75,38.2)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows Server 2003 (amd64)" (1)</text>
-  <rect fill='blue' height='0.1' stroke='black' width='12' x='90' y='33.1' />
-  <text x='90' y='38.2' font-family='Tahoma' font-size='12' transform='rotate(90 90,38.2)' text-rendering='optimizeSpeed' fill='#000000;'>"HP-UX (IA64N)" (1)</text>
-  <rect fill='blue' height='0.1' stroke='black' width='12' x='105' y='33.1' />
-  <text x='105' y='38.2' font-family='Tahoma' font-size='12' transform='rotate(90 105,38.2)' text-rendering='optimizeSpeed' fill='#000000;'>"SunOS (sparcv9)" (1)</text>
-  <rect fill='blue' height='0.2' stroke='black' width='12' x='120' y='33.0' />
-  <text x='120' y='38.2' font-family='Tahoma' font-size='12' transform='rotate(90 120,38.2)' text-rendering='optimizeSpeed' fill='#000000;'>"Mac OS X (ppc)" (2)</text>
-  <rect fill='blue' height='0.2' stroke='black' width='12' x='135' y='33.0' />
-  <text x='135' y='38.2' font-family='Tahoma' font-size='12' transform='rotate(90 135,38.2)' text-rendering='optimizeSpeed' fill='#000000;'>"AIX (ppc64)" (2)</text>
-  <rect fill='blue' height='0.3' stroke='black' width='12' x='150' y='32.9' />
-  <text x='150' y='38.2' font-family='Tahoma' font-size='12' transform='rotate(90 150,38.2)' text-rendering='optimizeSpeed' fill='#000000;'>"Mac OS X (i386)" (3)</text>
-  <rect fill='blue' height='0.3' stroke='black' width='12' x='165' y='32.9' />
-  <text x='165' y='38.2' font-family='Tahoma' font-size='12' transform='rotate(90 165,38.2)' text-rendering='optimizeSpeed' fill='#000000;'>"Linux (x86)" (3)</text>
-  <rect fill='blue' height='0.3' stroke='black' width='12' x='180' y='32.9' />
-  <text x='180' y='38.2' font-family='Tahoma' font-size='12' transform='rotate(90 180,38.2)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows Server 2008 (x86)" (3)</text>
-  <rect fill='blue' height='0.3' stroke='black' width='12' x='195' y='32.9' />
-  <text x='195' y='38.2' font-family='Tahoma' font-size='12' transform='rotate(90 195,38.2)' text-rendering='optimizeSpeed' fill='#000000;'>"SunOS (x86)" (3)</text>
-  <rect fill='blue' height='0.4' stroke='black' width='12' x='210' y='32.8' />
-  <text x='210' y='38.2' font-family='Tahoma' font-size='12' transform='rotate(90 210,38.2)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows Vista (x86)" (4)</text>
-  <rect fill='blue' height='0.4' stroke='black' width='12' x='225' y='32.8' />
-  <text x='225' y='38.2' font-family='Tahoma' font-size='12' transform='rotate(90 225,38.2)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows 2000 (x86)" (4)</text>
-  <rect fill='blue' height='0.4' stroke='black' width='12' x='240' y='32.8' />
-  <text x='240' y='38.2' font-family='Tahoma' font-size='12' transform='rotate(90 240,38.2)' text-rendering='optimizeSpeed' fill='#000000;'>"SunOS (sparc)" (4)</text>
-  <rect fill='blue' height='0.6' stroke='black' width='12' x='255' y='32.6' />
-  <text x='255' y='38.2' font-family='Tahoma' font-size='12' transform='rotate(90 255,38.2)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows 2003 (amd64)" (6)</text>
-  <rect fill='blue' height='3.2' stroke='black' width='12' x='270' y='30.0' />
-  <text x='270' y='38.2' font-family='Tahoma' font-size='12' transform='rotate(90 270,38.2)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows 2003 (x86)" (32)</text>
-  <rect fill='blue' height='5.7' stroke='black' width='12' x='285' y='27.5' />
-  <text x='285' y='38.2' font-family='Tahoma' font-size='12' transform='rotate(90 285,38.2)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows XP (x86)" (57)</text>
-  <rect fill='blue' height='5.9' stroke='black' width='12' x='300' y='27.3' />
-  <text x='300' y='38.2' font-family='Tahoma' font-size='12' transform='rotate(90 300,38.2)' text-rendering='optimizeSpeed' fill='#000000;'>"Linux (amd64)" (59)</text>
-  <rect fill='blue' height='9' stroke='black' width='12' x='315' y='24.2' />
-  <text x='315' y='38.2' font-family='Tahoma' font-size='12' transform='rotate(90 315,38.2)' text-rendering='optimizeSpeed' fill='#000000;'>"Linux (i386)" (90)</text>
-  <rect fill='blue' height='33.2' stroke='black' width='12' x='330' y='0.0' />
-  <text x='330' y='38.2' font-family='Tahoma' font-size='12' transform='rotate(90 330,38.2)' text-rendering='optimizeSpeed' fill='#000000;'>N/A (332)</text>
-  <text x='10' y='100' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Total: 611</text>
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 735 776.4'>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='15' y='626.3' />
+  <text x='15' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 15,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"OpenBSD (amd64)" (1)</text>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='30' y='626.3' />
+  <text x='30' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 30,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"z/OS (s390x)" (1)</text>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='45' y='626.3' />
+  <text x='45' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 45,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Linux (nova)" (1)</text>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='60' y='626.3' />
+  <text x='60' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 60,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"NetBSD (i386)" (1)</text>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='75' y='626.3' />
+  <text x='75' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 75,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows Server 2008 (ia64)" (1)</text>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='90' y='626.3' />
+  <text x='90' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 90,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"HP-UX (PA_RISC2.0W)" (1)</text>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='105' y='626.3' />
+  <text x='105' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 105,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"linux (amd64)" (1)</text>
+  <rect fill='blue' height='0.2' stroke='black' width='12' x='120' y='626.2' />
+  <text x='120' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 120,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Linux (sparc)" (2)</text>
+  <rect fill='blue' height='0.2' stroke='black' width='12' x='135' y='626.2' />
+  <text x='135' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 135,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Linux (s390)" (2)</text>
+  <rect fill='blue' height='0.2' stroke='black' width='12' x='150' y='626.2' />
+  <text x='150' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 150,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"OpenBSD (i386)" (2)</text>
+  <rect fill='blue' height='0.3' stroke='black' width='12' x='165' y='626.1' />
+  <text x='165' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 165,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows Server 2003 (amd64)" (3)</text>
+  <rect fill='blue' height='0.3' stroke='black' width='12' x='180' y='626.1' />
+  <text x='180' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 180,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Linux (s390x)" (3)</text>
+  <rect fill='blue' height='0.3' stroke='black' width='12' x='195' y='626.1' />
+  <text x='195' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 195,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"z/OS (s390)" (3)</text>
+  <rect fill='blue' height='0.3' stroke='black' width='12' x='210' y='626.1' />
+  <text x='210' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 210,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows NT (unknown) (x86)" (3)</text>
+  <rect fill='blue' height='0.4' stroke='black' width='12' x='225' y='626.0' />
+  <text x='225' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 225,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Linux (ppc64)" (4)</text>
+  <rect fill='blue' height='0.4' stroke='black' width='12' x='240' y='626.0' />
+  <text x='240' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 240,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"HP-UX (IA64W)" (4)</text>
+  <rect fill='blue' height='0.8' stroke='black' width='12' x='255' y='625.6' />
+  <text x='255' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 255,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Linux (ppc)" (8)</text>
+  <rect fill='blue' height='0.8' stroke='black' width='12' x='270' y='625.6' />
+  <text x='270' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 270,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows 7 (amd64)" (8)</text>
+  <rect fill='blue' height='0.8' stroke='black' width='12' x='285' y='625.6' />
+  <text x='285' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 285,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Linux (ia64)" (8)</text>
+  <rect fill='blue' height='0.9' stroke='black' width='12' x='300' y='625.5' />
+  <text x='300' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 300,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"SunOS (amd64)" (9)</text>
+  <rect fill='blue' height='1.7' stroke='black' width='12' x='315' y='624.7' />
+  <text x='315' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 315,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"SunOS (sparcv9)" (17)</text>
+  <rect fill='blue' height='1.7' stroke='black' width='12' x='330' y='624.7' />
+  <text x='330' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 330,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"FreeBSD (amd64)" (17)</text>
+  <rect fill='blue' height='2.1' stroke='black' width='12' x='345' y='624.3' />
+  <text x='345' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 345,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows 7 (x86)" (21)</text>
+  <rect fill='blue' height='2.5' stroke='black' width='12' x='360' y='623.9' />
+  <text x='360' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 360,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows Server 2003 (x86)" (25)</text>
+  <rect fill='blue' height='2.5' stroke='black' width='12' x='375' y='623.9' />
+  <text x='375' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 375,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Mac OS X (ppc)" (25)</text>
+  <rect fill='blue' height='2.6' stroke='black' width='12' x='390' y='623.8' />
+  <text x='390' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 390,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"FreeBSD (i386)" (26)</text>
+  <rect fill='blue' height='3.2' stroke='black' width='12' x='405' y='623.2' />
+  <text x='405' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 405,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows Vista (amd64)" (32)</text>
+  <rect fill='blue' height='3.2' stroke='black' width='12' x='420' y='623.2' />
+  <text x='420' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 420,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"HP-UX (PA_RISC2.0)" (32)</text>
+  <rect fill='blue' height='3.4' stroke='black' width='12' x='435' y='623.0' />
+  <text x='435' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 435,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows XP (amd64)" (34)</text>
+  <rect fill='blue' height='4.2' stroke='black' width='12' x='450' y='622.2' />
+  <text x='450' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 450,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"AIX (ppc)" (42)</text>
+  <rect fill='blue' height='4.4' stroke='black' width='12' x='465' y='622.0' />
+  <text x='465' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 465,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"HP-UX (IA64N)" (44)</text>
+  <rect fill='blue' height='4.9' stroke='black' width='12' x='480' y='621.5' />
+  <text x='480' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 480,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"AIX (ppc64)" (49)</text>
+  <rect fill='blue' height='5.4' stroke='black' width='12' x='495' y='621.0' />
+  <text x='495' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 495,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Linux (x86)" (54)</text>
+  <rect fill='blue' height='6.1' stroke='black' width='12' x='510' y='620.3' />
+  <text x='510' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 510,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Mac OS X (x86_64)" (61)</text>
+  <rect fill='blue' height='6.8' stroke='black' width='12' x='525' y='619.6' />
+  <text x='525' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 525,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows Server 2008 (amd64)" (68)</text>
+  <rect fill='blue' height='11.9' stroke='black' width='12' x='540' y='614.5' />
+  <text x='540' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 540,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows 2000 (x86)" (119)</text>
+  <rect fill='blue' height='12.6' stroke='black' width='12' x='555' y='613.8' />
+  <text x='555' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 555,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows 2003 (amd64)" (126)</text>
+  <rect fill='blue' height='13' stroke='black' width='12' x='570' y='613.4' />
+  <text x='570' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 570,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows Server 2008 (x86)" (130)</text>
+  <rect fill='blue' height='14.6' stroke='black' width='12' x='585' y='611.8' />
+  <text x='585' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 585,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows Vista (x86)" (146)</text>
+  <rect fill='blue' height='16.2' stroke='black' width='12' x='600' y='610.2' />
+  <text x='600' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 600,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Mac OS X (i386)" (162)</text>
+  <rect fill='blue' height='36.4' stroke='black' width='12' x='615' y='590.0' />
+  <text x='615' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 615,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"SunOS (x86)" (364)</text>
+  <rect fill='blue' height='45.9' stroke='black' width='12' x='630' y='580.5' />
+  <text x='630' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 630,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"SunOS (sparc)" (459)</text>
+  <rect fill='blue' height='174.6' stroke='black' width='12' x='645' y='451.8' />
+  <text x='645' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 645,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows 2003 (x86)" (1746)</text>
+  <rect fill='blue' height='215.6' stroke='black' width='12' x='660' y='410.8' />
+  <text x='660' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 660,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows XP (x86)" (2156)</text>
+  <rect fill='blue' height='226.4' stroke='black' width='12' x='675' y='400.0' />
+  <text x='675' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 675,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Linux (amd64)" (2264)</text>
+  <rect fill='blue' height='438.3' stroke='black' width='12' x='690' y='188.1' />
+  <text x='690' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 690,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>"Linux (i386)" (4383)</text>
+  <rect fill='blue' height='576.4' stroke='black' width='12' x='705' y='50.0' />
+  <text x='705' y='631.4' font-family='Tahoma' font-size='12' transform='rotate(90 705,631.4)' text-rendering='optimizeSpeed' fill='#000000;'>N/A (5764)</text>
+  <text x='10' y='40' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Total: 18432</text>
 </svg>

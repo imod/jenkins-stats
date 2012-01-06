@@ -1,15 +1,29 @@
-<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 120 202.984'>
-  <rect fill='blue' height='0' stroke='black' width='12' x='15' y='2.984' />
-  <text x='15' y='7.984' font-family='Tahoma' font-size='12' transform='rotate(90 15,7.984)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-ivy-IvyModuleSet (0)</text>
-  <rect fill='blue' height='0.003' stroke='black' width='12' x='30' y='2.981' />
-  <text x='30' y='7.984' font-family='Tahoma' font-size='12' transform='rotate(90 30,7.984)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-plugins-parameterlocks-ParameterLocksProject (3)</text>
-  <rect fill='blue' height='0.071' stroke='black' width='12' x='45' y='2.913' />
-  <text x='45' y='7.984' font-family='Tahoma' font-size='12' transform='rotate(90 45,7.984)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-matrix-MatrixProject (71)</text>
-  <rect fill='blue' height='0.382' stroke='black' width='12' x='60' y='2.602' />
-  <text x='60' y='7.984' font-family='Tahoma' font-size='12' transform='rotate(90 60,7.984)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-model-ExternalJob (382)</text>
-  <rect fill='blue' height='1.143' stroke='black' width='12' x='75' y='1.841' />
-  <text x='75' y='7.984' font-family='Tahoma' font-size='12' transform='rotate(90 75,7.984)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-maven-MavenModuleSet (1143)</text>
-  <rect fill='blue' height='2.984' stroke='black' width='12' x='90' y='0.000' />
-  <text x='90' y='7.984' font-family='Tahoma' font-size='12' transform='rotate(90 90,7.984)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-model-FreeStyleProject (2984)</text>
-  <text x='10' y='100' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Total: 4583</text>
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 225 530.166'>
+  <rect fill='blue' height='0' stroke='black' width='12' x='15' y='380.166' />
+  <text x='15' y='385.166' font-family='Tahoma' font-size='12' transform='rotate(90 15,385.166)' text-rendering='optimizeSpeed' fill='#000000;'>org-jvnet-hudson-maven3-Maven3Project (0)</text>
+  <rect fill='blue' height='0' stroke='black' width='12' x='30' y='380.166' />
+  <text x='30' y='385.166' font-family='Tahoma' font-size='12' transform='rotate(90 30,385.166)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-mm-MavenModuleSet (0)</text>
+  <rect fill='blue' height='0.001' stroke='black' width='12' x='45' y='380.165' />
+  <text x='45' y='385.166' font-family='Tahoma' font-size='12' transform='rotate(90 45,385.166)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-plugins-multibuild-MultiBuildJob (1)</text>
+  <rect fill='blue' height='0.001' stroke='black' width='12' x='60' y='380.165' />
+  <text x='60' y='385.166' font-family='Tahoma' font-size='12' transform='rotate(90 60,385.166)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-plugins-jprt-JPRTJob (1)</text>
+  <rect fill='blue' height='0.002' stroke='black' width='12' x='75' y='380.164' />
+  <text x='75' y='385.166' font-family='Tahoma' font-size='12' transform='rotate(90 75,385.166)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-mm-MMModuleSet (2)</text>
+  <rect fill='blue' height='0.003' stroke='black' width='12' x='90' y='380.163' />
+  <text x='90' y='385.166' font-family='Tahoma' font-size='12' transform='rotate(90 90,385.166)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-plugins-parameterlocks-ParameterLocksProject (3)</text>
+  <rect fill='blue' height='0.019' stroke='black' width='12' x='105' y='380.147' />
+  <text x='105' y='385.166' font-family='Tahoma' font-size='12' transform='rotate(90 105,385.166)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-plugins-sectioned_view-TaobaoStyleProject (19)</text>
+  <rect fill='blue' height='0.038' stroke='black' width='12' x='120' y='380.128' />
+  <text x='120' y='385.166' font-family='Tahoma' font-size='12' transform='rotate(90 120,385.166)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-workflow-WorkflowProject (38)</text>
+  <rect fill='blue' height='0.825' stroke='black' width='12' x='135' y='379.341' />
+  <text x='135' y='385.166' font-family='Tahoma' font-size='12' transform='rotate(90 135,385.166)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-ivy-IvyModuleSet (825)</text>
+  <rect fill='blue' height='1.221' stroke='black' width='12' x='150' y='378.945' />
+  <text x='150' y='385.166' font-family='Tahoma' font-size='12' transform='rotate(90 150,385.166)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-model-ExternalJob (1221)</text>
+  <rect fill='blue' height='11.127' stroke='black' width='12' x='165' y='369.039' />
+  <text x='165' y='385.166' font-family='Tahoma' font-size='12' transform='rotate(90 165,385.166)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-matrix-MatrixProject (11127)</text>
+  <rect fill='blue' height='112.647' stroke='black' width='12' x='180' y='267.519' />
+  <text x='180' y='385.166' font-family='Tahoma' font-size='12' transform='rotate(90 180,385.166)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-maven-MavenModuleSet (112647)</text>
+  <rect fill='blue' height='330.166' stroke='black' width='12' x='195' y='50.000' />
+  <text x='195' y='385.166' font-family='Tahoma' font-size='12' transform='rotate(90 195,385.166)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-model-FreeStyleProject (330166)</text>
+  <text x='10' y='40' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Total: 456050</text>
 </svg>

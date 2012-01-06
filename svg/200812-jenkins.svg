@@ -1,9 +1,25 @@
-<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 75 201'>
-  <rect fill='blue' height='0.9' stroke='black' width='12' x='15' y='0.1' />
-  <text x='15' y='6.0' font-family='Tahoma' font-size='12' transform='rotate(90 15,6.0)' text-rendering='optimizeSpeed' fill='#000000;'>1.265 (9)</text>
-  <rect fill='blue' height='1' stroke='black' width='12' x='30' y='0' />
-  <text x='30' y='6' font-family='Tahoma' font-size='12' transform='rotate(90 30,6)' text-rendering='optimizeSpeed' fill='#000000;'>1.266 (10)</text>
-  <rect fill='blue' height='0.7' stroke='black' width='12' x='45' y='0.3' />
-  <text x='45' y='6.0' font-family='Tahoma' font-size='12' transform='rotate(90 45,6.0)' text-rendering='optimizeSpeed' fill='#000000;'>1.268 (7)</text>
-  <text x='10' y='100' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Total: 26</text>
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 195 238.8'>
+  <rect fill='blue' height='17.6' stroke='black' width='12' x='15' y='71.2' />
+  <text x='15' y='93.8' font-family='Tahoma' font-size='12' transform='rotate(90 15,93.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.264 (176)</text>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='30' y='88.7' />
+  <text x='30' y='93.8' font-family='Tahoma' font-size='12' transform='rotate(90 30,93.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.264 (private) (1)</text>
+  <rect fill='blue' height='35.5' stroke='black' width='12' x='45' y='53.3' />
+  <text x='45' y='93.8' font-family='Tahoma' font-size='12' transform='rotate(90 45,93.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.265 (355)</text>
+  <rect fill='blue' height='0.3' stroke='black' width='12' x='60' y='88.5' />
+  <text x='60' y='93.8' font-family='Tahoma' font-size='12' transform='rotate(90 60,93.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.265 (private) (3)</text>
+  <rect fill='blue' height='38.8' stroke='black' width='12' x='75' y='50.0' />
+  <text x='75' y='93.8' font-family='Tahoma' font-size='12' transform='rotate(90 75,93.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.266 (388)</text>
+  <rect fill='blue' height='0.3' stroke='black' width='12' x='90' y='88.5' />
+  <text x='90' y='93.8' font-family='Tahoma' font-size='12' transform='rotate(90 90,93.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.266 (private) (3)</text>
+  <rect fill='blue' height='11' stroke='black' width='12' x='105' y='77.8' />
+  <text x='105' y='93.8' font-family='Tahoma' font-size='12' transform='rotate(90 105,93.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.267 (110)</text>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='120' y='88.7' />
+  <text x='120' y='93.8' font-family='Tahoma' font-size='12' transform='rotate(90 120,93.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.267 (private) (1)</text>
+  <rect fill='blue' height='20.2' stroke='black' width='12' x='135' y='68.6' />
+  <text x='135' y='93.8' font-family='Tahoma' font-size='12' transform='rotate(90 135,93.8)' text-rendering='optimizeSpeed' fill='#000000;'>1.268 (202)</text>
+  <rect fill='blue' height='0.1' stroke='black' width='12' x='150' y='88.7' />
+  <text x='150' y='93.8' font-family='Tahoma' font-size='12' transform='rotate(90 150,93.8)' text-rendering='optimizeSpeed' fill='#000000;'>? (1)</text>
+  <rect fill='blue' height='0.2' stroke='black' width='12' x='165' y='88.6' />
+  <text x='165' y='93.8' font-family='Tahoma' font-size='12' transform='rotate(90 165,93.8)' text-rendering='optimizeSpeed' fill='#000000;'>development (2)</text>
+  <text x='10' y='40' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Total: 1242</text>
 </svg>
