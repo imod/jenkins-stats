@@ -1,4 +1,4 @@
-<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 615 633.1'>
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 635 783.1'>
   <rect fill='blue' height='0.1' stroke='black' width='12' x='15' y='483.0' />
   <text x='15' y='488.1' font-family='Tahoma' font-size='12' transform='rotate(90 15,488.1)' text-rendering='optimizeSpeed' fill='#000000;'>"Linux (s390)" (1)</text>
   <rect fill='blue' height='0.1' stroke='black' width='12' x='30' y='483.0' />
@@ -77,5 +77,5 @@
   <text x='570' y='488.1' font-family='Tahoma' font-size='12' transform='rotate(90 570,488.1)' text-rendering='optimizeSpeed' fill='#000000;'>"Linux (i386)" (2900)</text>
   <rect fill='blue' height='433.1' stroke='black' width='12' x='585' y='50.0' />
   <text x='585' y='488.1' font-family='Tahoma' font-size='12' transform='rotate(90 585,488.1)' text-rendering='optimizeSpeed' fill='#000000;'>N/A (4331)</text>
-  <text x='10' y='40' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Total: 12212</text>
+  <text x='10' y='40' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Nodes, total: 12212</text>
 </svg>

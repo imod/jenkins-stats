@@ -1,4 +1,4 @@
-<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 2865 1313.1'>
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 2885 1463.1'>
   <rect fill='blue' height='0.1' stroke='black' width='12' x='15' y='1163.0' />
   <text x='15' y='1168.1' font-family='Tahoma' font-size='12' transform='rotate(90 15,1168.1)' text-rendering='optimizeSpeed' fill='#000000;'>dashboard-view (1)</text>
   <rect fill='blue' height='0.1' stroke='black' width='12' x='30' y='1163.0' />
@@ -377,5 +377,5 @@
   <text x='2820' y='1168.1' font-family='Tahoma' font-size='12' transform='rotate(90 2820,1168.1)' text-rendering='optimizeSpeed' fill='#000000;'>ssh-slaves (10785)</text>
   <rect fill='blue' height='1113.1' stroke='black' width='12' x='2835' y='50.0' />
   <text x='2835' y='1168.1' font-family='Tahoma' font-size='12' transform='rotate(90 2835,1168.1)' text-rendering='optimizeSpeed' fill='#000000;'>maven-plugin (11131)</text>
-  <text x='10' y='40' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Total: 109369</text>
+  <text x='10' y='40' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Plugin installations, total: 109369</text>
 </svg>

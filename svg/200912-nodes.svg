@@ -1,4 +1,4 @@
-<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 750 859.7'>
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 770 1009.7'>
   <rect fill='blue' height='0.1' stroke='black' width='12' x='15' y='709.6' />
   <text x='15' y='714.7' font-family='Tahoma' font-size='12' transform='rotate(90 15,714.7)' text-rendering='optimizeSpeed' fill='#000000;'>"Windows Server 2008 (ia64)" (1)</text>
   <rect fill='blue' height='0.1' stroke='black' width='12' x='30' y='709.6' />
@@ -95,5 +95,5 @@
   <text x='705' y='714.7' font-family='Tahoma' font-size='12' transform='rotate(90 705,714.7)' text-rendering='optimizeSpeed' fill='#000000;'>"Linux (i386)" (5459)</text>
   <rect fill='blue' height='659.7' stroke='black' width='12' x='720' y='50.0' />
   <text x='720' y='714.7' font-family='Tahoma' font-size='12' transform='rotate(90 720,714.7)' text-rendering='optimizeSpeed' fill='#000000;'>N/A (6597)</text>
-  <text x='10' y='40' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Total: 22890</text>
+  <text x='10' y='40' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Nodes, total: 22890</text>
 </svg>

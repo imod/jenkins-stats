@@ -1,4 +1,4 @@
-<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 1605 533.4'>
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 1625 683.4'>
   <rect fill='blue' height='0.1' stroke='black' width='12' x='15' y='383.3' />
   <text x='15' y='388.4' font-family='Tahoma' font-size='12' transform='rotate(90 15,388.4)' text-rendering='optimizeSpeed' fill='#000000;'>${build.version} (1)</text>
   <rect fill='blue' height='0.1' stroke='black' width='12' x='30' y='383.3' />
@@ -209,5 +209,5 @@
   <text x='1560' y='388.4' font-family='Tahoma' font-size='12' transform='rotate(90 1560,388.4)' text-rendering='optimizeSpeed' fill='#000000;'>1.441-NOKIA (2)</text>
   <rect fill='blue' height='0.7' stroke='black' width='12' x='1575' y='382.7' />
   <text x='1575' y='388.4' font-family='Tahoma' font-size='12' transform='rotate(90 1575,388.4)' text-rendering='optimizeSpeed' fill='#000000;'>code2cloud-1.384 (private) (7)</text>
-  <text x='10' y='40' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Total: 32160</text>
+  <text x='10' y='40' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Jenkins installations, total: 32160</text>
 </svg>

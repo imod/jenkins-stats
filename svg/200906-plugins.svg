@@ -1,4 +1,4 @@
-<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 2415 1036.9'>
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 2435 1186.9'>
   <rect fill='blue' height='0.1' stroke='black' width='12' x='15' y='886.8' />
   <text x='15' y='891.9' font-family='Tahoma' font-size='12' transform='rotate(90 15,891.9)' text-rendering='optimizeSpeed' fill='#000000;'>cppcheck (1)</text>
   <rect fill='blue' height='0.1' stroke='black' width='12' x='30' y='886.8' />
@@ -317,5 +317,5 @@
   <text x='2370' y='891.9' font-family='Tahoma' font-size='12' transform='rotate(90 2370,891.9)' text-rendering='optimizeSpeed' fill='#000000;'>ssh-slaves (7511)</text>
   <rect fill='blue' height='836.9' stroke='black' width='12' x='2385' y='50.0' />
   <text x='2385' y='891.9' font-family='Tahoma' font-size='12' transform='rotate(90 2385,891.9)' text-rendering='optimizeSpeed' fill='#000000;'>maven-plugin (8369)</text>
-  <text x='10' y='40' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Total: 74928</text>
+  <text x='10' y='40' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Plugin installations, total: 74928</text>
 </svg>

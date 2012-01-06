@@ -1,4 +1,4 @@
-<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 105 314.714'>
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 125 464.714'>
   <rect fill='blue' height='0' stroke='black' width='12' x='15' y='164.714' />
   <text x='15' y='169.714' font-family='Tahoma' font-size='12' transform='rotate(90 15,169.714)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-drools-DroolsProject (0)</text>
   <rect fill='blue' height='0.271' stroke='black' width='12' x='30' y='164.443' />
@@ -9,5 +9,5 @@
   <text x='60' y='169.714' font-family='Tahoma' font-size='12' transform='rotate(90 60,169.714)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-maven-MavenModuleSet (36232)</text>
   <rect fill='blue' height='114.714' stroke='black' width='12' x='75' y='50.000' />
   <text x='75' y='169.714' font-family='Tahoma' font-size='12' transform='rotate(90 75,169.714)' text-rendering='optimizeSpeed' fill='#000000;'>hudson-model-FreeStyleProject (114714)</text>
-  <text x='10' y='40' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Total: 153331</text>
+  <text x='10' y='40' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Jobs, total: 153331</text>
 </svg>

@@ -1,4 +1,4 @@
-<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 5265 3116'>
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 5285 3266'>
   <rect fill='blue' height='0.1' stroke='black' width='12' x='15' y='2965.9' />
   <text x='15' y='2971.0' font-family='Tahoma' font-size='12' transform='rotate(90 15,2971.0)' text-rendering='optimizeSpeed' fill='#000000;'>origo-issue-notifier (1)</text>
   <rect fill='blue' height='0.4' stroke='black' width='12' x='30' y='2965.6' />
@@ -697,5 +697,5 @@
   <text x='5220' y='2971.0' font-family='Tahoma' font-size='12' transform='rotate(90 5220,2971.0)' text-rendering='optimizeSpeed' fill='#000000;'>subversion (28856)</text>
   <rect fill='blue' height='2916' stroke='black' width='12' x='5235' y='50' />
   <text x='5235' y='2971' font-family='Tahoma' font-size='12' transform='rotate(90 5235,2971)' text-rendering='optimizeSpeed' fill='#000000;'>ssh-slaves (29160)</text>
-  <text x='10' y='40' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Total: 417304</text>
+  <text x='10' y='40' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Plugin installations, total: 417304</text>
 </svg>
