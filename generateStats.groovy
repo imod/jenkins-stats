@@ -134,7 +134,7 @@ def createPieSVG(def svgFile, def data,def cx,def cy,def r,def colors,def labels
 
     // Loop through each slice of pie.
     def startangle = 0;
-    
+
     def squareHeight = 30
 
     def viewWidth = lx + 350 // 350 for the text of the legend
@@ -143,14 +143,14 @@ def createPieSVG(def svgFile, def data,def cx,def cy,def r,def colors,def labels
     def pxml = new MarkupBuilder(pwriter)
     pxml.svg('xmlns': 'http://www.w3.org/2000/svg', "version": "1.1", "preserveAspectRatio":'none', "viewBox": "0 0 $viewWidth $viewHeight") {
 
-        
+
         text("x": 30, // Position the text
-             "y": 40,
-             "font-family": "sans-serif",
-             "font-size": "16",
-             "Total: $total"){}
-            
-        
+                "y": 40,
+                "font-family": "sans-serif",
+                "font-size": "16",
+                "Total: $total"){}
+
+
         data.eachWithIndex { item, i ->
             // This is where the wedge ends
             def endangle = startangle + angles[i];
@@ -210,14 +210,26 @@ def createPieSVG(def svgFile, def data,def cx,def cy,def r,def colors,def labels
 def createHtml(dir) {
     def files = []
     dir.eachFileMatch( ~".*svg" ) { file ->
-        files << file.name 
+        files << file.name
     }
-    
+
     files.sort()
     
+    def fileGroups = files.groupBy { file ->
+        println "*> $file"
+        file.name.substring(0, 6)
+    }
+    
+    fileGroups.each {
+        println ">"+it.key
+    }
+
     def pwriter = new FileWriter(new File(dir, "svgs.html"))
     def phtml = new MarkupBuilder(pwriter)
     phtml.html() {
+        head(){
+            link(rel: "stylesheet", href: "http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css"){}
+        }
         body(){
             ul(){
                 files.reverseEach { file ->
@@ -231,12 +243,12 @@ def createHtml(dir) {
 }
 
 def run = {
-    svgDir.deleteDir()
-    svgDir.mkdirs()
-    workingDir.eachFileMatch( ~".*json" ) { file -> generateStats(file, svgDir) }
-//        workingDir.eachFileMatch( ~"201109.json" ) { file -> generateStats(file, svgDir) }
-//        workingDir.eachFileMatch( ~"200812.json" ) { file -> generateStats(file, svgDir) }
-        
+//    svgDir.deleteDir()
+//    svgDir.mkdirs()
+//    workingDir.eachFileMatch( ~".*json" ) { file -> generateStats(file, svgDir) }
+    //        workingDir.eachFileMatch( ~"201109.json" ) { file -> generateStats(file, svgDir) }
+    //        workingDir.eachFileMatch( ~"200812.json" ) { file -> generateStats(file, svgDir) }
+
     createHtml(svgDir)
 }
 
