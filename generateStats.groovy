@@ -196,14 +196,21 @@ def createPieSVG(def svgFile, def data,def cx,def cy,def r,def colors,def labels
 }
 
 def createHtml(dir) {
+    def files = []
+    dir.eachFileMatch( ~".*svg" ) { file ->
+        files << file.name 
+    }
+    
+    files.sort()
+    
     def pwriter = new FileWriter(new File(dir, "svgs.html"))
     def phtml = new MarkupBuilder(pwriter)
     phtml.html() {
         body(){
             ul(){
-                dir.eachFileMatch( ~".*svg" ) { file ->
+                files.reverseEach { file ->
                     li(){
-                        a(href: file.name, file.name)
+                        a(href: file, file)
                     }
                 }
             }
@@ -212,9 +219,9 @@ def createHtml(dir) {
 }
 
 def run = {
-    svgDir.deleteDir()
-    svgDir.mkdirs()
-    workingDir.eachFileMatch( ~".*json" ) { file -> generateStats(file, svgDir) }
+//    svgDir.deleteDir()
+//    svgDir.mkdirs()
+//    workingDir.eachFileMatch( ~".*json" ) { file -> generateStats(file, svgDir) }
     //    workingDir.eachFileMatch( ~"201109.json" ) { file -> generateStats(file, svgDir) }
     createHtml(svgDir)
 }
