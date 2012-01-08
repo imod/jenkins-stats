@@ -1,0 +1,83 @@
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='xMidYMid meet' viewBox='0 0 650 447.3'>
+  <rect fill='blue' height='5.02' stroke='black' width='12' x='15' y='142.28' />
+  <text x='15' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 15,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>dependencyanalyzer (502)</text>
+  <rect fill='blue' height='5.12' stroke='black' width='12' x='30' y='142.18' />
+  <text x='30' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 30,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>plot (512)</text>
+  <rect fill='blue' height='5.14' stroke='black' width='12' x='45' y='142.16' />
+  <text x='45' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 45,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>promoted-builds (514)</text>
+  <rect fill='blue' height='5.19' stroke='black' width='12' x='60' y='142.11' />
+  <text x='60' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 60,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>clearcase (519)</text>
+  <rect fill='blue' height='5.58' stroke='black' width='12' x='75' y='141.72' />
+  <text x='75' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 75,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>locks-and-latches (558)</text>
+  <rect fill='blue' height='5.91' stroke='black' width='12' x='90' y='141.39' />
+  <text x='90' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 90,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>git (591)</text>
+  <rect fill='blue' height='5.91' stroke='black' width='12' x='105' y='141.39' />
+  <text x='105' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 105,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>jabber (591)</text>
+  <rect fill='blue' height='6' stroke='black' width='12' x='120' y='141.3' />
+  <text x='120' y='152.3' font-family='Tahoma' font-size='12' transform='rotate(90 120,152.3)' text-rendering='optimizeSpeed' fill='#000000;'>nunit (600)</text>
+  <rect fill='blue' height='6.19' stroke='black' width='12' x='135' y='141.11' />
+  <text x='135' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 135,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>text-finder (619)</text>
+  <rect fill='blue' height='6.45' stroke='black' width='12' x='150' y='140.85' />
+  <text x='150' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 150,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>dry (645)</text>
+  <rect fill='blue' height='6.57' stroke='black' width='12' x='165' y='140.73' />
+  <text x='165' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 165,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>release (657)</text>
+  <rect fill='blue' height='6.73' stroke='black' width='12' x='180' y='140.57' />
+  <text x='180' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 180,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>svn-release-mgr (673)</text>
+  <rect fill='blue' height='6.84' stroke='black' width='12' x='195' y='140.46' />
+  <text x='195' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 195,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>audit-trail (684)</text>
+  <rect fill='blue' height='6.96' stroke='black' width='12' x='210' y='140.34' />
+  <text x='210' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 210,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>m2release (696)</text>
+  <rect fill='blue' height='7.79' stroke='black' width='12' x='225' y='139.51' />
+  <text x='225' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 225,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>msbuild (779)</text>
+  <rect fill='blue' height='8.95' stroke='black' width='12' x='240' y='138.35' />
+  <text x='240' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 240,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>trac (895)</text>
+  <rect fill='blue' height='10.15' stroke='black' width='12' x='255' y='137.15' />
+  <text x='255' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 255,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>scp (1015)</text>
+  <rect fill='blue' height='10.89' stroke='black' width='12' x='270' y='136.41' />
+  <text x='270' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 270,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>sonar (1089)</text>
+  <rect fill='blue' height='10.94' stroke='black' width='12' x='285' y='136.36' />
+  <text x='285' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 285,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>active-directory (1094)</text>
+  <rect fill='blue' height='11.41' stroke='black' width='12' x='300' y='135.89' />
+  <text x='300' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 300,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>ci-game (1141)</text>
+  <rect fill='blue' height='11.9' stroke='black' width='12' x='315' y='135.4' />
+  <text x='315' y='152.3' font-family='Tahoma' font-size='12' transform='rotate(90 315,152.3)' text-rendering='optimizeSpeed' fill='#000000;'>emma (1190)</text>
+  <rect fill='blue' height='12.01' stroke='black' width='12' x='330' y='135.29' />
+  <text x='330' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 330,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>build-timeout (1201)</text>
+  <rect fill='blue' height='12.16' stroke='black' width='12' x='345' y='135.14' />
+  <text x='345' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 345,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>deploy (1216)</text>
+  <rect fill='blue' height='12.21' stroke='black' width='12' x='360' y='135.09' />
+  <text x='360' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 360,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>jira (1221)</text>
+  <rect fill='blue' height='12.62' stroke='black' width='12' x='375' y='134.68' />
+  <text x='375' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 375,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>batch-task (1262)</text>
+  <rect fill='blue' height='12.72' stroke='black' width='12' x='390' y='134.58' />
+  <text x='390' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 390,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>svn-tag (1272)</text>
+  <rect fill='blue' height='13.73' stroke='black' width='12' x='405' y='133.57' />
+  <text x='405' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 405,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>greenballs (1373)</text>
+  <rect fill='blue' height='14.24' stroke='black' width='12' x='420' y='133.06' />
+  <text x='420' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 420,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>violations (1424)</text>
+  <rect fill='blue' height='16.5' stroke='black' width='12' x='435' y='130.8' />
+  <text x='435' y='152.3' font-family='Tahoma' font-size='12' transform='rotate(90 435,152.3)' text-rendering='optimizeSpeed' fill='#000000;'>disk-usage (1650)</text>
+  <rect fill='blue' height='17.08' stroke='black' width='12' x='450' y='130.22' />
+  <text x='450' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 450,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>emotional-hudson (1708)</text>
+  <rect fill='blue' height='18.54' stroke='black' width='12' x='465' y='128.76' />
+  <text x='465' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 465,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>tasks (1854)</text>
+  <rect fill='blue' height='20.59' stroke='black' width='12' x='480' y='126.71' />
+  <text x='480' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 480,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>pmd (2059)</text>
+  <rect fill='blue' height='20.77' stroke='black' width='12' x='495' y='126.53' />
+  <text x='495' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 495,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>warnings (2077)</text>
+  <rect fill='blue' height='21.19' stroke='black' width='12' x='510' y='126.11' />
+  <text x='510' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 510,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>cobertura (2119)</text>
+  <rect fill='blue' height='23.88' stroke='black' width='12' x='525' y='123.42' />
+  <text x='525' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 525,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>checkstyle (2388)</text>
+  <rect fill='blue' height='24.25' stroke='black' width='12' x='540' y='123.05' />
+  <text x='540' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 540,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>email-ext (2425)</text>
+  <rect fill='blue' height='27.73' stroke='black' width='12' x='555' y='119.57' />
+  <text x='555' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 555,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>findbugs (2773)</text>
+  <rect fill='blue' height='62.4' stroke='black' width='12' x='570' y='84.9' />
+  <text x='570' y='152.3' font-family='Tahoma' font-size='12' transform='rotate(90 570,152.3)' text-rendering='optimizeSpeed' fill='#000000;'>subversion (6240)</text>
+  <rect fill='blue' height='90.23' stroke='black' width='12' x='585' y='57.07' />
+  <text x='585' y='152.30' font-family='Tahoma' font-size='12' transform='rotate(90 585,152.30)' text-rendering='optimizeSpeed' fill='#000000;'>ssh-slaves (9023)</text>
+  <rect fill='blue' height='97.3' stroke='black' width='12' x='600' y='50.0' />
+  <text x='600' y='152.3' font-family='Tahoma' font-size='12' transform='rotate(90 600,152.3)' text-rendering='optimizeSpeed' fill='#000000;'>maven-plugin (9730)</text>
+  <text x='10' y='40' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Top Plugin installations (installations &gt; 500)</text>
+</svg>

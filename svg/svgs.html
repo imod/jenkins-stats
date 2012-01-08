@@ -1,707 +1,946 @@
 <html>
   <head>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js' type='text/javascript'></script>
+    <script src='http://twitter.github.com/bootstrap/1.4.0/bootstrap-modal.js' type='text/javascript'></script>
+    <script src='http://twitter.github.com/bootstrap/1.4.0/bootstrap-twipsy.js' type='text/javascript'></script>
+    <script src='http://twitter.github.com/bootstrap/1.4.0/bootstrap-popover.js' type='text/javascript'></script>
     <link rel='stylesheet' href='http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css' />
   </head>
   <body>
     <div class='container'>
-      <div>
-        <h1>Some statistics on the usage of Jenkins</h1>
+      <div id='special'>
+        <div>
+          <h1>Some statistics on the usage of Jenkins</h1>
+        </div>
+        <table>
+          <tr>
+            <td>
+              <a href='total-jenkins.svg'>total-jenkins.svg
+                <object data='total-jenkins.svg' width='200' type='image/svg+xml' />
+              </a>
+            </td>
+            <td>
+              <a href='total-jobs.svg'>total-jobs.svg
+                <object data='total-jobs.svg' width='200' type='image/svg+xml' />
+              </a>
+            </td>
+            <td>
+              <a href='total-nodes.svg'>total-nodes.svg
+                <object data='total-nodes.svg' width='200' type='image/svg+xml' />
+              </a>
+            </td>
+            <td>
+              <a href='total-plugins.svg'>total-plugins.svg
+                <object data='total-plugins.svg' width='200' type='image/svg+xml' />
+              </a>
+            </td>
+          </tr>
+        </table>
       </div>
-      <table>
-        <tr>
-          <td>
-            <a href='total-jenkins.svg'>
-              <img class='thumbnail' src='total-jenkins.svg' alt='' width='200' />
-            </a>
-          </td>
-          <td>
-            <a href='total-jobs.svg'>
-              <img class='thumbnail' src='total-jobs.svg' alt='' width='200' />
-            </a>
-          </td>
-          <td>
-            <a href='total-nodes.svg'>
-              <img class='thumbnail' src='total-nodes.svg' alt='' width='200' />
-            </a>
-          </td>
-          <td>
-            <a href='total-plugins.svg'>
-              <img class='thumbnail' src='total-plugins.svg' alt='' width='200' />
-            </a>
-          </td>
-        </tr>
-      </table>
-      <div>
-        <h1>Statistics by months</h1>
+      <div id='byMonth'>
+        <div>
+          <h1>Statistics by months</h1>
+        </div>
+        <table>
+          <tr>
+            <td>2011-12 (December)</td>
+            <td>
+              <a class='info' href='201112-jenkins.svg' alt='201112-jenkins.svg' data-content='&lt;object data=&apos;201112-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201112-jenkins.svg'>201112-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201112-jobs.svg' alt='201112-jobs.svg' data-content='&lt;object data=&apos;201112-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201112-jobs.svg'>201112-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201112-nodes.svg' alt='201112-nodes.svg' data-content='&lt;object data=&apos;201112-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201112-nodes.svg'>201112-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201112-nodesPie.svg' alt='201112-nodesPie.svg' data-content='&lt;object data=&apos;201112-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201112-nodesPie.svg'>201112-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201112-plugins.svg' alt='201112-plugins.svg' data-content='&lt;object data=&apos;201112-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201112-plugins.svg'>201112-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201112-top-plugins1000.svg' alt='201112-top-plugins1000.svg' data-content='&lt;object data=&apos;201112-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201112-top-plugins1000.svg'>201112-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201112-top-plugins500.svg' alt='201112-top-plugins500.svg' data-content='&lt;object data=&apos;201112-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201112-top-plugins500.svg'>201112-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2011-11 (November)</td>
+            <td>
+              <a class='info' href='201111-jenkins.svg' alt='201111-jenkins.svg' data-content='&lt;object data=&apos;201111-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201111-jenkins.svg'>201111-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201111-jobs.svg' alt='201111-jobs.svg' data-content='&lt;object data=&apos;201111-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201111-jobs.svg'>201111-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201111-nodes.svg' alt='201111-nodes.svg' data-content='&lt;object data=&apos;201111-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201111-nodes.svg'>201111-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201111-nodesPie.svg' alt='201111-nodesPie.svg' data-content='&lt;object data=&apos;201111-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201111-nodesPie.svg'>201111-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201111-plugins.svg' alt='201111-plugins.svg' data-content='&lt;object data=&apos;201111-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201111-plugins.svg'>201111-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201111-top-plugins1000.svg' alt='201111-top-plugins1000.svg' data-content='&lt;object data=&apos;201111-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201111-top-plugins1000.svg'>201111-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201111-top-plugins500.svg' alt='201111-top-plugins500.svg' data-content='&lt;object data=&apos;201111-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201111-top-plugins500.svg'>201111-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2011-10 (October)</td>
+            <td>
+              <a class='info' href='201110-jenkins.svg' alt='201110-jenkins.svg' data-content='&lt;object data=&apos;201110-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201110-jenkins.svg'>201110-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201110-jobs.svg' alt='201110-jobs.svg' data-content='&lt;object data=&apos;201110-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201110-jobs.svg'>201110-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201110-nodes.svg' alt='201110-nodes.svg' data-content='&lt;object data=&apos;201110-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201110-nodes.svg'>201110-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201110-nodesPie.svg' alt='201110-nodesPie.svg' data-content='&lt;object data=&apos;201110-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201110-nodesPie.svg'>201110-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201110-plugins.svg' alt='201110-plugins.svg' data-content='&lt;object data=&apos;201110-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201110-plugins.svg'>201110-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201110-top-plugins1000.svg' alt='201110-top-plugins1000.svg' data-content='&lt;object data=&apos;201110-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201110-top-plugins1000.svg'>201110-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201110-top-plugins500.svg' alt='201110-top-plugins500.svg' data-content='&lt;object data=&apos;201110-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201110-top-plugins500.svg'>201110-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2011-09 (September)</td>
+            <td>
+              <a class='info' href='201109-jenkins.svg' alt='201109-jenkins.svg' data-content='&lt;object data=&apos;201109-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201109-jenkins.svg'>201109-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201109-jobs.svg' alt='201109-jobs.svg' data-content='&lt;object data=&apos;201109-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201109-jobs.svg'>201109-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201109-nodes.svg' alt='201109-nodes.svg' data-content='&lt;object data=&apos;201109-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201109-nodes.svg'>201109-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201109-nodesPie.svg' alt='201109-nodesPie.svg' data-content='&lt;object data=&apos;201109-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201109-nodesPie.svg'>201109-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201109-plugins.svg' alt='201109-plugins.svg' data-content='&lt;object data=&apos;201109-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201109-plugins.svg'>201109-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201109-top-plugins1000.svg' alt='201109-top-plugins1000.svg' data-content='&lt;object data=&apos;201109-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201109-top-plugins1000.svg'>201109-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201109-top-plugins500.svg' alt='201109-top-plugins500.svg' data-content='&lt;object data=&apos;201109-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201109-top-plugins500.svg'>201109-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2011-08 (August)</td>
+            <td>
+              <a class='info' href='201108-jenkins.svg' alt='201108-jenkins.svg' data-content='&lt;object data=&apos;201108-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201108-jenkins.svg'>201108-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201108-jobs.svg' alt='201108-jobs.svg' data-content='&lt;object data=&apos;201108-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201108-jobs.svg'>201108-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201108-nodes.svg' alt='201108-nodes.svg' data-content='&lt;object data=&apos;201108-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201108-nodes.svg'>201108-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201108-nodesPie.svg' alt='201108-nodesPie.svg' data-content='&lt;object data=&apos;201108-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201108-nodesPie.svg'>201108-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201108-plugins.svg' alt='201108-plugins.svg' data-content='&lt;object data=&apos;201108-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201108-plugins.svg'>201108-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201108-top-plugins1000.svg' alt='201108-top-plugins1000.svg' data-content='&lt;object data=&apos;201108-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201108-top-plugins1000.svg'>201108-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201108-top-plugins500.svg' alt='201108-top-plugins500.svg' data-content='&lt;object data=&apos;201108-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201108-top-plugins500.svg'>201108-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2011-07 (July)</td>
+            <td>
+              <a class='info' href='201107-jenkins.svg' alt='201107-jenkins.svg' data-content='&lt;object data=&apos;201107-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201107-jenkins.svg'>201107-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201107-jobs.svg' alt='201107-jobs.svg' data-content='&lt;object data=&apos;201107-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201107-jobs.svg'>201107-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201107-nodes.svg' alt='201107-nodes.svg' data-content='&lt;object data=&apos;201107-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201107-nodes.svg'>201107-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201107-nodesPie.svg' alt='201107-nodesPie.svg' data-content='&lt;object data=&apos;201107-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201107-nodesPie.svg'>201107-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201107-plugins.svg' alt='201107-plugins.svg' data-content='&lt;object data=&apos;201107-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201107-plugins.svg'>201107-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201107-top-plugins1000.svg' alt='201107-top-plugins1000.svg' data-content='&lt;object data=&apos;201107-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201107-top-plugins1000.svg'>201107-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201107-top-plugins500.svg' alt='201107-top-plugins500.svg' data-content='&lt;object data=&apos;201107-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201107-top-plugins500.svg'>201107-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2011-06 (June)</td>
+            <td>
+              <a class='info' href='201106-jenkins.svg' alt='201106-jenkins.svg' data-content='&lt;object data=&apos;201106-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201106-jenkins.svg'>201106-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201106-jobs.svg' alt='201106-jobs.svg' data-content='&lt;object data=&apos;201106-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201106-jobs.svg'>201106-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201106-nodes.svg' alt='201106-nodes.svg' data-content='&lt;object data=&apos;201106-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201106-nodes.svg'>201106-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201106-nodesPie.svg' alt='201106-nodesPie.svg' data-content='&lt;object data=&apos;201106-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201106-nodesPie.svg'>201106-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201106-plugins.svg' alt='201106-plugins.svg' data-content='&lt;object data=&apos;201106-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201106-plugins.svg'>201106-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201106-top-plugins1000.svg' alt='201106-top-plugins1000.svg' data-content='&lt;object data=&apos;201106-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201106-top-plugins1000.svg'>201106-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201106-top-plugins500.svg' alt='201106-top-plugins500.svg' data-content='&lt;object data=&apos;201106-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201106-top-plugins500.svg'>201106-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2011-05 (May)</td>
+            <td>
+              <a class='info' href='201105-jenkins.svg' alt='201105-jenkins.svg' data-content='&lt;object data=&apos;201105-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201105-jenkins.svg'>201105-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201105-jobs.svg' alt='201105-jobs.svg' data-content='&lt;object data=&apos;201105-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201105-jobs.svg'>201105-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201105-nodes.svg' alt='201105-nodes.svg' data-content='&lt;object data=&apos;201105-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201105-nodes.svg'>201105-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201105-nodesPie.svg' alt='201105-nodesPie.svg' data-content='&lt;object data=&apos;201105-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201105-nodesPie.svg'>201105-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201105-plugins.svg' alt='201105-plugins.svg' data-content='&lt;object data=&apos;201105-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201105-plugins.svg'>201105-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201105-top-plugins1000.svg' alt='201105-top-plugins1000.svg' data-content='&lt;object data=&apos;201105-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201105-top-plugins1000.svg'>201105-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201105-top-plugins500.svg' alt='201105-top-plugins500.svg' data-content='&lt;object data=&apos;201105-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201105-top-plugins500.svg'>201105-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2011-04 (April)</td>
+            <td>
+              <a class='info' href='201104-jenkins.svg' alt='201104-jenkins.svg' data-content='&lt;object data=&apos;201104-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201104-jenkins.svg'>201104-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201104-jobs.svg' alt='201104-jobs.svg' data-content='&lt;object data=&apos;201104-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201104-jobs.svg'>201104-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201104-nodes.svg' alt='201104-nodes.svg' data-content='&lt;object data=&apos;201104-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201104-nodes.svg'>201104-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201104-nodesPie.svg' alt='201104-nodesPie.svg' data-content='&lt;object data=&apos;201104-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201104-nodesPie.svg'>201104-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201104-plugins.svg' alt='201104-plugins.svg' data-content='&lt;object data=&apos;201104-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201104-plugins.svg'>201104-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201104-top-plugins1000.svg' alt='201104-top-plugins1000.svg' data-content='&lt;object data=&apos;201104-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201104-top-plugins1000.svg'>201104-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201104-top-plugins500.svg' alt='201104-top-plugins500.svg' data-content='&lt;object data=&apos;201104-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201104-top-plugins500.svg'>201104-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2011-03 (March)</td>
+            <td>
+              <a class='info' href='201103-jenkins.svg' alt='201103-jenkins.svg' data-content='&lt;object data=&apos;201103-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201103-jenkins.svg'>201103-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201103-jobs.svg' alt='201103-jobs.svg' data-content='&lt;object data=&apos;201103-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201103-jobs.svg'>201103-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201103-nodes.svg' alt='201103-nodes.svg' data-content='&lt;object data=&apos;201103-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201103-nodes.svg'>201103-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201103-nodesPie.svg' alt='201103-nodesPie.svg' data-content='&lt;object data=&apos;201103-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201103-nodesPie.svg'>201103-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201103-plugins.svg' alt='201103-plugins.svg' data-content='&lt;object data=&apos;201103-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201103-plugins.svg'>201103-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201103-top-plugins1000.svg' alt='201103-top-plugins1000.svg' data-content='&lt;object data=&apos;201103-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201103-top-plugins1000.svg'>201103-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201103-top-plugins500.svg' alt='201103-top-plugins500.svg' data-content='&lt;object data=&apos;201103-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201103-top-plugins500.svg'>201103-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2011-02 (February)</td>
+            <td>
+              <a class='info' href='201102-jenkins.svg' alt='201102-jenkins.svg' data-content='&lt;object data=&apos;201102-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201102-jenkins.svg'>201102-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201102-jobs.svg' alt='201102-jobs.svg' data-content='&lt;object data=&apos;201102-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201102-jobs.svg'>201102-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201102-nodes.svg' alt='201102-nodes.svg' data-content='&lt;object data=&apos;201102-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201102-nodes.svg'>201102-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201102-nodesPie.svg' alt='201102-nodesPie.svg' data-content='&lt;object data=&apos;201102-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201102-nodesPie.svg'>201102-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201102-plugins.svg' alt='201102-plugins.svg' data-content='&lt;object data=&apos;201102-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201102-plugins.svg'>201102-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201102-top-plugins1000.svg' alt='201102-top-plugins1000.svg' data-content='&lt;object data=&apos;201102-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201102-top-plugins1000.svg'>201102-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201102-top-plugins500.svg' alt='201102-top-plugins500.svg' data-content='&lt;object data=&apos;201102-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201102-top-plugins500.svg'>201102-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2011-01 (January)</td>
+            <td>
+              <a class='info' href='201101-jenkins.svg' alt='201101-jenkins.svg' data-content='&lt;object data=&apos;201101-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201101-jenkins.svg'>201101-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201101-jobs.svg' alt='201101-jobs.svg' data-content='&lt;object data=&apos;201101-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201101-jobs.svg'>201101-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201101-nodes.svg' alt='201101-nodes.svg' data-content='&lt;object data=&apos;201101-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201101-nodes.svg'>201101-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201101-nodesPie.svg' alt='201101-nodesPie.svg' data-content='&lt;object data=&apos;201101-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201101-nodesPie.svg'>201101-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201101-plugins.svg' alt='201101-plugins.svg' data-content='&lt;object data=&apos;201101-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201101-plugins.svg'>201101-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201101-top-plugins1000.svg' alt='201101-top-plugins1000.svg' data-content='&lt;object data=&apos;201101-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201101-top-plugins1000.svg'>201101-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201101-top-plugins500.svg' alt='201101-top-plugins500.svg' data-content='&lt;object data=&apos;201101-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201101-top-plugins500.svg'>201101-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2010-12 (December)</td>
+            <td>
+              <a class='info' href='201012-jenkins.svg' alt='201012-jenkins.svg' data-content='&lt;object data=&apos;201012-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201012-jenkins.svg'>201012-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201012-jobs.svg' alt='201012-jobs.svg' data-content='&lt;object data=&apos;201012-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201012-jobs.svg'>201012-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201012-nodes.svg' alt='201012-nodes.svg' data-content='&lt;object data=&apos;201012-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201012-nodes.svg'>201012-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201012-nodesPie.svg' alt='201012-nodesPie.svg' data-content='&lt;object data=&apos;201012-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201012-nodesPie.svg'>201012-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201012-plugins.svg' alt='201012-plugins.svg' data-content='&lt;object data=&apos;201012-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201012-plugins.svg'>201012-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201012-top-plugins1000.svg' alt='201012-top-plugins1000.svg' data-content='&lt;object data=&apos;201012-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201012-top-plugins1000.svg'>201012-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201012-top-plugins500.svg' alt='201012-top-plugins500.svg' data-content='&lt;object data=&apos;201012-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201012-top-plugins500.svg'>201012-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2010-11 (November)</td>
+            <td>
+              <a class='info' href='201011-jenkins.svg' alt='201011-jenkins.svg' data-content='&lt;object data=&apos;201011-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201011-jenkins.svg'>201011-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201011-jobs.svg' alt='201011-jobs.svg' data-content='&lt;object data=&apos;201011-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201011-jobs.svg'>201011-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201011-nodes.svg' alt='201011-nodes.svg' data-content='&lt;object data=&apos;201011-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201011-nodes.svg'>201011-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201011-nodesPie.svg' alt='201011-nodesPie.svg' data-content='&lt;object data=&apos;201011-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201011-nodesPie.svg'>201011-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201011-plugins.svg' alt='201011-plugins.svg' data-content='&lt;object data=&apos;201011-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201011-plugins.svg'>201011-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201011-top-plugins1000.svg' alt='201011-top-plugins1000.svg' data-content='&lt;object data=&apos;201011-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201011-top-plugins1000.svg'>201011-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201011-top-plugins500.svg' alt='201011-top-plugins500.svg' data-content='&lt;object data=&apos;201011-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201011-top-plugins500.svg'>201011-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2010-10 (October)</td>
+            <td>
+              <a class='info' href='201010-jenkins.svg' alt='201010-jenkins.svg' data-content='&lt;object data=&apos;201010-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201010-jenkins.svg'>201010-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201010-jobs.svg' alt='201010-jobs.svg' data-content='&lt;object data=&apos;201010-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201010-jobs.svg'>201010-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201010-nodes.svg' alt='201010-nodes.svg' data-content='&lt;object data=&apos;201010-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201010-nodes.svg'>201010-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201010-nodesPie.svg' alt='201010-nodesPie.svg' data-content='&lt;object data=&apos;201010-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201010-nodesPie.svg'>201010-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201010-plugins.svg' alt='201010-plugins.svg' data-content='&lt;object data=&apos;201010-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201010-plugins.svg'>201010-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201010-top-plugins1000.svg' alt='201010-top-plugins1000.svg' data-content='&lt;object data=&apos;201010-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201010-top-plugins1000.svg'>201010-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201010-top-plugins500.svg' alt='201010-top-plugins500.svg' data-content='&lt;object data=&apos;201010-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201010-top-plugins500.svg'>201010-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2010-09 (September)</td>
+            <td>
+              <a class='info' href='201009-jenkins.svg' alt='201009-jenkins.svg' data-content='&lt;object data=&apos;201009-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201009-jenkins.svg'>201009-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201009-jobs.svg' alt='201009-jobs.svg' data-content='&lt;object data=&apos;201009-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201009-jobs.svg'>201009-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201009-nodes.svg' alt='201009-nodes.svg' data-content='&lt;object data=&apos;201009-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201009-nodes.svg'>201009-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201009-nodesPie.svg' alt='201009-nodesPie.svg' data-content='&lt;object data=&apos;201009-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201009-nodesPie.svg'>201009-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201009-plugins.svg' alt='201009-plugins.svg' data-content='&lt;object data=&apos;201009-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201009-plugins.svg'>201009-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201009-top-plugins1000.svg' alt='201009-top-plugins1000.svg' data-content='&lt;object data=&apos;201009-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201009-top-plugins1000.svg'>201009-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201009-top-plugins500.svg' alt='201009-top-plugins500.svg' data-content='&lt;object data=&apos;201009-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201009-top-plugins500.svg'>201009-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2010-08 (August)</td>
+            <td>
+              <a class='info' href='201008-jenkins.svg' alt='201008-jenkins.svg' data-content='&lt;object data=&apos;201008-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201008-jenkins.svg'>201008-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201008-jobs.svg' alt='201008-jobs.svg' data-content='&lt;object data=&apos;201008-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201008-jobs.svg'>201008-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201008-nodes.svg' alt='201008-nodes.svg' data-content='&lt;object data=&apos;201008-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201008-nodes.svg'>201008-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201008-nodesPie.svg' alt='201008-nodesPie.svg' data-content='&lt;object data=&apos;201008-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201008-nodesPie.svg'>201008-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201008-plugins.svg' alt='201008-plugins.svg' data-content='&lt;object data=&apos;201008-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201008-plugins.svg'>201008-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201008-top-plugins1000.svg' alt='201008-top-plugins1000.svg' data-content='&lt;object data=&apos;201008-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201008-top-plugins1000.svg'>201008-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201008-top-plugins500.svg' alt='201008-top-plugins500.svg' data-content='&lt;object data=&apos;201008-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201008-top-plugins500.svg'>201008-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2010-07 (July)</td>
+            <td>
+              <a class='info' href='201007-jenkins.svg' alt='201007-jenkins.svg' data-content='&lt;object data=&apos;201007-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201007-jenkins.svg'>201007-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201007-jobs.svg' alt='201007-jobs.svg' data-content='&lt;object data=&apos;201007-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201007-jobs.svg'>201007-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201007-nodes.svg' alt='201007-nodes.svg' data-content='&lt;object data=&apos;201007-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201007-nodes.svg'>201007-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201007-nodesPie.svg' alt='201007-nodesPie.svg' data-content='&lt;object data=&apos;201007-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201007-nodesPie.svg'>201007-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201007-plugins.svg' alt='201007-plugins.svg' data-content='&lt;object data=&apos;201007-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201007-plugins.svg'>201007-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201007-top-plugins1000.svg' alt='201007-top-plugins1000.svg' data-content='&lt;object data=&apos;201007-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201007-top-plugins1000.svg'>201007-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201007-top-plugins500.svg' alt='201007-top-plugins500.svg' data-content='&lt;object data=&apos;201007-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201007-top-plugins500.svg'>201007-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2010-06 (June)</td>
+            <td>
+              <a class='info' href='201006-jenkins.svg' alt='201006-jenkins.svg' data-content='&lt;object data=&apos;201006-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201006-jenkins.svg'>201006-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201006-jobs.svg' alt='201006-jobs.svg' data-content='&lt;object data=&apos;201006-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201006-jobs.svg'>201006-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201006-nodes.svg' alt='201006-nodes.svg' data-content='&lt;object data=&apos;201006-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201006-nodes.svg'>201006-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201006-nodesPie.svg' alt='201006-nodesPie.svg' data-content='&lt;object data=&apos;201006-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201006-nodesPie.svg'>201006-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201006-plugins.svg' alt='201006-plugins.svg' data-content='&lt;object data=&apos;201006-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201006-plugins.svg'>201006-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201006-top-plugins1000.svg' alt='201006-top-plugins1000.svg' data-content='&lt;object data=&apos;201006-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201006-top-plugins1000.svg'>201006-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201006-top-plugins500.svg' alt='201006-top-plugins500.svg' data-content='&lt;object data=&apos;201006-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201006-top-plugins500.svg'>201006-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2010-05 (May)</td>
+            <td>
+              <a class='info' href='201005-jenkins.svg' alt='201005-jenkins.svg' data-content='&lt;object data=&apos;201005-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201005-jenkins.svg'>201005-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201005-jobs.svg' alt='201005-jobs.svg' data-content='&lt;object data=&apos;201005-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201005-jobs.svg'>201005-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201005-nodes.svg' alt='201005-nodes.svg' data-content='&lt;object data=&apos;201005-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201005-nodes.svg'>201005-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201005-nodesPie.svg' alt='201005-nodesPie.svg' data-content='&lt;object data=&apos;201005-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201005-nodesPie.svg'>201005-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201005-plugins.svg' alt='201005-plugins.svg' data-content='&lt;object data=&apos;201005-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201005-plugins.svg'>201005-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201005-top-plugins1000.svg' alt='201005-top-plugins1000.svg' data-content='&lt;object data=&apos;201005-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201005-top-plugins1000.svg'>201005-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201005-top-plugins500.svg' alt='201005-top-plugins500.svg' data-content='&lt;object data=&apos;201005-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201005-top-plugins500.svg'>201005-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2010-04 (April)</td>
+            <td>
+              <a class='info' href='201004-jenkins.svg' alt='201004-jenkins.svg' data-content='&lt;object data=&apos;201004-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201004-jenkins.svg'>201004-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201004-jobs.svg' alt='201004-jobs.svg' data-content='&lt;object data=&apos;201004-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201004-jobs.svg'>201004-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201004-nodes.svg' alt='201004-nodes.svg' data-content='&lt;object data=&apos;201004-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201004-nodes.svg'>201004-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201004-nodesPie.svg' alt='201004-nodesPie.svg' data-content='&lt;object data=&apos;201004-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201004-nodesPie.svg'>201004-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201004-plugins.svg' alt='201004-plugins.svg' data-content='&lt;object data=&apos;201004-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201004-plugins.svg'>201004-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201004-top-plugins1000.svg' alt='201004-top-plugins1000.svg' data-content='&lt;object data=&apos;201004-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201004-top-plugins1000.svg'>201004-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201004-top-plugins500.svg' alt='201004-top-plugins500.svg' data-content='&lt;object data=&apos;201004-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201004-top-plugins500.svg'>201004-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2010-03 (March)</td>
+            <td>
+              <a class='info' href='201003-jenkins.svg' alt='201003-jenkins.svg' data-content='&lt;object data=&apos;201003-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201003-jenkins.svg'>201003-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201003-jobs.svg' alt='201003-jobs.svg' data-content='&lt;object data=&apos;201003-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201003-jobs.svg'>201003-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201003-nodes.svg' alt='201003-nodes.svg' data-content='&lt;object data=&apos;201003-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201003-nodes.svg'>201003-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201003-nodesPie.svg' alt='201003-nodesPie.svg' data-content='&lt;object data=&apos;201003-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201003-nodesPie.svg'>201003-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201003-plugins.svg' alt='201003-plugins.svg' data-content='&lt;object data=&apos;201003-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201003-plugins.svg'>201003-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201003-top-plugins1000.svg' alt='201003-top-plugins1000.svg' data-content='&lt;object data=&apos;201003-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201003-top-plugins1000.svg'>201003-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201003-top-plugins500.svg' alt='201003-top-plugins500.svg' data-content='&lt;object data=&apos;201003-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201003-top-plugins500.svg'>201003-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2010-02 (February)</td>
+            <td>
+              <a class='info' href='201002-jenkins.svg' alt='201002-jenkins.svg' data-content='&lt;object data=&apos;201002-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201002-jenkins.svg'>201002-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201002-jobs.svg' alt='201002-jobs.svg' data-content='&lt;object data=&apos;201002-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201002-jobs.svg'>201002-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201002-nodes.svg' alt='201002-nodes.svg' data-content='&lt;object data=&apos;201002-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201002-nodes.svg'>201002-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201002-nodesPie.svg' alt='201002-nodesPie.svg' data-content='&lt;object data=&apos;201002-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201002-nodesPie.svg'>201002-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201002-plugins.svg' alt='201002-plugins.svg' data-content='&lt;object data=&apos;201002-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201002-plugins.svg'>201002-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201002-top-plugins1000.svg' alt='201002-top-plugins1000.svg' data-content='&lt;object data=&apos;201002-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201002-top-plugins1000.svg'>201002-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201002-top-plugins500.svg' alt='201002-top-plugins500.svg' data-content='&lt;object data=&apos;201002-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201002-top-plugins500.svg'>201002-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2010-01 (January)</td>
+            <td>
+              <a class='info' href='201001-jenkins.svg' alt='201001-jenkins.svg' data-content='&lt;object data=&apos;201001-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201001-jenkins.svg'>201001-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201001-jobs.svg' alt='201001-jobs.svg' data-content='&lt;object data=&apos;201001-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201001-jobs.svg'>201001-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201001-nodes.svg' alt='201001-nodes.svg' data-content='&lt;object data=&apos;201001-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201001-nodes.svg'>201001-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201001-nodesPie.svg' alt='201001-nodesPie.svg' data-content='&lt;object data=&apos;201001-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201001-nodesPie.svg'>201001-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201001-plugins.svg' alt='201001-plugins.svg' data-content='&lt;object data=&apos;201001-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201001-plugins.svg'>201001-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201001-top-plugins1000.svg' alt='201001-top-plugins1000.svg' data-content='&lt;object data=&apos;201001-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201001-top-plugins1000.svg'>201001-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='201001-top-plugins500.svg' alt='201001-top-plugins500.svg' data-content='&lt;object data=&apos;201001-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='201001-top-plugins500.svg'>201001-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2009-12 (December)</td>
+            <td>
+              <a class='info' href='200912-jenkins.svg' alt='200912-jenkins.svg' data-content='&lt;object data=&apos;200912-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200912-jenkins.svg'>200912-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200912-jobs.svg' alt='200912-jobs.svg' data-content='&lt;object data=&apos;200912-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200912-jobs.svg'>200912-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200912-nodes.svg' alt='200912-nodes.svg' data-content='&lt;object data=&apos;200912-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200912-nodes.svg'>200912-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200912-nodesPie.svg' alt='200912-nodesPie.svg' data-content='&lt;object data=&apos;200912-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200912-nodesPie.svg'>200912-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200912-plugins.svg' alt='200912-plugins.svg' data-content='&lt;object data=&apos;200912-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200912-plugins.svg'>200912-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200912-top-plugins1000.svg' alt='200912-top-plugins1000.svg' data-content='&lt;object data=&apos;200912-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200912-top-plugins1000.svg'>200912-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200912-top-plugins500.svg' alt='200912-top-plugins500.svg' data-content='&lt;object data=&apos;200912-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200912-top-plugins500.svg'>200912-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2009-11 (November)</td>
+            <td>
+              <a class='info' href='200911-jenkins.svg' alt='200911-jenkins.svg' data-content='&lt;object data=&apos;200911-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200911-jenkins.svg'>200911-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200911-jobs.svg' alt='200911-jobs.svg' data-content='&lt;object data=&apos;200911-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200911-jobs.svg'>200911-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200911-nodes.svg' alt='200911-nodes.svg' data-content='&lt;object data=&apos;200911-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200911-nodes.svg'>200911-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200911-nodesPie.svg' alt='200911-nodesPie.svg' data-content='&lt;object data=&apos;200911-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200911-nodesPie.svg'>200911-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200911-plugins.svg' alt='200911-plugins.svg' data-content='&lt;object data=&apos;200911-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200911-plugins.svg'>200911-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200911-top-plugins1000.svg' alt='200911-top-plugins1000.svg' data-content='&lt;object data=&apos;200911-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200911-top-plugins1000.svg'>200911-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200911-top-plugins500.svg' alt='200911-top-plugins500.svg' data-content='&lt;object data=&apos;200911-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200911-top-plugins500.svg'>200911-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2009-10 (October)</td>
+            <td>
+              <a class='info' href='200910-jenkins.svg' alt='200910-jenkins.svg' data-content='&lt;object data=&apos;200910-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200910-jenkins.svg'>200910-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200910-jobs.svg' alt='200910-jobs.svg' data-content='&lt;object data=&apos;200910-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200910-jobs.svg'>200910-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200910-nodes.svg' alt='200910-nodes.svg' data-content='&lt;object data=&apos;200910-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200910-nodes.svg'>200910-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200910-nodesPie.svg' alt='200910-nodesPie.svg' data-content='&lt;object data=&apos;200910-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200910-nodesPie.svg'>200910-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200910-plugins.svg' alt='200910-plugins.svg' data-content='&lt;object data=&apos;200910-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200910-plugins.svg'>200910-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200910-top-plugins1000.svg' alt='200910-top-plugins1000.svg' data-content='&lt;object data=&apos;200910-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200910-top-plugins1000.svg'>200910-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200910-top-plugins500.svg' alt='200910-top-plugins500.svg' data-content='&lt;object data=&apos;200910-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200910-top-plugins500.svg'>200910-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2009-09 (September)</td>
+            <td>
+              <a class='info' href='200909-jenkins.svg' alt='200909-jenkins.svg' data-content='&lt;object data=&apos;200909-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200909-jenkins.svg'>200909-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200909-jobs.svg' alt='200909-jobs.svg' data-content='&lt;object data=&apos;200909-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200909-jobs.svg'>200909-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200909-nodes.svg' alt='200909-nodes.svg' data-content='&lt;object data=&apos;200909-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200909-nodes.svg'>200909-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200909-nodesPie.svg' alt='200909-nodesPie.svg' data-content='&lt;object data=&apos;200909-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200909-nodesPie.svg'>200909-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200909-plugins.svg' alt='200909-plugins.svg' data-content='&lt;object data=&apos;200909-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200909-plugins.svg'>200909-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200909-top-plugins1000.svg' alt='200909-top-plugins1000.svg' data-content='&lt;object data=&apos;200909-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200909-top-plugins1000.svg'>200909-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200909-top-plugins500.svg' alt='200909-top-plugins500.svg' data-content='&lt;object data=&apos;200909-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200909-top-plugins500.svg'>200909-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2009-08 (August)</td>
+            <td>
+              <a class='info' href='200908-jenkins.svg' alt='200908-jenkins.svg' data-content='&lt;object data=&apos;200908-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200908-jenkins.svg'>200908-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200908-jobs.svg' alt='200908-jobs.svg' data-content='&lt;object data=&apos;200908-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200908-jobs.svg'>200908-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200908-nodes.svg' alt='200908-nodes.svg' data-content='&lt;object data=&apos;200908-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200908-nodes.svg'>200908-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200908-nodesPie.svg' alt='200908-nodesPie.svg' data-content='&lt;object data=&apos;200908-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200908-nodesPie.svg'>200908-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200908-plugins.svg' alt='200908-plugins.svg' data-content='&lt;object data=&apos;200908-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200908-plugins.svg'>200908-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200908-top-plugins1000.svg' alt='200908-top-plugins1000.svg' data-content='&lt;object data=&apos;200908-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200908-top-plugins1000.svg'>200908-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200908-top-plugins500.svg' alt='200908-top-plugins500.svg' data-content='&lt;object data=&apos;200908-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200908-top-plugins500.svg'>200908-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2009-07 (July)</td>
+            <td>
+              <a class='info' href='200907-jenkins.svg' alt='200907-jenkins.svg' data-content='&lt;object data=&apos;200907-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200907-jenkins.svg'>200907-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200907-jobs.svg' alt='200907-jobs.svg' data-content='&lt;object data=&apos;200907-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200907-jobs.svg'>200907-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200907-nodes.svg' alt='200907-nodes.svg' data-content='&lt;object data=&apos;200907-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200907-nodes.svg'>200907-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200907-nodesPie.svg' alt='200907-nodesPie.svg' data-content='&lt;object data=&apos;200907-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200907-nodesPie.svg'>200907-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200907-plugins.svg' alt='200907-plugins.svg' data-content='&lt;object data=&apos;200907-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200907-plugins.svg'>200907-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200907-top-plugins1000.svg' alt='200907-top-plugins1000.svg' data-content='&lt;object data=&apos;200907-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200907-top-plugins1000.svg'>200907-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200907-top-plugins500.svg' alt='200907-top-plugins500.svg' data-content='&lt;object data=&apos;200907-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200907-top-plugins500.svg'>200907-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2009-06 (June)</td>
+            <td>
+              <a class='info' href='200906-jenkins.svg' alt='200906-jenkins.svg' data-content='&lt;object data=&apos;200906-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200906-jenkins.svg'>200906-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200906-jobs.svg' alt='200906-jobs.svg' data-content='&lt;object data=&apos;200906-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200906-jobs.svg'>200906-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200906-nodes.svg' alt='200906-nodes.svg' data-content='&lt;object data=&apos;200906-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200906-nodes.svg'>200906-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200906-nodesPie.svg' alt='200906-nodesPie.svg' data-content='&lt;object data=&apos;200906-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200906-nodesPie.svg'>200906-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200906-plugins.svg' alt='200906-plugins.svg' data-content='&lt;object data=&apos;200906-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200906-plugins.svg'>200906-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200906-top-plugins1000.svg' alt='200906-top-plugins1000.svg' data-content='&lt;object data=&apos;200906-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200906-top-plugins1000.svg'>200906-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200906-top-plugins500.svg' alt='200906-top-plugins500.svg' data-content='&lt;object data=&apos;200906-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200906-top-plugins500.svg'>200906-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2009-05 (May)</td>
+            <td>
+              <a class='info' href='200905-jenkins.svg' alt='200905-jenkins.svg' data-content='&lt;object data=&apos;200905-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200905-jenkins.svg'>200905-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200905-jobs.svg' alt='200905-jobs.svg' data-content='&lt;object data=&apos;200905-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200905-jobs.svg'>200905-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200905-nodes.svg' alt='200905-nodes.svg' data-content='&lt;object data=&apos;200905-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200905-nodes.svg'>200905-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200905-nodesPie.svg' alt='200905-nodesPie.svg' data-content='&lt;object data=&apos;200905-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200905-nodesPie.svg'>200905-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200905-plugins.svg' alt='200905-plugins.svg' data-content='&lt;object data=&apos;200905-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200905-plugins.svg'>200905-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200905-top-plugins1000.svg' alt='200905-top-plugins1000.svg' data-content='&lt;object data=&apos;200905-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200905-top-plugins1000.svg'>200905-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200905-top-plugins500.svg' alt='200905-top-plugins500.svg' data-content='&lt;object data=&apos;200905-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200905-top-plugins500.svg'>200905-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2009-04 (April)</td>
+            <td>
+              <a class='info' href='200904-jenkins.svg' alt='200904-jenkins.svg' data-content='&lt;object data=&apos;200904-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200904-jenkins.svg'>200904-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200904-jobs.svg' alt='200904-jobs.svg' data-content='&lt;object data=&apos;200904-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200904-jobs.svg'>200904-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200904-nodes.svg' alt='200904-nodes.svg' data-content='&lt;object data=&apos;200904-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200904-nodes.svg'>200904-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200904-nodesPie.svg' alt='200904-nodesPie.svg' data-content='&lt;object data=&apos;200904-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200904-nodesPie.svg'>200904-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200904-plugins.svg' alt='200904-plugins.svg' data-content='&lt;object data=&apos;200904-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200904-plugins.svg'>200904-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200904-top-plugins1000.svg' alt='200904-top-plugins1000.svg' data-content='&lt;object data=&apos;200904-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200904-top-plugins1000.svg'>200904-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200904-top-plugins500.svg' alt='200904-top-plugins500.svg' data-content='&lt;object data=&apos;200904-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200904-top-plugins500.svg'>200904-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2009-03 (March)</td>
+            <td>
+              <a class='info' href='200903-jenkins.svg' alt='200903-jenkins.svg' data-content='&lt;object data=&apos;200903-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200903-jenkins.svg'>200903-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200903-jobs.svg' alt='200903-jobs.svg' data-content='&lt;object data=&apos;200903-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200903-jobs.svg'>200903-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200903-nodes.svg' alt='200903-nodes.svg' data-content='&lt;object data=&apos;200903-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200903-nodes.svg'>200903-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200903-nodesPie.svg' alt='200903-nodesPie.svg' data-content='&lt;object data=&apos;200903-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200903-nodesPie.svg'>200903-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200903-plugins.svg' alt='200903-plugins.svg' data-content='&lt;object data=&apos;200903-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200903-plugins.svg'>200903-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200903-top-plugins1000.svg' alt='200903-top-plugins1000.svg' data-content='&lt;object data=&apos;200903-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200903-top-plugins1000.svg'>200903-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200903-top-plugins500.svg' alt='200903-top-plugins500.svg' data-content='&lt;object data=&apos;200903-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200903-top-plugins500.svg'>200903-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2009-02 (February)</td>
+            <td>
+              <a class='info' href='200902-jenkins.svg' alt='200902-jenkins.svg' data-content='&lt;object data=&apos;200902-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200902-jenkins.svg'>200902-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200902-jobs.svg' alt='200902-jobs.svg' data-content='&lt;object data=&apos;200902-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200902-jobs.svg'>200902-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200902-nodes.svg' alt='200902-nodes.svg' data-content='&lt;object data=&apos;200902-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200902-nodes.svg'>200902-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200902-nodesPie.svg' alt='200902-nodesPie.svg' data-content='&lt;object data=&apos;200902-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200902-nodesPie.svg'>200902-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200902-plugins.svg' alt='200902-plugins.svg' data-content='&lt;object data=&apos;200902-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200902-plugins.svg'>200902-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200902-top-plugins1000.svg' alt='200902-top-plugins1000.svg' data-content='&lt;object data=&apos;200902-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200902-top-plugins1000.svg'>200902-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200902-top-plugins500.svg' alt='200902-top-plugins500.svg' data-content='&lt;object data=&apos;200902-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200902-top-plugins500.svg'>200902-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2009-01 (January)</td>
+            <td>
+              <a class='info' href='200901-jenkins.svg' alt='200901-jenkins.svg' data-content='&lt;object data=&apos;200901-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200901-jenkins.svg'>200901-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200901-jobs.svg' alt='200901-jobs.svg' data-content='&lt;object data=&apos;200901-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200901-jobs.svg'>200901-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200901-nodes.svg' alt='200901-nodes.svg' data-content='&lt;object data=&apos;200901-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200901-nodes.svg'>200901-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200901-nodesPie.svg' alt='200901-nodesPie.svg' data-content='&lt;object data=&apos;200901-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200901-nodesPie.svg'>200901-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200901-plugins.svg' alt='200901-plugins.svg' data-content='&lt;object data=&apos;200901-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200901-plugins.svg'>200901-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200901-top-plugins1000.svg' alt='200901-top-plugins1000.svg' data-content='&lt;object data=&apos;200901-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200901-top-plugins1000.svg'>200901-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200901-top-plugins500.svg' alt='200901-top-plugins500.svg' data-content='&lt;object data=&apos;200901-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200901-top-plugins500.svg'>200901-top-plugins500.svg</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2008-12 (December)</td>
+            <td>
+              <a class='info' href='200812-jenkins.svg' alt='200812-jenkins.svg' data-content='&lt;object data=&apos;200812-jenkins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200812-jenkins.svg'>200812-jenkins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200812-jobs.svg' alt='200812-jobs.svg' data-content='&lt;object data=&apos;200812-jobs.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200812-jobs.svg'>200812-jobs.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200812-nodes.svg' alt='200812-nodes.svg' data-content='&lt;object data=&apos;200812-nodes.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200812-nodes.svg'>200812-nodes.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200812-nodesPie.svg' alt='200812-nodesPie.svg' data-content='&lt;object data=&apos;200812-nodesPie.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200812-nodesPie.svg'>200812-nodesPie.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200812-plugins.svg' alt='200812-plugins.svg' data-content='&lt;object data=&apos;200812-plugins.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200812-plugins.svg'>200812-plugins.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200812-top-plugins1000.svg' alt='200812-top-plugins1000.svg' data-content='&lt;object data=&apos;200812-top-plugins1000.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200812-top-plugins1000.svg'>200812-top-plugins1000.svg</a>
+            </td>
+            <td>
+              <a class='info' href='200812-top-plugins500.svg' alt='200812-top-plugins500.svg' data-content='&lt;object data=&apos;200812-top-plugins500.svg&apos; width=&apos;200&apos; type=&apos;image/svg+xml&apos;/&gt;' rel='popover' data-original-title='200812-top-plugins500.svg'>200812-top-plugins500.svg</a>
+            </td>
+          </tr>
+        </table>
+        <script>$(function () {
+ $("a[rel=popover]")
+ .popover({
+   offset: 10,
+   html: true,
+   placement: 'right'
+ })
+})
+</script>
       </div>
-      <table>
-        <tr>
-          <td>2011-12 (December)</td>
-          <td>
-            <a href='201112-jenkins.svg'>201112-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='201112-jobs.svg'>201112-jobs.svg</a>
-          </td>
-          <td>
-            <a href='201112-nodes.svg'>201112-nodes.svg</a>
-          </td>
-          <td>
-            <a href='201112-nodesPie.svg'>201112-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='201112-plugins.svg'>201112-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2011-11 (November)</td>
-          <td>
-            <a href='201111-jenkins.svg'>201111-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='201111-jobs.svg'>201111-jobs.svg</a>
-          </td>
-          <td>
-            <a href='201111-nodes.svg'>201111-nodes.svg</a>
-          </td>
-          <td>
-            <a href='201111-nodesPie.svg'>201111-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='201111-plugins.svg'>201111-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2011-10 (October)</td>
-          <td>
-            <a href='201110-jenkins.svg'>201110-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='201110-jobs.svg'>201110-jobs.svg</a>
-          </td>
-          <td>
-            <a href='201110-nodes.svg'>201110-nodes.svg</a>
-          </td>
-          <td>
-            <a href='201110-nodesPie.svg'>201110-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='201110-plugins.svg'>201110-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2011-09 (September)</td>
-          <td>
-            <a href='201109-jenkins.svg'>201109-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='201109-jobs.svg'>201109-jobs.svg</a>
-          </td>
-          <td>
-            <a href='201109-nodes.svg'>201109-nodes.svg</a>
-          </td>
-          <td>
-            <a href='201109-nodesPie.svg'>201109-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='201109-plugins.svg'>201109-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2011-08 (August)</td>
-          <td>
-            <a href='201108-jenkins.svg'>201108-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='201108-jobs.svg'>201108-jobs.svg</a>
-          </td>
-          <td>
-            <a href='201108-nodes.svg'>201108-nodes.svg</a>
-          </td>
-          <td>
-            <a href='201108-nodesPie.svg'>201108-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='201108-plugins.svg'>201108-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2011-07 (July)</td>
-          <td>
-            <a href='201107-jenkins.svg'>201107-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='201107-jobs.svg'>201107-jobs.svg</a>
-          </td>
-          <td>
-            <a href='201107-nodes.svg'>201107-nodes.svg</a>
-          </td>
-          <td>
-            <a href='201107-nodesPie.svg'>201107-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='201107-plugins.svg'>201107-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2011-06 (June)</td>
-          <td>
-            <a href='201106-jenkins.svg'>201106-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='201106-jobs.svg'>201106-jobs.svg</a>
-          </td>
-          <td>
-            <a href='201106-nodes.svg'>201106-nodes.svg</a>
-          </td>
-          <td>
-            <a href='201106-nodesPie.svg'>201106-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='201106-plugins.svg'>201106-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2011-05 (May)</td>
-          <td>
-            <a href='201105-jenkins.svg'>201105-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='201105-jobs.svg'>201105-jobs.svg</a>
-          </td>
-          <td>
-            <a href='201105-nodes.svg'>201105-nodes.svg</a>
-          </td>
-          <td>
-            <a href='201105-nodesPie.svg'>201105-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='201105-plugins.svg'>201105-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2011-04 (April)</td>
-          <td>
-            <a href='201104-jenkins.svg'>201104-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='201104-jobs.svg'>201104-jobs.svg</a>
-          </td>
-          <td>
-            <a href='201104-nodes.svg'>201104-nodes.svg</a>
-          </td>
-          <td>
-            <a href='201104-nodesPie.svg'>201104-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='201104-plugins.svg'>201104-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2011-03 (March)</td>
-          <td>
-            <a href='201103-jenkins.svg'>201103-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='201103-jobs.svg'>201103-jobs.svg</a>
-          </td>
-          <td>
-            <a href='201103-nodes.svg'>201103-nodes.svg</a>
-          </td>
-          <td>
-            <a href='201103-nodesPie.svg'>201103-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='201103-plugins.svg'>201103-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2011-02 (February)</td>
-          <td>
-            <a href='201102-jenkins.svg'>201102-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='201102-jobs.svg'>201102-jobs.svg</a>
-          </td>
-          <td>
-            <a href='201102-nodes.svg'>201102-nodes.svg</a>
-          </td>
-          <td>
-            <a href='201102-nodesPie.svg'>201102-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='201102-plugins.svg'>201102-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2011-01 (January)</td>
-          <td>
-            <a href='201101-jenkins.svg'>201101-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='201101-jobs.svg'>201101-jobs.svg</a>
-          </td>
-          <td>
-            <a href='201101-nodes.svg'>201101-nodes.svg</a>
-          </td>
-          <td>
-            <a href='201101-nodesPie.svg'>201101-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='201101-plugins.svg'>201101-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2010-12 (December)</td>
-          <td>
-            <a href='201012-jenkins.svg'>201012-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='201012-jobs.svg'>201012-jobs.svg</a>
-          </td>
-          <td>
-            <a href='201012-nodes.svg'>201012-nodes.svg</a>
-          </td>
-          <td>
-            <a href='201012-nodesPie.svg'>201012-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='201012-plugins.svg'>201012-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2010-11 (November)</td>
-          <td>
-            <a href='201011-jenkins.svg'>201011-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='201011-jobs.svg'>201011-jobs.svg</a>
-          </td>
-          <td>
-            <a href='201011-nodes.svg'>201011-nodes.svg</a>
-          </td>
-          <td>
-            <a href='201011-nodesPie.svg'>201011-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='201011-plugins.svg'>201011-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2010-10 (October)</td>
-          <td>
-            <a href='201010-jenkins.svg'>201010-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='201010-jobs.svg'>201010-jobs.svg</a>
-          </td>
-          <td>
-            <a href='201010-nodes.svg'>201010-nodes.svg</a>
-          </td>
-          <td>
-            <a href='201010-nodesPie.svg'>201010-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='201010-plugins.svg'>201010-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2010-09 (September)</td>
-          <td>
-            <a href='201009-jenkins.svg'>201009-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='201009-jobs.svg'>201009-jobs.svg</a>
-          </td>
-          <td>
-            <a href='201009-nodes.svg'>201009-nodes.svg</a>
-          </td>
-          <td>
-            <a href='201009-nodesPie.svg'>201009-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='201009-plugins.svg'>201009-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2010-08 (August)</td>
-          <td>
-            <a href='201008-jenkins.svg'>201008-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='201008-jobs.svg'>201008-jobs.svg</a>
-          </td>
-          <td>
-            <a href='201008-nodes.svg'>201008-nodes.svg</a>
-          </td>
-          <td>
-            <a href='201008-nodesPie.svg'>201008-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='201008-plugins.svg'>201008-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2010-07 (July)</td>
-          <td>
-            <a href='201007-jenkins.svg'>201007-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='201007-jobs.svg'>201007-jobs.svg</a>
-          </td>
-          <td>
-            <a href='201007-nodes.svg'>201007-nodes.svg</a>
-          </td>
-          <td>
-            <a href='201007-nodesPie.svg'>201007-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='201007-plugins.svg'>201007-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2010-06 (June)</td>
-          <td>
-            <a href='201006-jenkins.svg'>201006-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='201006-jobs.svg'>201006-jobs.svg</a>
-          </td>
-          <td>
-            <a href='201006-nodes.svg'>201006-nodes.svg</a>
-          </td>
-          <td>
-            <a href='201006-nodesPie.svg'>201006-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='201006-plugins.svg'>201006-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2010-05 (May)</td>
-          <td>
-            <a href='201005-jenkins.svg'>201005-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='201005-jobs.svg'>201005-jobs.svg</a>
-          </td>
-          <td>
-            <a href='201005-nodes.svg'>201005-nodes.svg</a>
-          </td>
-          <td>
-            <a href='201005-nodesPie.svg'>201005-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='201005-plugins.svg'>201005-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2010-04 (April)</td>
-          <td>
-            <a href='201004-jenkins.svg'>201004-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='201004-jobs.svg'>201004-jobs.svg</a>
-          </td>
-          <td>
-            <a href='201004-nodes.svg'>201004-nodes.svg</a>
-          </td>
-          <td>
-            <a href='201004-nodesPie.svg'>201004-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='201004-plugins.svg'>201004-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2010-03 (March)</td>
-          <td>
-            <a href='201003-jenkins.svg'>201003-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='201003-jobs.svg'>201003-jobs.svg</a>
-          </td>
-          <td>
-            <a href='201003-nodes.svg'>201003-nodes.svg</a>
-          </td>
-          <td>
-            <a href='201003-nodesPie.svg'>201003-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='201003-plugins.svg'>201003-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2010-02 (February)</td>
-          <td>
-            <a href='201002-jenkins.svg'>201002-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='201002-jobs.svg'>201002-jobs.svg</a>
-          </td>
-          <td>
-            <a href='201002-nodes.svg'>201002-nodes.svg</a>
-          </td>
-          <td>
-            <a href='201002-nodesPie.svg'>201002-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='201002-plugins.svg'>201002-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2010-01 (January)</td>
-          <td>
-            <a href='201001-jenkins.svg'>201001-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='201001-jobs.svg'>201001-jobs.svg</a>
-          </td>
-          <td>
-            <a href='201001-nodes.svg'>201001-nodes.svg</a>
-          </td>
-          <td>
-            <a href='201001-nodesPie.svg'>201001-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='201001-plugins.svg'>201001-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2009-12 (December)</td>
-          <td>
-            <a href='200912-jenkins.svg'>200912-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='200912-jobs.svg'>200912-jobs.svg</a>
-          </td>
-          <td>
-            <a href='200912-nodes.svg'>200912-nodes.svg</a>
-          </td>
-          <td>
-            <a href='200912-nodesPie.svg'>200912-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='200912-plugins.svg'>200912-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2009-11 (November)</td>
-          <td>
-            <a href='200911-jenkins.svg'>200911-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='200911-jobs.svg'>200911-jobs.svg</a>
-          </td>
-          <td>
-            <a href='200911-nodes.svg'>200911-nodes.svg</a>
-          </td>
-          <td>
-            <a href='200911-nodesPie.svg'>200911-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='200911-plugins.svg'>200911-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2009-10 (October)</td>
-          <td>
-            <a href='200910-jenkins.svg'>200910-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='200910-jobs.svg'>200910-jobs.svg</a>
-          </td>
-          <td>
-            <a href='200910-nodes.svg'>200910-nodes.svg</a>
-          </td>
-          <td>
-            <a href='200910-nodesPie.svg'>200910-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='200910-plugins.svg'>200910-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2009-09 (September)</td>
-          <td>
-            <a href='200909-jenkins.svg'>200909-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='200909-jobs.svg'>200909-jobs.svg</a>
-          </td>
-          <td>
-            <a href='200909-nodes.svg'>200909-nodes.svg</a>
-          </td>
-          <td>
-            <a href='200909-nodesPie.svg'>200909-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='200909-plugins.svg'>200909-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2009-08 (August)</td>
-          <td>
-            <a href='200908-jenkins.svg'>200908-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='200908-jobs.svg'>200908-jobs.svg</a>
-          </td>
-          <td>
-            <a href='200908-nodes.svg'>200908-nodes.svg</a>
-          </td>
-          <td>
-            <a href='200908-nodesPie.svg'>200908-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='200908-plugins.svg'>200908-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2009-07 (July)</td>
-          <td>
-            <a href='200907-jenkins.svg'>200907-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='200907-jobs.svg'>200907-jobs.svg</a>
-          </td>
-          <td>
-            <a href='200907-nodes.svg'>200907-nodes.svg</a>
-          </td>
-          <td>
-            <a href='200907-nodesPie.svg'>200907-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='200907-plugins.svg'>200907-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2009-06 (June)</td>
-          <td>
-            <a href='200906-jenkins.svg'>200906-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='200906-jobs.svg'>200906-jobs.svg</a>
-          </td>
-          <td>
-            <a href='200906-nodes.svg'>200906-nodes.svg</a>
-          </td>
-          <td>
-            <a href='200906-nodesPie.svg'>200906-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='200906-plugins.svg'>200906-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2009-05 (May)</td>
-          <td>
-            <a href='200905-jenkins.svg'>200905-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='200905-jobs.svg'>200905-jobs.svg</a>
-          </td>
-          <td>
-            <a href='200905-nodes.svg'>200905-nodes.svg</a>
-          </td>
-          <td>
-            <a href='200905-nodesPie.svg'>200905-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='200905-plugins.svg'>200905-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2009-04 (April)</td>
-          <td>
-            <a href='200904-jenkins.svg'>200904-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='200904-jobs.svg'>200904-jobs.svg</a>
-          </td>
-          <td>
-            <a href='200904-nodes.svg'>200904-nodes.svg</a>
-          </td>
-          <td>
-            <a href='200904-nodesPie.svg'>200904-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='200904-plugins.svg'>200904-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2009-03 (March)</td>
-          <td>
-            <a href='200903-jenkins.svg'>200903-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='200903-jobs.svg'>200903-jobs.svg</a>
-          </td>
-          <td>
-            <a href='200903-nodes.svg'>200903-nodes.svg</a>
-          </td>
-          <td>
-            <a href='200903-nodesPie.svg'>200903-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='200903-plugins.svg'>200903-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2009-02 (February)</td>
-          <td>
-            <a href='200902-jenkins.svg'>200902-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='200902-jobs.svg'>200902-jobs.svg</a>
-          </td>
-          <td>
-            <a href='200902-nodes.svg'>200902-nodes.svg</a>
-          </td>
-          <td>
-            <a href='200902-nodesPie.svg'>200902-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='200902-plugins.svg'>200902-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2009-01 (January)</td>
-          <td>
-            <a href='200901-jenkins.svg'>200901-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='200901-jobs.svg'>200901-jobs.svg</a>
-          </td>
-          <td>
-            <a href='200901-nodes.svg'>200901-nodes.svg</a>
-          </td>
-          <td>
-            <a href='200901-nodesPie.svg'>200901-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='200901-plugins.svg'>200901-plugins.svg</a>
-          </td>
-        </tr>
-        <tr>
-          <td>2008-12 (December)</td>
-          <td>
-            <a href='200812-jenkins.svg'>200812-jenkins.svg</a>
-          </td>
-          <td>
-            <a href='200812-jobs.svg'>200812-jobs.svg</a>
-          </td>
-          <td>
-            <a href='200812-nodes.svg'>200812-nodes.svg</a>
-          </td>
-          <td>
-            <a href='200812-nodesPie.svg'>200812-nodesPie.svg</a>
-          </td>
-          <td>
-            <a href='200812-plugins.svg'>200812-plugins.svg</a>
-          </td>
-        </tr>
-      </table>
     </div>
   </body>
 </html>

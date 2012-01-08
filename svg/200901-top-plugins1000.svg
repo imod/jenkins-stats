@@ -1,0 +1,9 @@
+<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='xMidYMid meet' viewBox='0 0 95 363.45'>
+  <rect fill='blue' height='10.51' stroke='black' width='12' x='15' y='52.94' />
+  <text x='15' y='68.45' font-family='Tahoma' font-size='12' transform='rotate(90 15,68.45)' text-rendering='optimizeSpeed' fill='#000000;'>warnings (1051)</text>
+  <rect fill='blue' height='11.29' stroke='black' width='12' x='30' y='52.16' />
+  <text x='30' y='68.45' font-family='Tahoma' font-size='12' transform='rotate(90 30,68.45)' text-rendering='optimizeSpeed' fill='#000000;'>checkstyle (1129)</text>
+  <rect fill='blue' height='13.45' stroke='black' width='12' x='45' y='50.00' />
+  <text x='45' y='68.45' font-family='Tahoma' font-size='12' transform='rotate(90 45,68.45)' text-rendering='optimizeSpeed' fill='#000000;'>findbugs (1345)</text>
+  <text x='10' y='40' font-family='Tahoma' font-size='20' text-rendering='optimizeSpeed' fill='#000000;'>Top Plugin installations (installations &gt; 1000)</text>
+</svg>
