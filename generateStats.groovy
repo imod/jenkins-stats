@@ -60,10 +60,12 @@ class Generator {
         def simplename = file.name.substring(0, file.name.lastIndexOf("."))
 
         def totalJenkinsInstallations = version2number.inject(0){input, version, number -> input + number}
-        createBarSVG("Jenkins installations (total: $totalJenkinsInstallations", new File(targetDir, "$simplename-jenkins.svg"), version2number, 10, false, {true}) // {it.value >= 5})
+        createBarSVG("Jenkins installations (total: $totalJenkinsInstallations)", new File(targetDir, "$simplename-jenkins.svg"), version2number, 10, false, {true}) // {it.value >= 5})
 
         def totalPluginInstallations = plugin2number.inject(0){input, version, number -> input + number}
-        createBarSVG("Plugin installations (total: $totalPluginInstallations)", new File(targetDir, "$simplename-plugins.svg"), plugin2number, 10, true, {!it.key.startsWith("privateplugin")})
+        createBarSVG("Plugin installations (total: $totalPluginInstallations)", new File(targetDir, "$simplename-plugins.svg"), plugin2number, 100, true, {!it.key.startsWith("privateplugin")})
+        createBarSVG("Top Plugin installations (installations > 500)", new File(targetDir, "$simplename-top-plugins500.svg"), plugin2number, 100, true, {!it.key.startsWith("privateplugin") && it.value > 500})
+        createBarSVG("Top Plugin installations (installations > 1000)", new File(targetDir, "$simplename-top-plugins1000.svg"), plugin2number, 100, true, {!it.key.startsWith("privateplugin") && it.value > 1000})
 
         def totalJobs = jobtype2number.inject(0){input, version, number -> input + number}
         createBarSVG("Jobs (total: $totalJobs)", new File(targetDir, "$simplename-jobs.svg"), jobtype2number, 1000, true, {!it.key.startsWith("private")})
@@ -103,7 +105,7 @@ class Generator {
 
         def pwriter = new FileWriter(svgFile)
         def pxml = new MarkupBuilder(pwriter)
-        pxml.svg('xmlns': 'http://www.w3.org/2000/svg', "version": "1.1", "preserveAspectRatio":'none', "viewBox": "0 0 "+ viewWidth +" "+((higestNr / scaleReduction)+350)) {
+        pxml.svg('xmlns': 'http://www.w3.org/2000/svg', "version": "1.1", "preserveAspectRatio":'xMidYMid meet', "viewBox": "0 0 "+ viewWidth +" "+((higestNr / scaleReduction)+350)) {
             // 350 for the text/legend
 
             item2number.eachWithIndex { item, number, index ->
@@ -157,7 +159,7 @@ class Generator {
         def viewHeight = ly + (data.size() * squareHeight) + 30 // 30 to get some space at the bottom
         def pwriter = new FileWriter(svgFile)
         def pxml = new MarkupBuilder(pwriter)
-        pxml.svg('xmlns': 'http://www.w3.org/2000/svg', "version": "1.1", "preserveAspectRatio":'none', "viewBox": "0 0 $viewWidth $viewHeight") {
+        pxml.svg('xmlns': 'http://www.w3.org/2000/svg', "version": "1.1", "preserveAspectRatio":'xMidYMid meet', "viewBox": "0 0 $viewWidth $viewHeight") {
 
 
             text("x": 30, // Position the text
@@ -247,39 +249,54 @@ class Generator {
         def phtml = new MarkupBuilder(pwriter)
         phtml.html() {
             head(){
+                //                <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+                //                <!--[if lt IE 9]>
+                //                  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+                //                <![endif]-->
+                script(src: "https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js", type: "text/javascript", ""){}
+                script(src: "http://twitter.github.com/bootstrap/1.4.0/bootstrap-modal.js", type: "text/javascript", ""){}
+                script(src: "http://twitter.github.com/bootstrap/1.4.0/bootstrap-twipsy.js", type: "text/javascript", ""){}
+                script(src: "http://twitter.github.com/bootstrap/1.4.0/bootstrap-popover.js", type: "text/javascript", ""){}
+
                 link(rel: "stylesheet", href: "http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css"){}
             }
             body(){
                 div("class":"container"){
-                    div(){ h1('Some statistics on the usage of Jenkins'){} }
+                    div(id: "special"){
+                        div(){ h1('Some statistics on the usage of Jenkins'){} }
 
-                    table() {
-                        tr(){
-                            specialFiles.each { fileName ->
-                                td(){
-                                    a(href: fileName){
-                                        img("class":"thumbnail", src: fileName, alt: "", width: 200)
+                        table() {
+                            tr(){
+                                specialFiles.each { fileName ->
+                                    td(){
+                                        a(href: fileName, fileName){
+                                            object(data: fileName, width: 200, type: "image/svg+xml")
+                                        }
                                     }
                                 }
                             }
                         }
                     }
 
-                    div(){ h1('Statistics by months'){} }
+                    div(id: "byMonth"){
+                        div(){ h1('Statistics by months'){} }
 
-                    table(){
+                        table(){
 
-                        fileGroups.reverseEach { dateStr, fileList ->
-                            tr(){
-                                Date parsedDate = Date.parse('yyyyMM', dateStr)
-                                td(parsedDate.format('yyyy-MM (MMMMM)')){}
-                                fileList.each{ fileName ->
-                                    td(){
-                                        a(href: fileName, fileName)
+                            fileGroups.reverseEach { dateStr, fileList ->
+                                tr(){
+                                    Date parsedDate = Date.parse('yyyyMM', dateStr)
+                                    td(parsedDate.format('yyyy-MM (MMMMM)')){}
+                                    fileList.each{ fileName ->
+                                        td(){
+                                            a("class": "info", href: fileName, fileName, alt: fileName, "data-content": "<object data='$fileName' width='200' type='image/svg+xml'/>", rel: "popover","data-original-title": fileName)
+                                        }
                                     }
                                 }
                             }
                         }
+
+                        script(popUpByMonth){}
                     }
                 }
             }
@@ -287,13 +304,24 @@ class Generator {
         println "generated: $html"
     }
 
+
+    def popUpByMonth = """\$(function () {
+ \$("a[rel=popover]")
+ .popover({
+   offset: 10,
+   html: true,
+   placement: 'right'
+ })
+})
+"""
+
     def run() {
         svgDir.deleteDir()
         svgDir.mkdirs()
         workingDir.eachFileMatch( ~".*json" ) { file -> generateStats(file, svgDir) }
-        //        workingDir.eachFileMatch( ~"201109.json" ) { file -> generateStats(file, svgDir) }
-        //        workingDir.eachFileMatch( ~"200812.json" ) { file -> generateStats(file, svgDir) }
-        //
+        //                workingDir.eachFileMatch( ~"201109.json" ) { file -> generateStats(file, svgDir) }
+        //                workingDir.eachFileMatch( ~"200812.json" ) { file -> generateStats(file, svgDir) }
+
         createBarSVG("Total Jenkins installations", new File(svgDir, "total-jenkins.svg"), dateStr2totalJenkins, 100, false, {true})
         createBarSVG("Total Nodes", new File(svgDir, "total-nodes.svg"), dateStr2totalNodes, 100, false, {true})
         createBarSVG("Total Jobs", new File(svgDir, "total-jobs.svg"), dateStr2totalJobs, 1000, false, {true})
