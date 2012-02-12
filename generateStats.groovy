@@ -22,6 +22,7 @@ class Generator {
         def plugin2number = [:]
         def jobtype2number = [:]
         def nodesOnOs2number = [:]
+        def executorCount2number = [:]
 
         installations.each { instId, metric ->
 
@@ -47,6 +48,10 @@ class Generator {
                 currentNodeNumber = currentNodeNumber ? currentNodeNumber + nodesNumber : nodesNumber
                 nodesOnOs2number.put(os, currentNodeNumber)
             }
+
+            currentNumber = executorCount2number.get(metric.totalExecutors)
+            number = currentNumber ? currentNumber + 1 : 1
+            executorCount2number.put(metric.totalExecutors, number)
 
         }
 
@@ -74,6 +79,9 @@ class Generator {
         createBarSVG("Nodes (total: $totalNodes)", new File(targetDir, "$simplename-nodes.svg"), nodesOnOs2number, 10, true, {true})
 
         createPieSVG("Nodes", new File(targetDir, "$simplename-nodesPie.svg"), nodesOsNrs, 200, 300, 150, Helper.COLORS, nodesOs, 370, 20)
+
+        def totalExecutors = executorCount2number.inject(0){ result, executors, number -> result + (executors * number)  }
+        createBarSVG("Executors per install (total: $totalExecutors)", new File(targetDir, "$simplename-total-executors.svg"), executorCount2number, 25, false, {true})
 
         def dateStr = file.name.substring(0, 6)
         dateStr2totalJenkins.put dateStr, totalJenkinsInstallations
