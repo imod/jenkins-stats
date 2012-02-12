@@ -17,6 +17,7 @@ class InstanceMetric {
     def plugins
     def jobTypes
     def nodesOnOs
+    def totalExecutors
 }
 
 class JenkinsMetricParser {
@@ -53,6 +54,7 @@ class JenkinsMetricParser {
                 def jVersion
                 def nrOfnodes
                 def nodesOnOs
+                def totalExecutors
 
                 if (current == JsonToken.START_ARRAY) {
                     while (jp.nextToken() != JsonToken.END_ARRAY) {
@@ -83,12 +85,15 @@ class JenkinsMetricParser {
                                 jsonNode.get("plugins").each { plugins.put(it.get("name").textValue, it.get("version").textValue)} // org.codehaus.jackson.node.ArrayNode
 
                                 nodesOnOs = [:]
+                                totalExecutors = 0
 
                                 jsonNode.get("nodes").each {
                                     def os = it.get("os") == null ? "N/A" : it.get("os")
                                     def currentNodesNumber = nodesOnOs.get(os)
                                     currentNodesNumber = currentNodesNumber ? currentNodesNumber + 1 : 1
                                     nodesOnOs.put(os, currentNodesNumber)
+                                    def executors = it.get("executors")
+                                    totalExecutors += executors.intValue
                                 }
                             }
                         }
@@ -97,7 +102,7 @@ class JenkinsMetricParser {
 
                 //                println ("available stats: $availableStatsForInstance")
                 if(jVersion){ // && availableStatsForInstance >= 10 // take stats only if we have at least 10 stats snapshots
-                    def metric = new InstanceMetric(jenkinsVersion: jVersion, plugins: plugins, jobTypes: jobs, nodesOnOs: nodesOnOs)
+                    def metric = new InstanceMetric(jenkinsVersion: jVersion, plugins: plugins, jobTypes: jobs, nodesOnOs: nodesOnOs, totalExecutors: totalExecutors)
                     installations.put(instanceId, metric)
                 }
 
