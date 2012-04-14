@@ -1,10 +1,15 @@
-@GrabConfig(systemClassLoader=true)
-@Grab('org.xerial:sqlite-jdbc:3.7.2')
 import org.sqlite.*
 import java.sql.*
 import java.util.zip.GZIPInputStream;
 
 import groovy.xml.MarkupBuilder
+
+@Grapes([
+    @Grab(group='org.codehaus.jackson', module='jackson-mapper-asl', version='1.9.3'),
+    @Grab('org.xerial:sqlite-jdbc:3.7.2'),
+    @GrabConfig(systemClassLoader=true)
+])
+
 
 class Generator {
 
@@ -17,6 +22,11 @@ class Generator {
     }
 
     def generateStats(file) {
+
+        if(!DBHelper.doImport(db, file.name)){
+            println "skip $file - already imported..."
+            return
+        }
 
         def dateStr = file.name.substring(0, 6)
         java.util.Date monthDate = java.util.Date.parse('yyyyMM', dateStr)
@@ -44,50 +54,27 @@ class Generator {
 
                 db.execute("insert into executor(instanceid, month, numberofexecutors) values( $instId, $monthDate, $metric.totalExecutors)")
             }
+
+            db.execute("insert into importedfile(name) values($file.name)")
         })
 
-
-        println "commited data for $monthDate"
+        println "commited data for ${monthDate.format('yyyy-MM')}"
     }
 
-
-    def run() {
-        workingDir.eachFileMatch( ~".*json" ) { file -> generateStats(file) }
-        //        workingDir.eachFileMatch( ~"201109.json" ) { file -> generateStats(file) }
-        //workingDir.eachFileMatch( ~"200812.json" ) { file -> generateStats(file) }
+    def run(filePattern) {
+        if(filePattern){
+            workingDir.eachFileMatch( ~"$filePattern" ) { file -> generateStats(file) }
+        }else{
+            workingDir.eachFileMatch( ~".*json" ) { file -> generateStats(file) }
+            //workingDir.eachFileMatch( ~"201109.json" ) { file -> generateStats(file) }
+            //workingDir.eachFileMatch( ~"200812.json" ) { file -> generateStats(file) }
+        }
     }
-}
-
-
-def setupDB(workingDir){
-
-    def dbFile = new File(workingDir,"test.db")
-    if(dbFile.exists()){
-        dbFile.delete()
-    }
-
-    // in memory
-    //    sql = groovy.sql.Sql.newInstance("jdbc:sqlite::memory:","org.sqlite.JDBC")
-    // persitent
-    sql = groovy.sql.Sql.newInstance("jdbc:sqlite:"+dbFile.absolutePath,"org.sqlite.JDBC")
-
-    sql.execute("create table jenkins(instanceid, month, version)")
-    sql.execute("create table plugin(instanceid, month, name, version)")
-    sql.execute("create table job(instanceid, month, type, jobnumber)")
-    sql.execute("create table node(instanceid, month, osname, nodenumber)")
-    sql.execute("create table executor(instanceid, month, numberofexecutors)")
-
-    return sql;
 }
 
 def workingDir = new File("target")
-def db = setupDB(workingDir)
-new Generator(workingDir, db).run()
-
-db.eachRow("select rowid,instanceid, version from jenkins;") { println "${it.rowid}: ${it.instanceid} ${it.version}"}
-
-db.eachRow("SELECT name, month, count(*) as count from plugin group by name;") { println "${it.name}, ${it.month}: ${it.count}"}
-
+def db = DBHelper.setupDB(workingDir)
+new Generator(workingDir, db).run( args ? args[0] : null )
 
 
 

@@ -7,72 +7,69 @@ import java.util.zip.GZIPInputStream;
 import groovy.xml.MarkupBuilder
 
 class Generator {
-    
+
     def db
+    def statsDir
 
-    def workingDir = new File("target")
-    def svgDir = new File(workingDir, "svg")
-
-    def dateStr2totalJenkins = [:]
-    def dateStr2totalNodes = [:]
-    def dateStr2totalJobs = [:]
-    def dateStr2totalPluginsInstallations = [:]
-
-    def Generator(db){
+    def Generator(workingDir, db){
         this.db = db
+        this.statsDir = new File(workingDir, "stats")
     }
 
-    def generateJson(targetDir) {
+    def generateInstallationsJson(targetDir) {
 
         def installations = [:]
-        db.eachRow("select version, count(*) as number from jenkins group by version;") { 
-            println "${it.number} ${it.version}"
-            installations.put it.version, it.number 
+        db.eachRow("select version, count(*) as number from jenkins group by version;") {
+            installations.put it.version, it.number
         }
-        
 
-        createJSON("installations.json", installations)
-        
-
-    }
-
-    
-    def createJSON(def file, def o){
         def json = new groovy.json.JsonBuilder()
-        json.installations(o)
-        println groovy.json.JsonOutput.prettyPrint(json.toString())
-        new File(svgDir, file) << groovy.json.JsonOutput.prettyPrint(json.toString()) 
+        json.installations(installations)
+        new File(statsDir, "installations.json") << groovy.json.JsonOutput.prettyPrint(json.toString())
     }
 
+
+    def generatePluginsJson(targetDir) {
+
+        println "fetching plugin names..."
+        def names = []
+        // fetch all plugin names, excluding the private ones...
+        db.eachRow("select name from plugin where name not like 'privateplugin%' group by name ;") { names << it.name }
+        println "found ${names.size()} plugins"
+
+        names.each{ name ->
+            def month2number = [:]
+            def file = new File(statsDir, "${name}.stats.json")
+            // fetch the number of installations per plugin per month
+            db.eachRow("select month, count(*) as number from plugin where name = $name group by month order by month ASC;") {
+                month2number.put it.month, it.number
+            }
+            def json = new groovy.json.JsonBuilder()
+            json.installations(month2number)
+            file << groovy.json.JsonOutput.prettyPrint(json.toString())
+            println "wrote: $file.absolutePath"
+        }
+
+
+    }
 
 
     def run() {
-        svgDir.deleteDir()
-        svgDir.mkdirs()
 
-        generateJson(svgDir)
-        
-//        createBarSVG("Total Jenkins installations", new File(svgDir, "total-jenkins.svg"), dateStr2totalJenkins, 100, false, {true})
-//        createBarSVG("Total Nodes", new File(svgDir, "total-nodes.svg"), dateStr2totalNodes, 100, false, {true})
-//        createBarSVG("Total Jobs", new File(svgDir, "total-jobs.svg"), dateStr2totalJobs, 1000, false, {true})
-//        createBarSVG("Total Plugin installations", new File(svgDir, "total-plugins.svg"), dateStr2totalPluginsInstallations, 1000, false, {true})
-//        createHtml(svgDir)
+        // clean the stats directory
+        statsDir.deleteDir()
+        statsDir.mkdirs()
+
+        generateInstallationsJson(statsDir)
+        generatePluginsJson(statsDir)
+
     }
-
 }
 
 
-def setupDB(){
-    // in memory
-//    sql = groovy.sql.Sql.newInstance("jdbc:sqlite::memory:","org.sqlite.JDBC")
-    // persitent
-    sql = groovy.sql.Sql.newInstance("jdbc:sqlite:target/test.db","org.sqlite.JDBC")
-    
-    return sql;
-}
-
-def db = setupDB()
-new Generator(db).run()
+def workingDir = new File("target")
+def db = DBHelper.setupDB(workingDir)
+new Generator(workingDir, db).run()
 
 
 

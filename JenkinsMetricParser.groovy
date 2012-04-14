@@ -8,10 +8,9 @@ import java.text.SimpleDateFormat;
 import org.codehaus.jackson.*
 import org.codehaus.jackson.map.*
 
-@Grapes([
-    @Grab(group='org.codehaus.jackson', module='jackson-mapper-asl', version='1.9.3')
-])
-
+/**
+ * A metric instance for one instance 
+ */
 class InstanceMetric {
     def jenkinsVersion
     def plugins
@@ -20,8 +19,18 @@ class InstanceMetric {
     def totalExecutors
 }
 
+/**
+ * This parser treats a file as an input for one month and only uses the newest stats entry of each instanceId.
+ * 
+ * 
+ * Note: Although groovy provides first class json support, we use jackson because of the amount of data we have to deal
+ */
 class JenkinsMetricParser {
 
+    /**
+     * Returns a map of "instanceId -> InstanceMetric" - only the newest entry for each instance is returned (latest of the given month, each file contains only data for one month).
+     * SNAPSHOT versions are ignored too.
+     */
     public Map parse(File file) throws Exception {
 
         println "parsing $file"
@@ -35,7 +44,7 @@ class JenkinsMetricParser {
 
         current = jp.nextToken();
         if (current != JsonToken.START_OBJECT) {
-            System.out.println("Error: root should be object: quiting.");
+            println("Error: root must be object!");
             return;
         }
 
@@ -65,6 +74,7 @@ class JenkinsMetricParser {
                         def timestampStr = jsonNode.get("timestamp").getTextValue()  // 11/Oct/2011:05:14:43 -0400
                         Date parsedDate = Date.parse('dd/MMM/yyyy:HH:mm:ss Z', timestampStr)
 
+                        // we only want the latest available date for each instance
                         if(!latestStatsDate || parsedDate.after(latestStatsDate)){
 
                             def versionStr = jsonNode.get("version").getTextValue()
@@ -100,7 +110,6 @@ class JenkinsMetricParser {
                     }
                 }
 
-                //                println ("available stats: $availableStatsForInstance")
                 if(jVersion){ // && availableStatsForInstance >= 10 // take stats only if we have at least 10 stats snapshots
                     def metric = new InstanceMetric(jenkinsVersion: jVersion, plugins: plugins, jobTypes: jobs, nodesOnOs: nodesOnOs, totalExecutors: totalExecutors)
                     installations.put(instanceId, metric)

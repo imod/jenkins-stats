@@ -7,13 +7,23 @@ import groovyx.net.http.HTTPBuilder
 @Grapes([
     @Grab(group='org.codehaus.jackson', module='jackson-mapper-asl', version='1.9.3'),
     @Grab(group='org.codehaus.groovy.modules.http-builder', module='http-builder', version='0.5.2'),
-    @Grab(group='org.apache.ant', module='ant', version='1.8.1')
+    @Grab(group='org.apache.ant', module='ant', version='1.8.1'),
+    @Grab(group='org.xerial', module='sqlite-jdbc', version='3.7.2'),
+    @GrabExclude('xml-apis:xml-apis'),
+    @GrabConfig(systemClassLoader=true)
 ])
 
 
 class Downloader {
     def authUrl = "https://www.jenkins-ci.org/census/"
-    def workingDir = new File("target")
+
+    def db
+    def workingDir
+
+    def Downloader(workingDir, db){
+        this.db = db
+        this.workingDir = workingDir
+    }
 
     /**
      * gets all compressed JSON files from jenkins-ci
@@ -29,15 +39,22 @@ class Downloader {
         }.each {
             def fileName = it.attributes()["href"]
             if(fileName.endsWith(".json.gz")){
-                def fileUrl = '/census/'+fileName
-                println "${it.text()}, $fileUrl"
-                def targetArchive = new File(workingDir, fileName)
-                targetArchive << site.get(contentType: ContentType.BINARY, path: fileUrl ) // java.io.ByteArrayInputStream
-                uncompressGZIP(targetArchive)
-                targetArchive.delete()
+                if(DBHelper.doImport(db, fileName)){
+                    def fileUrl = '/census/'+fileName
+                    println "download $fileUrl"
+                    def targetArchive = new File(workingDir, fileName)
+                    targetArchive << site.get(contentType: ContentType.BINARY, path: fileUrl ) // java.io.ByteArrayInputStream
+                    uncompressGZIP(targetArchive)
+                    targetArchive.delete()
+                } else{
+                    println "ignore $fileName (already imported)"
+                }
             }
         }
     }
+
+
+
 
     /**
      * uncompress the given gzip to the same location as the given archive
@@ -64,12 +81,12 @@ class Downloader {
         if(args.size() != 1){
             println "no password for $authUrl given..."
         }else{
-            // make sure working dir exists
-            workingDir.deleteDir()
-            workingDir.mkdirs()
             getFiles(args[0])
         }
     }
 }
 
-new Downloader().run(this.args)
+def workingDir = new File("target")
+workingDir.mkdirs()
+def db = DBHelper.setupDB(workingDir)
+new Downloader(workingDir, db).run(this.args)
