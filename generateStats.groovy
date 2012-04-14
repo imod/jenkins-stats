@@ -2,6 +2,10 @@ import java.util.zip.GZIPInputStream;
 
 import groovy.xml.MarkupBuilder
 
+@Grapes([
+    @Grab(group='org.codehaus.jackson', module='jackson-mapper-asl', version='1.9.3')
+])
+
 class Generator {
 
     def workingDir = new File("target")
