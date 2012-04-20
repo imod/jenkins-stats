@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	padding: 0;	
+}
+
+.tip {
+    max-width: 500px;
+    text-align: left;
+    width: auto;
+    background-color: white;
+    border: 1px solid #CCCCCC;
+    box-shadow: 2px 2px 8px #555555;
+    color: #111111;
+    font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    opacity: 0.9;
+    padding: 7px;
+}
+
+.tip-title {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form-field {
+	font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
