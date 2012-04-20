@@ -6,20 +6,24 @@
 	<script type="text/javascript" src="./javascripts/jit.js"></script>
 	<script type="text/javascript" src="./javascripts/jenkinsgraph.js"></script>
 </head>
-<body>
+<body style="background-color: black;">
 	<div id="percdonecontainer" style="position: absolute; font-weight: bold; color: white; font-size: 2em; left:50%; top: 2em; width: 800px; margin-left: -400px; text-align: center;">Loading ... <span id="percdone">0 %</span><br><span id="loadinfo"></span></div>
 	
 	<div id="jenkinsdep" style="width: 100px; height: 100px; background-color: black;"></div>
 	
 	<div style="position: absolute; top: 5px; left: 5px;">
+	    <a href="../index.html" class="text">Jenkins-stats</a>
 		<form onsubmit="filterGraph($('#filter').val());return false;">
 			<input type="text" id="filter">
 			<button onclick="filterGraph($('#filter').val());">Filter</button>
 			<button onclick="$('#filter').val('');filterGraph();">Reset</button>
-			<label for="filter" class="form-field">by maintainer / plugin</label>
+			<label for="filter" class="text">by maintainer / plugin</label>
 		</form>
+		<section id="description" class="text">
+	       drag / drop / hover / click any node...
+	    </section>
 	</div>
-
+	
     <script type="text/javascript" src="http://updates.jenkins-ci.org/update-center.json?myparam=true"></script>
 </body>
 </html> 
