@@ -273,7 +273,7 @@ class Generator {
                 link(rel: "stylesheet", href: "http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css"){}
 
                 script(type: "text/javascript",
-                """
+                        """
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-31275758-1']);
@@ -345,9 +345,9 @@ class Generator {
     def run() {
         svgDir.deleteDir()
         svgDir.mkdirs()
-        //        workingDir.eachFileMatch( ~".*json" ) { file -> generateStats(file, svgDir) }
-        //                        workingDir.eachFileMatch( ~"201109.json" ) { file -> generateStats(file, svgDir) }
-        workingDir.eachFileMatch( ~"200812.json" ) { file -> generateStats(file, svgDir) }
+        workingDir.eachFileMatch( ~".*json" ) { file -> generateStats(file, svgDir) }
+        //        workingDir.eachFileMatch( ~"201109.json" ) { file -> generateStats(file, svgDir) }
+        //        workingDir.eachFileMatch( ~"200812.json" ) { file -> generateStats(file, svgDir) }
 
         createBarSVG("Total Jenkins installations", new File(svgDir, "total-jenkins.svg"), dateStr2totalJenkins, 100, false, {true})
         createBarSVG("Total Nodes", new File(svgDir, "total-nodes.svg"), dateStr2totalNodes, 100, false, {true})
