@@ -27,12 +27,12 @@
   <path d='M 200,300 L 81.35485246873083,208.2213043932124 A 150,150 0 0 1 116.0733476612404,175.67656284027143 Z' fill='Azure' stroke='black' stroke-width='1' />
   <rect x='370' y='260' width='20' height='30' fill='Azure' stroke='black' stroke-width='1' />
   <text x='400' y='278' font-family='sans-serif' font-size='16'>"Windows 2003 (x86)" (4031)</text>
-  <path d='M 200,300 L 116.0733476612404,175.67656284027143 A 150,150 0 0 1 121.04051198075092,172.46412562836267 Z' fill='pink' stroke='black' stroke-width='1' />
+  <path d='M 200,300 L 116.0733476612404,175.67656284027143 A 150,150 0 0 1 125.56367898628632,169.77237576480417 Z' fill='pink' stroke='black' stroke-width='1' />
   <rect x='370' y='290' width='20' height='30' fill='pink' stroke='black' stroke-width='1' />
-  <text x='400' y='308' font-family='sans-serif' font-size='16'>"Windows 2003 (amd64)" (499)</text>
-  <path d='M 200,300 L 121.04051198075092,172.46412562836267 A 150,150 0 0 1 130.7562574969448,166.93872041735588 Z' fill='khaki' stroke='black' stroke-width='1' />
+  <text x='400' y='308' font-family='sans-serif' font-size='16'>"Windows Server 2008 (x86)" (943)</text>
+  <path d='M 200,300 L 125.56367898628632,169.77237576480417 A 150,150 0 0 1 130.7562574969448,166.93872041735588 Z' fill='khaki' stroke='black' stroke-width='1' />
   <rect x='370' y='320' width='20' height='30' fill='khaki' stroke='black' stroke-width='1' />
-  <text x='400' y='338' font-family='sans-serif' font-size='16'>"Windows Server 2008 (x86)" (943)</text>
+  <text x='400' y='338' font-family='sans-serif' font-size='16'>"Windows 2003 (amd64)" (499)</text>
   <path d='M 200,300 L 130.7562574969448,166.93872041735588 A 150,150 0 0 1 132.04248177866634,166.27724308406926 Z' fill='gray' stroke='black' stroke-width='1' />
   <rect x='370' y='350' width='20' height='30' fill='gray' stroke='black' stroke-width='1' />
   <text x='400' y='368' font-family='sans-serif' font-size='16'>"Windows XP (amd64)" (122)</text>

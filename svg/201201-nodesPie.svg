@@ -3,15 +3,15 @@
   <path d='M 200,300 L 200.0,150.0 A 150,150 0 0 1 213.58882738205565,150.61678886039203 Z' fill='BurlyWood' stroke='black' stroke-width='1' />
   <rect x='370' y='20' width='20' height='30' fill='BurlyWood' stroke='black' stroke-width='1' />
   <text x='400' y='38' font-family='sans-serif' font-size='16'>"Windows 7 (amd64)" (1066)</text>
-  <path d='M 200,300 L 213.58882738205565,150.61678886039203 A 150,150 0 0 1 321.5177781950458,212.0600796990375 Z' fill='CadetBlue' stroke='black' stroke-width='1' />
+  <path d='M 200,300 L 213.58882738205565,150.61678886039203 A 150,150 0 0 1 333.85163262985475,367.7033266710167 Z' fill='CadetBlue' stroke='black' stroke-width='1' />
   <rect x='370' y='50' width='20' height='30' fill='CadetBlue' stroke='black' stroke-width='1' />
-  <text x='400' y='68' font-family='sans-serif' font-size='16'>"Linux (i386)" (10031)</text>
-  <path d='M 200,300 L 321.5177781950458,212.0600796990375 A 150,150 0 0 1 285.62076606369817,423.162837003154 Z' fill='red' stroke='black' stroke-width='1' />
+  <text x='400' y='68' font-family='sans-serif' font-size='16'>N/A (22895)</text>
+  <path d='M 200,300 L 333.85163262985475,367.7033266710167 A 150,150 0 0 1 129.7716952030829,432.5442763960456 Z' fill='red' stroke='black' stroke-width='1' />
   <rect x='370' y='80' width='20' height='30' fill='red' stroke='black' stroke-width='1' />
   <text x='400' y='98' font-family='sans-serif' font-size='16'>"Linux (amd64)" (18681)</text>
-  <path d='M 200,300 L 285.62076606369817,423.162837003154 A 150,150 0 0 1 53.94726501650658,334.1847715195149 Z' fill='blue' stroke='black' stroke-width='1' />
+  <path d='M 200,300 L 129.7716952030829,432.5442763960456 A 150,150 0 0 1 53.94726501650658,334.1847715195149 Z' fill='blue' stroke='black' stroke-width='1' />
   <rect x='370' y='110' width='20' height='30' fill='blue' stroke='black' stroke-width='1' />
-  <text x='400' y='128' font-family='sans-serif' font-size='16'>N/A (22895)</text>
+  <text x='400' y='128' font-family='sans-serif' font-size='16'>"Linux (i386)" (10031)</text>
   <path d='M 200,300 L 53.94726501650658,334.1847715195149 A 150,150 0 0 1 50.828668699905165,315.74528240957744 Z' fill='yellow' stroke='black' stroke-width='1' />
   <rect x='370' y='140' width='20' height='30' fill='yellow' stroke='black' stroke-width='1' />
   <text x='400' y='158' font-family='sans-serif' font-size='16'>"Windows Server 2008 R2 (amd64)" (1466)</text>
