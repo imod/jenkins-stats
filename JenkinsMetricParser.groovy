@@ -1,44 +1,39 @@
 
-
 import org.codehaus.jackson.JsonToken
-
-import java.io.File
-import java.text.SimpleDateFormat;
 
 import org.codehaus.jackson.*
 import org.codehaus.jackson.map.*
+import java.util.zip.GZIPInputStream
 
 /**
- * A metric instance for one instance 
- */
-class InstanceMetric {
-    def jenkinsVersion
-    def plugins
-    def jobTypes
-    def nodesOnOs
-    def totalExecutors
-}
-
-/**
- * This parser treats a file as an input for one month and only uses the newest stats entry of each instanceId.
- * 
- * 
- * Note: Although groovy provides first class json support, we use jackson because of the amount of data we have to deal
- */
+* This parser treats a file as an input for one month and only uses the newest stats entry of each instanceId.
+*
+*
+* Note: Although groovy provides first class json support, we use jackson because of the amount of data we have to deal
+*/
 class JenkinsMetricParser {
 
     /**
-     * Returns a map of "instanceId -> InstanceMetric" - only the newest entry for each instance is returned (latest of the given month, each file contains only data for one month).
-     * SNAPSHOT versions are ignored too.
-     */
+* Returns a map of "instanceId -> InstanceMetric" - only the newest entry for each instance is returned (latest of the given month, each file contains only data for one month).
+* SNAPSHOT versions are ignored too.
+*/
     public Map parse(File file) throws Exception {
+        def installations = [:]
+        forEachInstance(file) { InstanceMetric m -> installations[m.instanceId]=m }
+        return installations
+    }
 
+    /**
+* Pass {@link InstanceMetric} for each installation to the given closure.
+*/
+    public void forEachInstance(File file, Closure processor) throws Exception {
         println "parsing $file"
 
-        def installations = [:]
-
         JsonFactory f = new org.codehaus.jackson.map.MappingJsonFactory();
-        JsonParser jp = f.createJsonParser(file);
+
+        def is = new FileInputStream(file);
+        if (file.name.endsWith(".gz")) is = new GZIPInputStream(is)
+        JsonParser jp = f.createJsonParser(is);
 
         JsonToken current;
 
@@ -71,7 +66,7 @@ class JenkinsMetricParser {
                         // this moves the parsing position to the end of it
                         JsonNode jsonNode = jp.readValueAsTree();
                         // And now we have random access to everything in the object
-                        def timestampStr = jsonNode.get("timestamp").getTextValue()  // 11/Oct/2011:05:14:43 -0400
+                        def timestampStr = jsonNode.get("timestamp").getTextValue() // 11/Oct/2011:05:14:43 -0400
                         Date parsedDate = Date.parse('dd/MMM/yyyy:HH:mm:ss Z', timestampStr)
 
                         // we only want the latest available date for each instance
@@ -79,7 +74,7 @@ class JenkinsMetricParser {
 
                             def versionStr = jsonNode.get("version").getTextValue()
                             // ignore SNAPSHOT versions
-                            if(!versionStr.contains("SNAPSHOT") &&  !versionStr.contains("***")){
+                            if(!versionStr.contains("SNAPSHOT") && !versionStr.contains("***")){
                                 jVersion = versionStr ? versionStr : "N/A"
 
                                 availableStatsForInstance++
@@ -111,14 +106,13 @@ class JenkinsMetricParser {
                 }
 
                 if(jVersion){ // && availableStatsForInstance >= 10 // take stats only if we have at least 10 stats snapshots
-                    def metric = new InstanceMetric(jenkinsVersion: jVersion, plugins: plugins, jobTypes: jobs, nodesOnOs: nodesOnOs, totalExecutors: totalExecutors)
-                    installations.put(instanceId, metric)
+                    def metric = new InstanceMetric(instanceId:instanceId, jenkinsVersion: jVersion, plugins: plugins, jobTypes: jobs, nodesOnOs: nodesOnOs, totalExecutors: totalExecutors)
+
+                    processor(metric)
                 }
 
                 // jp.skipChildren();
             }
         }
-
-        return installations
     }
 }
