@@ -15,8 +15,7 @@ import groovyx.net.http.HTTPBuilder
 
 
 class Downloader {
-//    def authUrl = "https://www.jenkins-ci.org/census/"
-    def authUrl = "http://www.jenkins-ci.org/census/"
+    def authUrl = "http://www.jenkins-ci.org"
 
     def db
     def workingDir
@@ -30,10 +29,13 @@ class Downloader {
      * gets all compressed JSON files from jenkins-ci
      */
     def getFiles(pwd) {
-
+		
+		println("get files from $authUrl")
+		
         def site = new HTTPBuilder( authUrl )
-        site.auth.basic 'jenkins', pwd
-        def doc = site.get( path:'/census/' )
+        // site.auth.basic 'jenkins', pwd - this did not work, therefore using header :(
+	    def userAuth = "jenkins:$pwd".toString()
+        def doc = site.get( path:'/census/', headers:[Authorization:"Basic ${userAuth.bytes.encodeBase64()}"])
 
         doc.depthFirst().collect { it }.findAll {
             it.name() == "A"
@@ -44,7 +46,7 @@ class Downloader {
                     def fileUrl = '/census/'+fileName
                     println "download $fileUrl"
                     def targetArchive = new File(workingDir, fileName)
-                    targetArchive << site.get(contentType: ContentType.BINARY, path: fileUrl ) // java.io.ByteArrayInputStream
+                    targetArchive << site.get(contentType: ContentType.BINARY, path: fileUrl, headers:[Authorization:"Basic ${userAuth.bytes.encodeBase64()}"] ) // java.io.ByteArrayInputStream
                     uncompressGZIP(targetArchive)
                     targetArchive.delete()
                 } else{
