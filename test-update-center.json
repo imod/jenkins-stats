@@ -1,0 +1,410 @@
+updateCenter.post({
+  "connectionCheckUrl": "http://www.google.com/",
+  "core": {
+    "buildDate": "Mar 25, 2013",
+    "name": "core",
+    "sha1": "m0qbdAK1s/2jAdTuNpbSqOYVGwo=",
+    "url": "http://updates.jenkins-ci.org/download/war/1.508/jenkins.war",
+    "version": "1.508"
+  },
+  "id": "default",
+  "plugins": {
+    "AdaptivePlugin": {
+      "buildDate": "Mar 03, 2011",
+      "dependencies": [
+        
+      ],
+      "developers": [
+        {
+          "developerId": "magnayn",
+          "email": "nigel.magnay@gmail.com",
+          "name": "Nigel Magnay"
+        }
+      ],
+      "excerpt": "This (experimental) plug-in exposes the jenkins build extension points (SCM, Build, Publish) to a groovy scripting environment that has some DSL-style extensions for ease of development.",
+      "gav": "jenkins:AdaptivePlugin:0.1",
+      "labels": [
+        "misc",
+        "buildwrapper"
+      ],
+      "name": "AdaptivePlugin",
+      "releaseTimestamp": "2011-03-03T16:49:24.00Z",
+      "requiredCore": "1.398",
+      "scm": "github.com",
+      "sha1": "il8z91iDnqVMu78Ghj8q2swCpdk=",
+      "title": "Jenkins Adaptive Plugin",
+      "url": "http://updates.jenkins-ci.org/download/plugins/AdaptivePlugin/0.1/AdaptivePlugin.hpi",
+      "version": "0.1",
+      "wiki": "https://wiki.jenkins-ci.org/display/JENKINS/Jenkins+Adaptive+Plugin"
+    },
+    "AnchorChain": {
+      "buildDate": "Mar 11, 2012",
+      "dependencies": [
+        
+      ],
+      "developers": [
+        {
+          "developerId": "direvius",
+          "email": "direvius@gmail.com",
+          "name": "Alexey Lavrenuke"
+        }
+      ],
+      "excerpt": "This plugin allows you to add some links from a text file to the sidebar at every build. ",
+      "gav": "org.jenkins-ci.plugins:AnchorChain:1.0",
+      "labels": [
+        "report"
+      ],
+      "name": "AnchorChain",
+      "releaseTimestamp": "2012-03-11T21:59:06.00Z",
+      "requiredCore": "1.398",
+      "scm": "github.com",
+      "sha1": "rY1W96ad9TJI1F3phFG8X4LE26Q=",
+      "title": "AnchorChain plugin",
+      "url": "http://updates.jenkins-ci.org/download/plugins/AnchorChain/1.0/AnchorChain.hpi",
+      "version": "1.0",
+      "wiki": "https://wiki.jenkins-ci.org/display/JENKINS/AnchorChain+plugin"
+    },
+    "AntepediaReporter-CI-plugin": {
+      "buildDate": "Mar 05, 2013",
+      "dependencies": [
+        
+      ],
+      "developers": [
+        {
+          "developerId": "freddy"
+        }
+      ],
+      "excerpt": "&nbsp;This plugin integrates with <a href='http://www.antelink.com/product/antepedia-reporter.html'>Antepedia Reporter<\/a>&nbsp;to generate Bill Of Material reports after each build. ",
+      "gav": "com.antelink.reporter.jenkins.plugin:AntepediaReporter-CI-plugin:1.4",
+      "labels": [
+        "report"
+      ],
+      "name": "AntepediaReporter-CI-plugin",
+      "previousTimestamp": "2013-03-05T19:56:50.00Z",
+      "previousVersion": "1.3",
+      "releaseTimestamp": "2013-03-05T23:18:06.00Z",
+      "requiredCore": "1.466",
+      "scm": "infra3.antelink.net",
+      "sha1": "6GQyVX7Hy/Gr2WhIkNYhULsExBU=",
+      "title": "AntepediaReporter-CI-plugin",
+      "url": "http://updates.jenkins-ci.org/download/plugins/AntepediaReporter-CI-plugin/1.4/AntepediaReporter-CI-plugin.hpi",
+      "version": "1.4",
+      "wiki": "https://wiki.jenkins-ci.org/display/JENKINS/AntepediaReporter-CI-plugin"
+    },
+    "BlameSubversion": {
+      "buildDate": "Jan 04, 2013",
+      "dependencies": [
+        
+      ],
+      "developers": [
+        {
+          "developerId": "tangjinou",
+          "email": "tangjinou@gmail.com",
+          "name": "Developer Guy"
+        }
+      ],
+      "excerpt": "This plug-in provides utilities for getting svn info from upstream job to downstream job",
+      "gav": "org.jvnet.hudson.plugins:BlameSubversion:1.200",
+      "labels": [
+        "scm"
+      ],
+      "name": "BlameSubversion",
+      "previousTimestamp": "2010-11-02T00:15:06.00Z",
+      "previousVersion": "1.25",
+      "releaseTimestamp": "2013-01-04T22:34:40.00Z",
+      "requiredCore": "1.355",
+      "scm": "github.com",
+      "sha1": "9tDzZ/EpFwOi4aKFTyhF4UqQU/Y=",
+      "title": "BlameSubversion",
+      "url": "http://updates.jenkins-ci.org/download/plugins/BlameSubversion/1.200/BlameSubversion.hpi",
+      "version": "1.200",
+      "wiki": "https://wiki.jenkins-ci.org/display/JENKINS/BlameSubversion"
+    },
+    "active-directory": {
+      "buildDate": "Nov 06, 2012",
+      "dependencies": [
+        
+      ],
+      "developers": [
+        {
+          "developerId": "kohsuke",
+          "name": "Kohsuke Kawaguchi"
+        }
+      ],
+      "excerpt": "With this plugin, you can configure Jenkins to authenticate the username and the password through Active Directory.",
+      "gav": "org.jenkins-ci.plugins:active-directory:1.30",
+      "labels": [
+        "user"
+      ],
+      "name": "active-directory",
+      "previousTimestamp": "2012-06-06T22:52:54.00Z",
+      "previousVersion": "1.29",
+      "releaseTimestamp": "2012-11-06T14:38:54.00Z",
+      "requiredCore": "1.424",
+      "scm": "github.com",
+      "sha1": "m5fljiln7rWMSG2fOYgEZVrwh2M=",
+      "title": "Active Directory plugin",
+      "url": "http://updates.jenkins-ci.org/download/plugins/active-directory/1.30/active-directory.hpi",
+      "version": "1.30",
+      "wiki": "https://wiki.jenkins-ci.org/display/JENKINS/Active+Directory+plugin"
+    },    
+    "BlazeMeterJenkinsPlugin": {
+      "buildDate": "Oct 30, 2012",
+      "dependencies": [
+        
+      ],
+      "developers": [
+        {
+          "developerId": "doron-bloch",
+          "name": "Doron Bloch"
+        }
+      ],
+      "excerpt": "This plugin allows you to load test your site using <a href='http://blazemeter.com'>BlazeMeter<\/a>. Jenkins will show a report generated by the test. It includes the feature of setting the final build status as good, unstable or failed, based on the reported error percentage, and response time.",
+      "gav": "com.blazemeter.plugins:BlazeMeterJenkinsPlugin:1.02-beta-3",
+      "labels": [
+        "post-build"
+      ],
+      "name": "BlazeMeterJenkinsPlugin",
+      "previousTimestamp": "2012-10-16T21:10:04.00Z",
+      "previousVersion": "1.01-beta-2",
+      "releaseTimestamp": "2012-10-30T15:27:40.00Z",
+      "requiredCore": "1.424",
+      "scm": "github.com",
+      "sha1": "JAuWkRs53ZmU/PZTOGrXzjIq1z4=",
+      "title": "BlazeMeter Plugin",
+      "url": "http://updates.jenkins-ci.org/download/plugins/BlazeMeterJenkinsPlugin/1.02-beta-3/BlazeMeterJenkinsPlugin.hpi",
+      "version": "1.02-beta-3",
+      "wiki": "https://wiki.jenkins-ci.org/display/JENKINS/BlazeMeter+Plugin"
+    },
+    "ColumnPack-plugin": {
+      "buildDate": "Dec 21, 2012",
+      "dependencies": [
+        
+      ],
+      "developers": [
+        {
+          "developerId": "hanabi",
+          "email": "jenkins@hanabi.se",
+          "name": "Marcus Jacobsson"
+        }
+      ],
+      "excerpt": "",
+      "gav": "ColumnPack:ColumnPack-plugin:1.0.3",
+      "name": "ColumnPack-plugin",
+      "releaseTimestamp": "2012-12-21T19:19:32.00Z",
+      "requiredCore": "1.466",
+      "scm": "github.com",
+      "sha1": "RoNLlUKA0CSwNQY14gEGKnmu9s4=",
+      "title": "ColumnPack-plugin",
+      "url": "http://updates.jenkins-ci.org/download/plugins/ColumnPack-plugin/1.0.3/ColumnPack-plugin.hpi",
+      "version": "1.0.3"
+    },
+    "ColumnsPlugin": {
+      "buildDate": "Dec 21, 2012",
+      "dependencies": [
+        
+      ],
+      "developers": [
+        {
+          "developerId": "hanabi",
+          "email": "jenkins@hanabi.se",
+          "name": "Marcus Jacobsson"
+        }
+      ],
+      "excerpt": "",
+      "gav": "org.jenkins-ci.plugins:ColumnsPlugin:1.0",
+      "name": "ColumnsPlugin",
+      "releaseTimestamp": "2012-12-21T20:34:38.00Z",
+      "requiredCore": "1.466",
+      "scm": "github.com",
+      "sha1": "NGboN/IG0e5vCYmKoFlaHEK+Dc8=",
+      "title": "Columns Pack",
+      "url": "http://updates.jenkins-ci.org/download/plugins/ColumnsPlugin/1.0/ColumnsPlugin.hpi",
+      "version": "1.0"
+    },
+    "Exclusion": {
+      "buildDate": "Nov 08, 2012",
+      "dependencies": [
+        
+      ],
+      "developers": [
+        {
+          "developerId": "anthonyRoux",
+          "email": "m.roux.a@gmail.com",
+          "name": "Anthony Roux"
+        }
+      ],
+      "excerpt": "This plugin manages exclusion between jobs. ",
+      "gav": "org.jenkins-ci.plugins:Exclusion:0.8",
+      "labels": [
+        "builder"
+      ],
+      "name": "Exclusion",
+      "previousTimestamp": "2012-07-07T23:26:36.00Z",
+      "previousVersion": "0.7",
+      "releaseTimestamp": "2012-11-08T06:08:50.00Z",
+      "requiredCore": "1.489",
+      "scm": "github.com",
+      "sha1": "yaw61kkbvMqaYk/LymokK75LZf4=",
+      "title": "Exclusion-Plugin",
+      "url": "http://updates.jenkins-ci.org/download/plugins/Exclusion/0.8/Exclusion.hpi",
+      "version": "0.8",
+      "wiki": "https://wiki.jenkins-ci.org/display/JENKINS/Exclusion-Plugin"
+    },
+    "JiraTestResultReporter": {
+      "buildDate": "Mar 27, 2013",
+      "dependencies": [
+        
+      ],
+      "developers": [
+        {
+          "developerId": "maplesteve",
+          "name": "Stephan Esch"
+        }
+      ],
+      "excerpt": "Creates issues in Jira for failed unit tests.",
+      "gav": "org.jenkins-ci.plugins:JiraTestResultReporter:1.0.3",
+      "labels": [
+        "external"
+      ],
+      "name": "JiraTestResultReporter",
+      "previousTimestamp": "2013-03-26T20:54:50.00Z",
+      "previousVersion": "1.0.2",
+      "releaseTimestamp": "2013-03-27T05:06:10.00Z",
+      "requiredCore": "1.480",
+      "scm": "github.com",
+      "sha1": "UYFyNOe/ptRO2RCRo9HaCDEbzaE=",
+      "title": "JiraTestResultReporter-plugin",
+      "url": "http://updates.jenkins-ci.org/download/plugins/JiraTestResultReporter/1.0.3/JiraTestResultReporter.hpi",
+      "version": "1.0.3",
+      "wiki": "https://wiki.jenkins-ci.org/display/JENKINS/JiraTestResultReporter-plugin"
+    },
+    "LavaLampNotifier": {
+      "buildDate": "Nov 13, 2010",
+      "dependencies": [
+        
+      ],
+      "developers": [
+        {
+          "developerId": "edrandall",
+          "name": "Ed Randall"
+        }
+      ],
+      "excerpt": "Indicate Job status using a Lava Lamp",
+      "gav": "org.jvnet.hudson.plugins.lavalamp:LavaLampNotifier:1.4",
+      "labels": [
+        "notifier"
+      ],
+      "name": "LavaLampNotifier",
+      "previousTimestamp": "2010-11-13T17:40:26.00Z",
+      "previousVersion": "1.3",
+      "releaseTimestamp": "2010-11-14T02:04:48.00Z",
+      "requiredCore": "1.355",
+      "scm": "svn.dev.java.net",
+      "sha1": "gvAVSXpI34jKS8l9229JA/CR9/g=",
+      "title": "Lava Lamp Notifier",
+      "url": "http://updates.jenkins-ci.org/download/plugins/LavaLampNotifier/1.4/LavaLampNotifier.hpi",
+      "version": "1.4",
+      "wiki": "https://wiki.jenkins-ci.org/display/JENKINS/Lava+Lamp+Notifier"
+    },
+    "Matrix-sorter-plugin": {
+      "buildDate": "May 31, 2012",
+      "dependencies": [
+        
+      ],
+      "developers": [
+        {
+          "developerId": "lvotypko",
+          "email": "lvotypko@redhat.com",
+          "name": "Lucie Votypkova"
+        }
+      ],
+      "excerpt": "This plugin enable sorting the matrix configurations ",
+      "gav": "org.jenkins-ci.plugins:Matrix-sorter-plugin:1.1",
+      "labels": [
+        
+      ],
+      "name": "Matrix-sorter-plugin",
+      "previousTimestamp": "2012-04-12T11:27:22.00Z",
+      "previousVersion": "1.0",
+      "releaseTimestamp": "2012-05-31T19:52:34.00Z",
+      "requiredCore": "1.439",
+      "scm": "github.com",
+      "sha1": "dArbofexSr5aGpw2Ojq7N6Psblc=",
+      "title": "Matrix configuration sorter plugin",
+      "url": "http://updates.jenkins-ci.org/download/plugins/Matrix-sorter-plugin/1.1/Matrix-sorter-plugin.hpi",
+      "version": "1.1",
+      "wiki": "https://wiki.jenkins-ci.org/display/JENKINS/Matrix+configuration+sorter+plugin"
+    },
+    "PrioritySorter": {
+      "buildDate": "May 24, 2011",
+      "dependencies": [
+        
+      ],
+      "developers": [
+        {
+          "developerId": "bklarson",
+          "email": "bklarson@gmail.com",
+          "name": "Brad Larson"
+        }
+      ],
+      "excerpt": "This plugin allows for the build queue to be sorted based on pre-assigned priorities for each job.",
+      "gav": "hudson.queueSorter:PrioritySorter:1.3",
+      "labels": [
+        "misc",
+        "listview-column"
+      ],
+      "name": "PrioritySorter",
+      "previousTimestamp": "2011-02-05T21:48:26.00Z",
+      "previousVersion": "1.2",
+      "releaseTimestamp": "2011-05-25T02:58:28.00Z",
+      "requiredCore": "1.343",
+      "scm": "github.com",
+      "sha1": "OrRqNLQvKOlxhhCowddAxxDOIVQ=",
+      "title": "Priority Sorter Plugin",
+      "url": "http://updates.jenkins-ci.org/download/plugins/PrioritySorter/1.3/PrioritySorter.hpi",
+      "version": "1.3",
+      "wiki": "https://wiki.jenkins-ci.org/display/JENKINS/Priority+Sorter+Plugin"
+    },
+    "zubhium": {
+      "buildDate": "Aug 15, 2012",
+      "dependencies": [
+        
+      ],
+      "developers": [
+        {
+          "developerId": "derFunk",
+          "email": "mail@derfunk.com",
+          "name": "Andreas Katzig"
+        }
+      ],
+      "excerpt": "This plugin uses the Zubhium upload API to allow uploading your Android .apk files to <a href='http://www.Zubhium.com'>www.Zubhium.com<\/a> ",
+      "gav": "org.jenkins-ci.plugins:zubhium:0.1.6",
+      "labels": [
+        "upload",
+        "android"
+      ],
+      "name": "zubhium",
+      "previousTimestamp": "2012-08-12T19:45:38.00Z",
+      "previousVersion": "0.1.5",
+      "releaseTimestamp": "2012-08-15T17:16:34.00Z",
+      "requiredCore": "1.398",
+      "scm": "github.com",
+      "sha1": "F1InB9TBBOnv3K8gF/XGJPklCZI=",
+      "title": "Zubhium Plugin",
+      "url": "http://updates.jenkins-ci.org/download/plugins/zubhium/0.1.6/zubhium.hpi",
+      "version": "0.1.6",
+      "wiki": "https://wiki.jenkins-ci.org/display/JENKINS/Zubhium+Plugin"
+    }
+  },
+  "signature": {
+    "certificates": [
+      "MIIDUzCCAjsCBQDerb7yMA0GCSqGSIb3DQEBBAUAMIGKMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTERMA8GA1UEBxMIU2FuIEpvc2UxGDAWBgNVBAoTD0plbmtpbnMgUHJvamVjdDEaMBgGA1UEAxMRS29oc3VrZSBLYXdhZ3VjaGkxHTAbBgkqhkiG9w0BCQEWDmtrQGtvaHN1a2Uub3JnMB4XDTEzMDIyNjE3MDYyMloXDTE0MDIyNjE3MDYyMlowUDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExEDAOBgNVBAoTB0plbmtpbnMxGjAYBgNVBAMTEUtvaHN1a2UgS2F3YWd1Y2hpMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1EO7jf2UL8h74uVDja9ggJln1ogDz6mheEku3UyGizP7MUYJ2WNZO87f/DE3Hu4DTndhMgq7vdxIDFWNYrxB+G/X2Epc0p7vC8dkXTLpVtIqopy2Neyb/idasavrUVMjGvctwzdvLH+8nS3KRCaINzn+ii/syZSkEtKDXILI7vS3X83HJjLvEKt5TYbXHbD5HEVqR8hosr2vfcVwUf6asTNBkfGjGWDcC4ufVYPP36ZEy8IQRlToBCHTuAEbx/x05X2i3a9qSeQX7Dg5OwN1R1djmw2CGvrJBMtTz77S79/03yP5w/TsLf05aciOWgG3dZW6FK7Dzcio4kehiHznBQIDAQABMA0GCSqGSIb3DQEBBAUAA4IBAQCZnEtH7W3BS9fhfprkz41Qv1KesbYqTIn+pwW7lE5u9WvsLWCNtgmlwwFFHUlxcR0nxyCchYmblEhUUKlvRpT25plDfROnsA+XB0Gi58svMqtF3e2+5KrpzoxO2rmBjU/JyOMc/wElmFDvoDfIiiTvaMkBM4xALLQ78sGYHsyLvAgjfXzed+Tx2YqSRkjs1OJHJI1GqqyvNg5s2GWV9EXdTtZIWrTu2CLI9NYpPTI21t8KE+OFYyc4ODcF+D1BuHVFU9jJudeWlieI9EmpRGSpM+lYmE/bQjVsVcimORIDI+o/nX1uRwIAtx6gm73QRNXpgL0zQHjTCALJqKOJ9EZc"
+    ],
+    "correct_digest": "QCJBYfX8G9k/S6xHee9uhirq0Lg=",
+    "correct_signature": "rWBOChheZmBm9ej3YBEIbBZVgOXj0mUyG4eawPoJaHM8JyM5nrprtiz4L08SB4tHeeX5UMQ2qHlIuYChLg1DYkfBWGAqZzNKIPF2A/rLD+/fQgFbiBwb+YqH+PkCksiCA6i2ZC+aXt+v0vrEvi9v0nRbgrIsc/1AzEPKABtEvs90wmAD+SaxW37lhrYXxzCtFuTUa3U10etBd5gHFaaOXIQEa8ulr/yOU+TnZ1LMPBQxMyFz6gMjapo4B/xU0fG9Mzb38BgB953/SjEikseRMjEI5DTR/cXs1ECwnTif78fw1ZNrv4HMtbMbi5unVejmodZ/f0+2PYGdG7Qh8E5lOw==",
+    "digest": "p0fQ0yX180eQvbiUBqZdsDiNkTo=",
+    "signature": "Ala/glGKJluDrmaIZHJ+ANZfcKatARw4e/Tdi0qSCbrYqcSYNBBJNtzc5Sxi5dZpb2YE9+AFvRdpJBIgu7kZrlq/R88FSC2NUY/1BkQq1oQuLs7FLa6CjjXPUj53piMdHbn6BMZA6MlwFaM6KBmJ9gCHTc2akexWtE11bgfiUMqhL3MoV7k2KFnkUBtuYQNs3xbeIoeWb/9wsGVKWlGDVIQCNiAG22qdjNGGJLT3yUS4ed+HeM5yJnq0McaG4o1kQd6CpPvn42XjN/T/sDw9UeUEL5TcG8PwvpU2Skd5e8rdOP2jJPi5zEKMH3FGVmPBST8TC7jhPHSDcvHpbWwhdQ=="
+  },
+  "updateCenterVersion": "1"
+});    

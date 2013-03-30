@@ -12,7 +12,7 @@ updateCenter.post = function(jsonresponse) {
 		// json = $.parseJSON(trimmed);
 	    
 	    $('#jenkinsdep').css({width: $(window).innerWidth() , height: $(window).innerHeight()});	
-		var chartdata = getJsonForChart();
+		var chartdata = getJsonForChart(window.filter); // set filter default 
 		var chartjson = chartdata.json;
 		var noofdeps = chartdata.noofdeps;
 		
@@ -133,7 +133,7 @@ updateCenter.post = function(jsonresponse) {
 		        if(node.id == 'Jenkins Core') {
 		            filterGraph();
 		        } else {
-		          buildGraphForNode(node.id);    
+		        	buildGraphForNode(node.id);    
 		        }
 		        
 	        // Build the right column relations list.

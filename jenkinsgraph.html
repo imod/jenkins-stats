@@ -16,7 +16,7 @@
 	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	  })();
-	
+
 	</script>
 </head>
 <body style="background-color: black;">
@@ -25,18 +25,65 @@
 	<div id="jenkinsdep" style="width: 100px; height: 100px; background-color: black;"></div>
 	
 	<div style="position: absolute; top: 15px; left: 15px;">
-	    <a href="./index.html" class="text">Jenkins-stats</a>
-		<form onsubmit="filterGraph($('#filter').val());return false;">
+	   <p>
+	        <a href="./index.html" class="text">back to Jenkins-stats</a>
+	   </p> 
+		<form onsubmit="window.filter=$('#filter').val();filterGraph($('#filter').val());return false;">
 			<input type="text" id="filter">
-			<button onclick="filterGraph($('#filter').val());">Filter</button>
-			<button onclick="$('#filter').val('');filterGraph();">Reset</button>
+			<button>Filter</button>
 			<label for="filter" class="text">by maintainer / plugin</label>
 		</form>
-		<section id="description" class="text">
+		<section id="description" >
+		   <p>
 	       drag / drop / hover / click any node...
+	       </p>
 	    </section>
+	    
 	</div>
+
+    <script type="text/javascript">
+    function getURLParameter(name) {
+        return decodeURIComponent(
+            (location.search.match(RegExp("[?|&]"+name+'=(.+?)(&|$)'))||[,null])[1]
+        );  
+    }
+    
+    function addOrUpdateUrlParam(name, value)
+    {
+      var href = window.location.href;
+      var regex = new RegExp("[&\\?]" + name + "=");
+      if(regex.test(href))
+      {
+        regex = new RegExp("([&\\?])" + name + "=\\d+");
+        window.location.href = href.replace(regex, "$1" + name + "=" + value);
+      }
+      else
+      {
+        if(href.indexOf("?") > -1)
+          window.location.href = href + "&" + name + "=" + value;
+        else
+          window.location.href = href + "?" + name + "=" + value;
+      }
+    }
+    
+    window.filter = getURLParameter('filter');
+    
+    // handle default
+    if ( ! window.filter || ( window.filter == 'null')){
+    	window.filter = 'kohsuke';
+    }
+    
+    // set value to input field
+    $("#filter").val(window.filter);
+    
+    // prevent endless loop
+    if(getURLParameter('filter') != window.filter){
+        addOrUpdateUrlParam('filter', window.filter);
+    }
+    
+    </script>
 	
     <script type="text/javascript" src="http://updates.jenkins-ci.org/update-center.json?myparam=true"></script>
+<!--     <script type="text/javascript" src="./test-update-center.json?myparam=true"></script> -->
 </body>
 </html> 
