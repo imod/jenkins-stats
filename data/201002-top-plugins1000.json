@@ -1,0 +1,43 @@
+{
+    "content": {
+        "header": "Top Plugin installations (installations > 1000)",
+        "data": {
+            "dashboard-view": 1059,
+            "audit-trail": 1105,
+            "trac": 1121,
+            "dry": 1155,
+            "m2release": 1180,
+            "backup": 1244,
+            "git": 1306,
+            "msbuild": 1323,
+            "scp": 1395,
+            "ci-game": 1467,
+            "emma": 1544,
+            "chucknorris": 1633,
+            "batch-task": 1636,
+            "svn-tag": 1641,
+            "deploy": 1678,
+            "build-timeout": 1699,
+            "jira": 1725,
+            "active-directory": 1738,
+            "sonar": 1831,
+            "emotional-hudson": 1962,
+            "violations": 2155,
+            "tasks": 2177,
+            "disk-usage": 2468,
+            "warnings": 2598,
+            "pmd": 2704,
+            "greenballs": 2799,
+            "cobertura": 3115,
+            "checkstyle": 3120,
+            "findbugs": 3417,
+            "analysis-core": 3487,
+            "email-ext": 3765,
+            "cvs": 8944,
+            "scis-ad": 14532,
+            "subversion": 15772,
+            "maven-plugin": 16388,
+            "ssh-slaves": 16406
+        }
+    }
+}

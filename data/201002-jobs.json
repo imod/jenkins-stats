@@ -1,0 +1,15 @@
+{
+    "content": {
+        "header": "Jobs (total: 311207)",
+        "data": {
+            "org-jvnet-hudson-plugins-BKSProject": 0,
+            "hudson-plugins-jprt-JPRTJob": 0,
+            "hudson-drools-DroolsProject": 6,
+            "hudson-ivy-IvyModuleSet": 24,
+            "hudson-model-ExternalJob": 401,
+            "hudson-matrix-MatrixProject": 4884,
+            "hudson-maven-MavenModuleSet": 76486,
+            "hudson-model-FreeStyleProject": 228149
+        }
+    }
+}
