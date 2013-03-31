@@ -1,0 +1,16 @@
+{
+    "content": {
+        "header": "Jobs (total: 261463)",
+        "data": {
+            "hudson-plugins-jprt-JPRTJob": 1,
+            "org-jvnet-hudson-maven3-Maven3Project": 1,
+            "hudson-plugins-multibuild-MultiBuildJob": 2,
+            "hudson-plugins-jprt-FreeStyleProject": 13,
+            "hudson-ivy-IvyModuleSet": 614,
+            "hudson-model-ExternalJob": 906,
+            "hudson-matrix-MatrixProject": 6712,
+            "hudson-maven-MavenModuleSet": 67465,
+            "hudson-model-FreeStyleProject": 185654
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "content": {
+        "header": "Jobs (total: 369957)",
+        "data": {
+            "org-jvnet-hudson-maven3-Maven3Project": 0,
+            "hudson-plugins-hangamejobutil-HangameProject": 0,
+            "hudson-plugins-jprt-JPRTJob": 1,
+            "hudson-plugins-multibuild-MultiBuildJob": 1,
+            "hudson-plugins-sectioned_view-TaobaoStyleProject": 4,
+            "hudson-workflow-WorkflowProject": 29,
+            "hudson-model-ExternalJob": 547,
+            "hudson-ivy-IvyModuleSet": 689,
+            "hudson-matrix-MatrixProject": 8282,
+            "hudson-maven-MavenModuleSet": 98934,
+            "hudson-model-FreeStyleProject": 261324
+        }
+    }
+}

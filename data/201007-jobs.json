@@ -1,0 +1,17 @@
+{
+    "content": {
+        "header": "Jobs (total: 456803)",
+        "data": {
+            "hudson-plugins-hangamejobutil-HangameProject": 0,
+            "hudson-plugins-jprt-JPRTJob": 1,
+            "hudson-drools-DroolsProject": 2,
+            "hudson-workflow-WorkflowProject": 5,
+            "hudson-gDevAAR-GDevAARProject": 21,
+            "hudson-ivy-IvyModuleSet": 390,
+            "hudson-model-ExternalJob": 914,
+            "hudson-matrix-MatrixProject": 7377,
+            "hudson-maven-MavenModuleSet": 113314,
+            "hudson-model-FreeStyleProject": 314774
+        }
+    }
+}
