@@ -65,19 +65,23 @@ class Downloader {
      * @return
      */
     def uncompressGZIP(File file){
-        println "uncompress $file"
-        GZIPInputStream gzipInputStream = null;
-        FileInputStream fileInputStream = null;
-        gzipInputStream = new GZIPInputStream(new FileInputStream(file));
-        String outFilename = file.absolutePath.substring(0, file.absolutePath.length() - 3)
-        OutputStream out = new FileOutputStream(outFilename);
-        byte[] buf = new byte[1024];
-        int len;
-        while ((len = gzipInputStream.read(buf)) > 0) {
-            out.write(buf, 0, len);
-        }
-        gzipInputStream.close();
-        out.close();
+        try {
+            println "uncompress $file"
+            GZIPInputStream gzipInputStream = null;
+            FileInputStream fileInputStream = null;
+            gzipInputStream = new GZIPInputStream(new FileInputStream(file));
+            String outFilename = file.absolutePath.substring(0, file.absolutePath.length() - 3)
+            OutputStream out = new FileOutputStream(outFilename);
+            byte[] buf = new byte[1024];
+            int len;
+            while ((len = gzipInputStream.read(buf)) > 0) {
+                out.write(buf, 0, len);
+            }
+            gzipInputStream.close();
+            out.close();
+        } catch (Exception e) {
+            println e.getMessage()
+        } 
     }
 
     def run(args) {
